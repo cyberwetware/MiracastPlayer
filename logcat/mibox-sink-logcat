@@ -1,0 +1,221 @@
+--------- beginning of /dev/log/main
+01-07 13:57:29.987 D/test    ( 1897): <7>0_4 PeerCount time out
+01-07 13:57:29.987 D/test    ( 1897): udp_p2p_search_peer count = 1
+01-07 13:57:30.047 D/test    ( 1897): getfileinfo success 3105/24XwMpuG0wbUx.jpg 507760
+01-07 13:57:30.157 D/test    ( 1897): receive refuse 180.112.152.125(19073)
+01-07 13:57:30.367 D/test    ( 1897): punch ok ()1.199.234.103:19073
+01-07 13:57:30.837 D/KeyCharacterMap(  650): mapKey: scanCode=28, usageCode=0x00000000 ~ Failed.
+01-07 13:57:30.837 D/InputDispatcher(  650): notifyKey - eventTime=1381634403000, deviceId=1, source=0x301, policyFlags=0x0, action=0x0, flags=0x8, keyCode=0x42, scanCode=0x1c, metaState=0x0, downTime=1381634403000
+01-07 13:57:30.847 I/PinyinIME(  967): onKeyDown inputViewShow : false
+01-07 13:57:30.847 I/key down(  967): KEYCODE_ENTER
+--------- beginning of /dev/log/system
+01-07 13:57:30.847 D/PowerManagerService(  650): checkScreenSaverTimeoutLocked come 120000 reason=userActivity
+01-07 13:57:30.987 D/KeyCharacterMap(  650): mapKey: scanCode=28, usageCode=0x00000000 ~ Failed.
+01-07 13:57:30.987 D/InputDispatcher(  650): notifyKey - eventTime=1381780109000, deviceId=1, source=0x301, policyFlags=0x0, action=0x1, flags=0x8, keyCode=0x42, scanCode=0x1c, metaState=0x0, downTime=1381634403000
+01-07 13:57:30.987 V/WindowManager(  650): ######## Clear factory key sequence ########
+01-07 13:57:30.987 I/PinyinIME(  967): onKeyUp inputViewShow : false
+01-07 13:57:30.987 I/key up  (  967): KEYCODE_ENTER
+01-07 13:57:30.987 V/AudioFlinger(  146): AUDIO_OUTPUT_FLAG_FAST denied: isTimed=0 sharedBuffer=0xb815aee0 frameCount=5733 mFrameCount=1024 format=1 isLinear=1 channelMask=0x3 sampleRate=44100 mSampleRate=48000 hasFastMixer=0 tid=9127 fastTrackAvailMask=0xfe
+01-07 13:57:30.997 V/AudioFlinger(  146): ThreadBase::setParameters() routing=2
+01-07 13:57:30.997 V/AudioFlinger(  146): thread 0xb3552008 type 0 TID 748 waking up
+01-07 13:57:30.997 V/AudioFlinger(  146): acquireWakeLock_l() AudioOut_2 status 0
+01-07 13:57:30.997 D/audio_hw_primary(  146): out_set_parameters(kvpairs(routing=2), out_device=0x2)
+01-07 13:57:30.997 V/AudioFlinger(  146): acquireWakeLock_l() AudioOut_2 status 0
+01-07 13:57:30.997 V/AudioFlinger(  146): ThreadBase::setParameters() routing=1024
+01-07 13:57:30.997 V/AudioFlinger(  146): thread 0xb337d008 type 0 TID 749 waking up
+01-07 13:57:31.007 V/AudioFlinger(  146): acquireWakeLock_l() AudioOut_6 status 0
+01-07 13:57:31.007 D/audio_hw_hdmi(  146): out_set_parameters(kvpairs(routing=1024), out_device=0x400)
+01-07 13:57:31.007 V/AudioFlinger(  146): acquireWakeLock_l() AudioOut_6 status 0
+01-07 13:57:31.007 V/AudioFlinger(  146): thread 0xb323e008 type 2 TID 751 waking up
+01-07 13:57:31.007 V/AudioFlinger(  146): acquireWakeLock_l() AudioOut_7 status 0
+01-07 13:57:31.007 V/AudioFlinger(  146): acquireWakeLock_l() AudioOut_7 status 0
+01-07 13:57:31.007 I/Track   (  146): OutPut Track restore active track to thread 0xb337d008
+01-07 13:57:31.007 I/Track   (  146): OutPut Track restore active track to thread 0xb3552008
+01-07 13:57:31.007 I/Track   (  146): OutPut Track restore active track to thread 0xb337d008
+01-07 13:57:31.007 I/Track   (  146): OutPut Track restore active track to thread 0xb3552008
+01-07 13:57:31.007 V/AudioFlinger(  146): acquireWakeLock_l() AudioOut_2 status 0
+01-07 13:57:31.007 V/AudioFlinger(  146): anticipated start
+01-07 13:57:31.017 D/audio_hw_primary(  146): start_output_stream(adev->out_device=0x2, adev->mode=0)
+01-07 13:57:31.017 D/audio_hw_primary(  146): select_devices(mode=0, out_device=0x2)
+01-07 13:57:31.017 D/audio_hw_primary(  146): ~~~~ select_devices : hs=0 , hp=0, sp=2, hdmi=0x0,earpiece=0x0
+01-07 13:57:31.017 D/audio_hw_primary(  146): ~~~~ select_devices : in_device(0x4), mic_in(0x4), headset_mic(0)
+01-07 13:57:31.017 D/audio_hw_primary(  146): ****select_devices : output_standby=1,input_standby=1
+01-07 13:57:31.017 I/Track   (  146): OutPut Track restore active track to thread 0xb337d008
+01-07 13:57:31.017 I/Track   (  146): OutPut Track restore active track to thread 0xb3552008
+01-07 13:57:31.017 D/audio_hw_primary(  146): *start_output_stream, open card(0) port(0)-------
+01-07 13:57:31.017 I/Track   (  146): OutPut Track restore active track to thread 0xb337d008
+01-07 13:57:31.017 D/audio_hw_primary(  146): channels=2---format=0---period_count4---period_size1024---rate=48000---
+01-07 13:57:31.017 V/AudioFlinger(  146): acquireWakeLock_l() AudioOut_6 status 0
+01-07 13:57:31.017 D/audio_hw_hdmi(  146): select_output_device(mode=0, out_device=0x400)
+01-07 13:57:31.017 D/audio_hw_hdmi(  146): start_output_stream(adev->out_device=0x400, adev->mode=0)
+01-07 13:57:31.017 I/audio_hw_hdmi(  146): hdmi sound card id 0,device id 1 
+01-07 13:57:31.017 D/audio_hw_hdmi(  146): ------------open on board audio-------
+01-07 13:57:31.017 I/audio_hw_hdmi(  146): channels=2---format=0---period_count4---period_size1024---rate=48000---
+01-07 13:57:31.037 V/AudioFlinger(  146): remove track (4101) and delete from mixer
+01-07 13:57:31.057 I/Track   (  146): OutPut Track restore active track to thread 0xb337d008
+01-07 13:57:31.077 D/p2p     ( 1897): add peer cache <4>1.199.234.103:19073
+01-07 13:57:31.167 D/test    ( 1897): udp_p2p_search_peer count = 0
+01-07 13:57:31.187 I/wpa_supplicant(  899): p2p-dev-wlan0: Control interface command 'P2P_FIND 120'
+01-07 13:57:31.187 D/WifiMonitor(  650): Event [IFNAME=p2p-dev-wlan0 Control interface command 'P2P_FIND 120']
+01-07 13:57:31.187 W/WifiMonitor(  650): couldn't identify event type - Control interface command 'P2P_FIND 120'
+01-07 13:57:31.347 D/skia    ( 8972): found cached face <sans-serif-condensed> <sans-serif-condensed> 0x6be3d4a0 [7]
+01-07 13:57:31.997 D/test    ( 1897): getfileinfo success 3105/24XwMpuG0wbUx.jpg 507760
+01-07 13:57:32.087 V/AudioFlinger(  146): removeTracks_l removing track on session 87,mId 7 
+01-07 13:57:32.087 V/AudioFlinger(  146): acquireWakeLock_l() AudioOut_7 status 0
+01-07 13:57:32.177 V/AudioFlinger(  146): removeTracks_l removing track on session 0,mId 2 
+01-07 13:57:32.177 V/AudioFlinger(  146): acquireWakeLock_l() AudioOut_2 status 0
+01-07 13:57:32.187 V/AudioFlinger(  146): removeTracks_l removing track on session 0,mId 6 
+01-07 13:57:32.187 V/AudioFlinger(  146): acquireWakeLock_l() AudioOut_6 status 0
+01-07 13:57:32.197 D/test    ( 1897): UdpTrans::ReceiveFile :/data/data/com.xiaomi.tv.gallery/images/3105/24XwMpuG0wbUx.jpg
+01-07 13:57:33.107 D/test    ( 1897): client out timer
+01-07 13:57:34.517 D/test    ( 1897): punch ok ()182.200.142.144:1672
+01-07 13:57:34.647 I/wpa_supplicant(  899): P2P-DEVICE-FOUND 12:68:3f:70:d2:71 p2p_dev_addr=12:68:3f:70:d2:71 pri_dev_type=10-0050F204-5 name='Sink-d271' config_methods=0x188 dev_capab=0x25 group_capab=0x0 wfd_dev_info=0x00000600101c440032
+01-07 13:57:34.647 I/wpa_supplicant(  899): P2P-DEVICE-FOUND 06:e6:76:ae:69:89 p2p_dev_addr=06:e6:76:ae:69:89 pri_dev_type=10-0050F204-5 name='Sink-6989' config_methods=0x188 dev_capab=0x25 group_capab=0x0 wfd_dev_info=0x00000600111c440032
+01-07 13:57:34.657 D/WifiMonitor(  650): Event [IFNAME=p2p-dev-wlan0 CTRL-EVENT-BSS-ADDED 38 30:85:a9:8a:4e:6c]
+01-07 13:57:34.657 D/WifiMonitor(  650): Event [P2P-DEVICE-FOUND 12:68:3f:70:d2:71 p2p_dev_addr=12:68:3f:70:d2:71 pri_dev_type=10-0050F204-5 name='Sink-d271' config_methods=0x188 dev_capab=0x25 group_capab=0x0 wfd_dev_info=0x00000600101c440032]
+01-07 13:57:34.657 D/WifiMonitor(  650): Event [P2P-DEVICE-FOUND 06:e6:76:ae:69:89 p2p_dev_addr=06:e6:76:ae:69:89 pri_dev_type=10-0050F204-5 name='Sink-6989' config_methods=0x188 dev_capab=0x25 group_capab=0x0 wfd_dev_info=0x00000600111c440032]
+01-07 13:57:34.677 D/P2pBroadcastReceiver( 8972): P2P peers changed
+01-07 13:57:34.677 D/P2pBroadcastReceiver( 8972): P2P peers changed
+01-07 13:57:34.717 D/DeviceListFragment( 8972): Peer status :3
+01-07 13:57:34.727 D/DeviceListFragment( 8972): Peer status :3
+01-07 13:57:34.747 W/InputMethodManagerService(  650): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41de8480 attribute=null, token = android.os.BinderProxy@41ec7770
+01-07 13:57:34.807 D/p2p     ( 1897): add peer cache <4>182.200.142.144:1672
+01-07 13:57:34.997 V/AudioFlinger(  146): releaseWakeLock_l() AudioOut_7
+01-07 13:57:34.997 V/AudioFlinger(  146): thread 0xb323e008 type 2 TID 751 going to sleep
+01-07 13:57:35.087 V/AudioFlinger(  146): Audio hardware entering standby, mixer 0xb3552008, suspend count 0,mid 2
+01-07 13:57:35.087 D/audio_hw_primary(  146): do_output_standby(0xb81417b0)
+01-07 13:57:35.087 V/AudioFlinger(  146): Audio hardware entering standby, mixer 0xb337d008, suspend count 0,mid 6
+01-07 13:57:35.087 D/audio_hw_hdmi(  146): out_standby(0xb8145638)
+01-07 13:57:35.087 I/audio_hw_hdmi(  146): [do_output_standby 855]Clear LastStream/0xb8145638 
+01-07 13:57:35.087 V/AudioFlinger(  146): releaseWakeLock_l() AudioOut_6
+01-07 13:57:35.087 D/audio_hw_primary(  146): do_output_standby : output_standby=1,input_standby=1
+01-07 13:57:35.087 V/AudioFlinger(  146): releaseWakeLock_l() AudioOut_2
+01-07 13:57:35.087 V/AudioFlinger(  146): thread 0xb337d008 type 0 TID 749 going to sleep
+01-07 13:57:35.087 V/AudioFlinger(  146): thread 0xb3552008 type 0 TID 748 going to sleep
+01-07 13:57:35.267 D/WifiMonitor(  650): Event [IFNAME=p2p-wlan0-5 WPS-ENROLLEE-SEEN 12:68:3f:70:52:71 62a7a67c-6324-5706-acaf-179e10ad157c 0-00000000-0 0x2148 0 0 [ ]]
+01-07 13:57:35.267 W/WifiMonitor(  650): couldn't identify event type - WPS-ENROLLEE-SEEN 12:68:3f:70:52:71 62a7a67c-6324-5706-acaf-179e10ad157c 0-00000000-0 0x2148 0 0 [ ]
+01-07 13:57:35.277 D/WifiMonitor(  650): Event [IFNAME=p2p-wlan0-5 WPS-ENROLLEE-SEEN 12:68:3f:70:52:71 62a7a67c-6324-5706-acaf-179e10ad157c 0-00000000-0 0x2148 0 0 [ ]]
+01-07 13:57:35.277 W/WifiMonitor(  650): couldn't identify event type - WPS-ENROLLEE-SEEN 12:68:3f:70:52:71 62a7a67c-6324-5706-acaf-179e10ad157c 0-00000000-0 0x2148 0 0 [ ]
+01-07 13:57:35.287 D/WifiMonitor(  650): Event [IFNAME=p2p-wlan0-5 WPS-ENROLLEE-SEEN 12:68:3f:70:52:71 62a7a67c-6324-5706-acaf-179e10ad157c 0-00000000-0 0x2148 0 0 [ ]]
+01-07 13:57:35.287 W/WifiMonitor(  650): couldn't identify event type - WPS-ENROLLEE-SEEN 12:68:3f:70:52:71 62a7a67c-6324-5706-acaf-179e10ad157c 0-00000000-0 0x2148 0 0 [ ]
+01-07 13:57:36.057 D/test    ( 1897): udp_p2p_search_peer count = 0
+01-07 13:57:36.417 D/dalvikvm( 1017): GC_CONCURRENT freed 398K, 20% free 3330K/4120K, paused 4ms+7ms, total 65ms
+01-07 13:57:37.167 D/WifiMonitor(  650): Event [IFNAME=p2p-wlan0-5 WPS-ENROLLEE-SEEN f8:32:e4:11:63:23 74328170-48cc-5276-8575-8766568cba17 10-0050F204-5 0x4288 0 0 [CN_P023]]
+01-07 13:57:37.167 W/WifiMonitor(  650): couldn't identify event type - WPS-ENROLLEE-SEEN f8:32:e4:11:63:23 74328170-48cc-5276-8575-8766568cba17 10-0050F204-5 0x4288 0 0 [CN_P023]
+01-07 13:57:38.577 D/WifiMonitor(  650): Event [IFNAME=p2p-dev-wlan0 CTRL-EVENT-BSS-REMOVED 38 30:85:a9:8a:4e:6c]
+01-07 13:57:39.107 D/WifiMonitor(  650): Event [IFNAME=p2p-dev-wlan0 CTRL-EVENT-BSS-ADDED 39 30:85:a9:8a:4e:6c]
+01-07 13:57:40.397 D/test    ( 1897): punch ok ()49.81.179.191:55667
+01-07 13:57:40.437 D/p2p     ( 1897): add peer cache <4>49.81.179.191:55667
+01-07 13:57:40.557 D/WifiMonitor(  650): Event [IFNAME=p2p-wlan0-5 WPS-ENROLLEE-SEEN 12:68:3f:70:52:71 62a7a67c-6324-5706-acaf-179e10ad157c 0-00000000-0 0x2148 0 0 [ ]]
+01-07 13:57:40.557 W/WifiMonitor(  650): couldn't identify event type - WPS-ENROLLEE-SEEN 12:68:3f:70:52:71 62a7a67c-6324-5706-acaf-179e10ad157c 0-00000000-0 0x2148 0 0 [ ]
+01-07 13:57:40.987 D/test    ( 1897): getfileinfo fail 3105/istE3lzFFoNCM.jpg 0
+01-07 13:57:41.227 D/WifiMonitor(  650): Event [IFNAME=p2p-wlan0-5 WPS-ENROLLEE-SEEN 12:68:3f:70:52:71 62a7a67c-6324-5706-acaf-179e10ad157c 0-00000000-0 0x2148 0 0 [ ]]
+01-07 13:57:41.227 W/WifiMonitor(  650): couldn't identify event type - WPS-ENROLLEE-SEEN 12:68:3f:70:52:71 62a7a67c-6324-5706-acaf-179e10ad157c 0-00000000-0 0x2148 0 0 [ ]
+01-07 13:57:41.537 D/test    ( 1897): udp_p2p_search_peer count = 0
+01-07 13:57:41.697 D/test    ( 1897): getfileinfo success 3105/istE3lzFFoNCM.jpg 380867
+01-07 13:57:41.767 D/test    ( 1897): getfileinfo success 3105/J7hjK210K3oTf.jpg 283395
+01-07 13:57:42.127 D/test    ( 1897): UdpTrans::ReceiveFile :/data/data/com.xiaomi.tv.gallery/images/3105/istE3lzFFoNCM.jpg
+01-07 13:57:42.197 D/test    ( 1897): UdpTrans::ReceiveFile :/data/data/com.xiaomi.tv.gallery/images/3105/J7hjK210K3oTf.jpg
+01-07 13:57:42.327 I/wpa_supplicant(  899): p2p-wlan0-5: AP-STA-CONNECTED 12:68:3f:70:52:71 p2p_dev_addr=12:68:3f:70:d2:71
+01-07 13:57:42.327 D/WifiMonitor(  650): Event [IFNAME=p2p-wlan0-5 AP-STA-CONNECTED 12:68:3f:70:52:71 p2p_dev_addr=12:68:3f:70:d2:71]
+01-07 13:57:42.347 I/wpa_supplicant(  899): AP-STA-CONNECTED 12:68:3f:70:52:71 p2p_dev_addr=12:68:3f:70:d2:71
+01-07 13:57:42.347 I/wpa_supplicant(  899): p2p-wlan0-5: Control interface command 'SET p2p_group_idle 0'
+01-07 13:57:42.357 D/WifiMonitor(  650): Event [IFNAME=p2p-wlan0-5 Control interface command 'SET p2p_group_idle 0']
+01-07 13:57:42.357 W/WifiMonitor(  650): couldn't identify event type - Control interface command 'SET p2p_group_idle 0'
+01-07 13:57:42.367 D/P2pBroadcastReceiver( 8972): P2P peers changed
+01-07 13:57:42.397 D/P2pBroadcastReceiver( 8972): P2p connection changed: 
+01-07 13:57:42.397 D/P2pBroadcastReceiver( 8972): ExtraInfo:null
+01-07 13:57:42.397 D/P2pBroadcastReceiver( 8972): Reason:null
+01-07 13:57:42.397 D/P2pBroadcastReceiver( 8972): Subtype:0
+01-07 13:57:42.397 D/P2pBroadcastReceiver( 8972): SubtypeName:
+01-07 13:57:42.397 D/P2pBroadcastReceiver( 8972): Type:13
+01-07 13:57:42.397 D/P2pBroadcastReceiver( 8972): TypeName:WIFI_P2P
+01-07 13:57:42.397 D/P2pBroadcastReceiver( 8972): isAvaliable:true
+01-07 13:57:42.397 D/P2pBroadcastReceiver( 8972): isConnected:true
+01-07 13:57:42.407 D/P2pBroadcastReceiver( 8972): P2p group information: 
+01-07 13:57:42.407 D/P2pBroadcastReceiver( 8972): GroupOwner:true
+01-07 13:57:42.407 D/P2pBroadcastReceiver( 8972): NetworkName:DIRECT-Pv-Sink9681
+01-07 13:57:42.407 D/P2pBroadcastReceiver( 8972): WifiP2pDevice information
+01-07 13:57:42.407 D/P2pBroadcastReceiver( 8972): deviceAddress:12:68:3f:70:d2:71
+01-07 13:57:42.407 D/P2pBroadcastReceiver( 8972): GroupOwner:false
+01-07 13:57:42.407 D/P2pBroadcastReceiver( 8972): devicename:Sink-d271
+01-07 13:57:42.407 D/P2pBroadcastReceiver( 8972): primaryDeviceType:10-0050F204-5
+01-07 13:57:42.407 D/P2pBroadcastReceiver( 8972): secondaryDeviceType:null
+01-07 13:57:42.407 D/P2pBroadcastReceiver( 8972): wpsDisplaySupported:true
+01-07 13:57:42.407 D/WifiDisplayController(  650): WFD : I am GO
+01-07 13:57:42.427 I/WifiDisplayActivity( 8972): VALID   192.168.49.73:7236
+01-07 13:57:42.437 I/ActivityManager(  650): START u0 {cmp=com.example.android.wifidisplay/.SinkPlayerActivity (has extras)} from pid 8972
+01-07 13:57:42.437 I/ActivityManager(  650): start package name is com.example.android.wifidisplay, class name is com.example.android.wifidisplay.SinkPlayerActivity, error code is 0
+01-07 13:57:42.457 I/MitvPolicyDatabaseManager(  794): updatePackageUsage com.example.android.wifidisplay/.WiFiDisplayActivity (0,1,32)
+01-07 13:57:42.487 W/SurfaceComposerClient(  650): setVDisplaySize---0 3
+01-07 13:57:42.487 D/ActivityManager(  650): --------------------enableFreeScaleMBX runable
+01-07 13:57:42.537 D/DisplayMetrics(  650): densityDpi 213
+01-07 13:57:42.577 D/DeviceListFragment( 8972): Peer status :3
+01-07 13:57:42.597 D/DeviceListFragment( 8972): Peer status :0
+01-07 13:57:42.627 I/dnsmasq ( 9092): DHCPDISCOVER(p2p-wlan0-5) 12:68:3f:70:52:71 
+01-07 13:57:42.627 I/dnsmasq ( 9092): DHCPOFFER(p2p-wlan0-5) 192.168.49.73 12:68:3f:70:52:71 
+01-07 13:57:42.657 D/DisplayMetrics(  650): densityDpi 213
+01-07 13:57:42.747 D/dalvikvm( 8972): GC_FOR_ALLOC freed 165K, 13% free 3848K/4384K, paused 51ms, total 51ms
+01-07 13:57:42.757 D/SinkPlayerActivity( 8972): Source connection information: 
+01-07 13:57:42.757 D/SinkPlayerActivity( 8972): control port: 7236
+01-07 13:57:42.777 E/ActivityManager(  650): Refuse to set cpu frequency true com.example.android.wifidisplay
+01-07 13:57:42.907 D/SinkPlayerActivity( 8972): Surface changed: 
+01-07 13:57:42.907 D/SinkPlayerActivity( 8972): width  1110
+01-07 13:57:42.907 D/SinkPlayerActivity( 8972): height 678
+01-07 13:57:42.907 D/SinkPlayerActivity( 8972): format 2
+01-07 13:57:42.907 D/dalvikvm( 8972): Trying to load lib /data/app-lib/com.example.android.wifidisplay-2/libwfdsink.so 0x41a64a30
+01-07 13:57:42.927 D/dalvikvm( 8972): Added shared lib /data/app-lib/com.example.android.wifidisplay-2/libwfdsink.so 0x41a64a30
+01-07 13:57:42.927 D/dalvikvm( 8972): No JNI_OnLoad found in /data/app-lib/com.example.android.wifidisplay-2/libwfdsink.so 0x41a64a30, skipping init
+01-07 13:57:43.017 D/PinyinIME(  967): onFinishInput.
+01-07 13:57:43.017 D/PinyinIME(  967): onStartInput  ccontentType: 0 Restarting:false
+01-07 13:57:43.027 I/ActivityManager(  650): Displayed com.example.android.wifidisplay/.SinkPlayerActivity: +491ms
+01-07 13:57:43.667 I/dnsmasq ( 9092): DHCPREQUEST(p2p-wlan0-5) 192.168.49.73 12:68:3f:70:52:71 
+01-07 13:57:43.667 I/dnsmasq ( 9092): DHCPACK(p2p-wlan0-5) 192.168.49.73 12:68:3f:70:52:71 android-116e786c10c4d60c
+01-07 13:57:43.667 I/dnsmasq ( 9092): EXTRA : mac=12:68:3f:70:52:71, ip=192.168.49.73
+01-07 13:57:43.667 D/WifiDisplayController(  650): WFD : File changed : path=dnsmasq.txt event=2
+01-07 13:57:43.677 D/WifiDisplayController(  650): Sending DNSMASQ_IP_ADDR_ACTION broadcast : mac=xx.xx.xx.xx.xx.xx ip=192.168.49.73 port=7236
+01-07 13:57:43.677 D/WifiDisplayController(  650): Received DNSMASQ_IP_ADDR_ACTION : mac=xx.xx.xx.xx.xx.xx ip=192.168.49.73 port=7236
+01-07 13:57:43.757 I/SinkPlayerActivity( 8972): Starting Sink Player with 192.168.49.73:7236
+01-07 13:57:43.767 I/NetworkSession( 8972): connecting socket 56 to 192.168.49.73:7236
+01-07 13:57:46.617 D/AlarmPingSender( 1532): Ping 1 times.
+01-07 13:57:46.617 D/AlarmPingSender( 1532): Check time :1452146266630
+01-07 13:57:46.627 E/ClientState( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: checkForActivity entered
+01-07 13:57:46.637 E/ClientState( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: ping needed. keepAlive=120,000 lastOutboundActivity=1,452,146,146,658 lastInboundActivity=1,452,146,149,909
+01-07 13:57:46.647 E/CommsTokenStore( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: key=Ping message=PINGREQ
+01-07 13:57:46.647 E/CommsTokenStore( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: key=Ping token=org.eclipse.paho.client.mqttv3.MqttToken@41b782a0
+01-07 13:57:46.647 E/ClientState( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: notifying queueLock holders
+01-07 13:57:46.647 E/ClientState( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: new work or ping arrived 
+01-07 13:57:46.647 E/ClientState( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: Schedule next ping at 120,000
+01-07 13:57:46.647 E/CommsSender( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: network send key=Ping msg=PINGREQ
+01-07 13:57:46.647 D/AlarmPingSender( 1532): Schedule next alarm at 1452146386661
+01-07 13:57:46.657 E/ClientState( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: connected
+01-07 13:57:46.657 E/MqttOutputStream( 1532): null: 500
+01-07 13:57:46.667 E/ClientState( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: key=Ping
+01-07 13:57:46.667 E/Token   ( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: > key=Ping
+01-07 13:57:46.677 D/AlarmPingSender( 1532): Acquire lock.
+01-07 13:57:46.677 E/ClientState( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: ping sent. pingOutstanding: 1
+01-07 13:57:46.687 E/ClientState( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: wait for new work or for space in the inflight window
+01-07 13:57:46.717 D/libp2p  ( 1897): 30s package send__count = 277 recv_count = 463
+01-07 13:57:48.577 D/WifiMonitor(  650): Event [IFNAME=p2p-dev-wlan0 CTRL-EVENT-BSS-REMOVED 39 30:85:a9:8a:4e:6c]
+01-07 13:57:48.827 D/WifiMonitor(  650): Event [IFNAME=p2p-dev-wlan0 CTRL-EVENT-BSS-ADDED 40 30:85:a9:8a:4e:6c]
+01-07 13:57:49.197 D/dalvikvm( 1017): GC_CONCURRENT freed 388K, 19% free 3333K/4100K, paused 11ms+16ms, total 124ms
+01-07 13:57:49.387 E/ClientState( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: received bytes count=1
+01-07 13:57:49.387 E/MqttInputStream( 1532): null: 501
+01-07 13:57:49.387 E/ClientState( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: received key=0 message=PINGRESP msgId 0
+01-07 13:57:49.387 E/Token   ( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: >key=Ping response=PINGRESP msgId 0 excep=null
+01-07 13:57:49.397 E/ClientState( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: keyPing, msg=PINGRESP msgId 0, excep=null
+01-07 13:57:49.397 E/CommsCallback( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: new workAvailable. key=Ping
+01-07 13:57:49.397 E/CommsTokenStore( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: key=Ping
+01-07 13:57:49.397 E/ClientState( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: ping response received. pingOutstanding: 0
+01-07 13:57:49.397 E/CommsReceiver( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: network read message
+01-07 13:57:49.397 E/CommsCallback( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: callback and notify for key=Ping
+01-07 13:57:49.397 E/Token   ( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: >key=Ping response=PINGRESP msgId 0 excep=null
+01-07 13:57:49.397 E/CommsCallback( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: call onSuccess key=Ping
+01-07 13:57:49.397 D/AlarmPingSender( 1532): Success. Release lock(MqttService.client.5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e):1452146269409
+01-07 13:57:49.397 D/AlarmPingSender( 1532): release lock.
+01-07 13:57:49.417 E/ClientState( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: received key=0 token=org.eclipse.paho.client.mqttv3.MqttToken@41b782a0 message=PINGRESP msgId 0
+01-07 13:57:49.417 E/CommsCallback( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: notify spaceAvailable
+01-07 13:57:49.417 E/CommsCallback( 1532): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: wait for workAvailable
+01-07 13:57:49.497 D/dalvikvm( 1532): GC_CONCURRENT freed 400K, 21% free 3494K/4380K, paused 10ms+6ms, total 94ms
+01-07 13:57:50.217 I/WifiDisplaySink( 8972): ==============kWhatConnected===============
+01-07 13:57:50.217 I/WifiDisplaySink( 8972): We're now connected.

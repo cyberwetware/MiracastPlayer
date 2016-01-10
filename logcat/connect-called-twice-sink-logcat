@@ -1,0 +1,514 @@
+01-08 16:28:25.285 13634-13634/? E/dalvikvm: >>>>> Normal User
+01-08 16:28:25.285 13634-13634/? E/dalvikvm: >>>>> com.example.android.wifidisplay [ userId:0 | appId:10155 ]
+01-08 16:28:25.295 13634-13634/? D/dalvikvm: Late-enabling CheckJNI
+01-08 16:28:25.315 13634-13634/? D/TimaKeyStoreProvider: in addTimaSignatureService
+01-08 16:28:25.325 13634-13634/? D/TimaKeyStoreProvider: Cannot add TimaSignature Service, License check Failed
+01-08 16:28:25.325 13634-13634/? D/ActivityThread: Added TimaKesytore provider
+01-08 16:28:25.445 13634-13634/com.example.android.wifidisplay D/ActivityThread: handleBindApplication:com.example.android.wifidisplay
+01-08 16:28:25.465 13634-13634/com.example.android.wifidisplay W/ApplicationPackageManager: getCSCPackageItemText()
+01-08 16:28:25.465 13634-13634/com.example.android.wifidisplay D/DisplayManager: DisplayManager()
+01-08 16:28:25.615 13634-13634/com.example.android.wifidisplay D/DeviceDetailFragment: onActivityCreated is invoked
+01-08 16:28:25.635 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2P state changed: 2
+01-08 16:28:25.645 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p connection changed: 
+                                                                                       ExtraInfo:null
+                                                                                       Reason:null
+                                                                                       Subtype:0
+                                                                                       SubtypeName:
+                                                                                       Type:13
+                                                                                       TypeName:WIFI_P2P
+                                                                                       isAvaliable:true
+                                                                                       isConnected:false
+01-08 16:28:25.645 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p group information: 
+                                                                                       GroupOwner:false
+                                                                                       NetworkName:null
+01-08 16:28:25.645 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p this device changed
+01-08 16:28:25.645 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :3
+01-08 16:28:25.645 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p this device changed
+01-08 16:28:25.645 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :3
+01-08 16:28:25.655 13634-13634/com.example.android.wifidisplay I/Adreno-EGL: <qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build:  ()
+                                                                             OpenGL ES Shader Compiler Version: E031.24.02.07
+                                                                             Build Date: 08/06/14 Wed
+                                                                             Local Branch: rb1
+                                                                             Remote Branch: 
+                                                                             Local Patches: 
+                                                                             Reconstruct Branch: 
+01-08 16:28:25.685 13634-13634/com.example.android.wifidisplay D/OpenGLRenderer: Enabling debug mode 0
+01-08 16:28:25.695 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p this device changed
+01-08 16:28:25.695 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :3
+01-08 16:28:25.755 13634-13634/com.example.android.wifidisplay I/Timeline: Timeline: Activity_idle id: android.os.BinderProxy@424cf790 time:38862276
+01-08 16:28:31.015 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2P peers changed
+01-08 16:28:31.055 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :3
+01-08 16:28:31.085 13634-13634/com.example.android.wifidisplay E/ViewRootImpl: sendUserActionEvent() mView == null
+01-08 16:28:32.245 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2P peers changed
+01-08 16:28:32.275 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :3
+01-08 16:28:38.275 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2P peers changed
+01-08 16:28:38.295 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :1
+01-08 16:28:40.985 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p this device changed
+01-08 16:28:40.985 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :0
+01-08 16:28:41.225 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2P peers changed
+01-08 16:28:41.245 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p connection changed: 
+                                                                                       ExtraInfo:null
+                                                                                       Reason:null
+                                                                                       Subtype:0
+                                                                                       SubtypeName:
+                                                                                       Type:13
+                                                                                       TypeName:WIFI_P2P
+                                                                                       isAvaliable:true
+                                                                                       isConnected:true
+01-08 16:28:41.245 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p group information: 
+                                                                                       GroupOwner:true
+                                                                                       NetworkName:DIRECT-nc-Sink_fbbc
+01-08 16:28:41.245 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: WifiP2pDevice information
+                                                                                       deviceAddress:42:b0:fa:63:ca:b0
+                                                                                       GroupOwner:false
+                                                                                       devicename:Sink_cab0
+                                                                                       primaryDeviceType:10-0050F204-5
+                                                                                       secondaryDeviceType:null
+                                                                                       wpsDisplaySupported:true
+01-08 16:28:42.255 13634-13634/com.example.android.wifidisplay I/WifiDisplayActivity: VALID   192.168.49.203:7236
+01-08 16:28:42.255 13634-13634/com.example.android.wifidisplay I/Timeline: Timeline: Activity_launch_request id:com.example.android.wifidisplay time:38878777
+01-08 16:28:42.275 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :0
+01-08 16:28:42.285 13634-13634/com.example.android.wifidisplay W/ApplicationPackageManager: getCSCPackageItemText()
+01-08 16:28:42.365 13634-13634/com.example.android.wifidisplay D/SinkPlayerActivity: Source connection information: 
+                                                                                     control port: 7236
+01-08 16:28:42.545 13634-13634/com.example.android.wifidisplay D/SinkPlayerActivity: Surface changed: 
+                                                                                     width  912
+                                                                                     height 492
+                                                                                     format 2
+01-08 16:28:42.555 13634-13634/com.example.android.wifidisplay D/dalvikvm: Trying to load lib /data/app-lib/com.example.android.wifidisplay-2/libwfdsink.so 0x424d2be8
+01-08 16:28:42.585 13634-13634/com.example.android.wifidisplay D/dalvikvm: Added shared lib /data/app-lib/com.example.android.wifidisplay-2/libwfdsink.so 0x424d2be8
+01-08 16:28:42.585 13634-13634/com.example.android.wifidisplay D/dalvikvm: No JNI_OnLoad found in /data/app-lib/com.example.android.wifidisplay-2/libwfdsink.so 0x424d2be8, skipping init
+01-08 16:28:42.595 13634-13634/com.example.android.wifidisplay W/ApplicationPackageManager: getCSCPackageItemText()
+01-08 16:28:42.605 13634-13634/com.example.android.wifidisplay D/SinkPlayerActivity: Source connection information: 
+                                                                                     control port: 7236
+01-08 16:28:42.635 13634-13634/com.example.android.wifidisplay D/SinkPlayerActivity: Surface changed: 
+                                                                                     width  912
+                                                                                     height 492
+                                                                                     format 2
+01-08 16:28:42.645 13634-13634/com.example.android.wifidisplay E/ViewRootImpl: sendUserActionEvent() mView == null
+01-08 16:28:42.645 13634-13634/com.example.android.wifidisplay E/ViewRootImpl: sendUserActionEvent() mView == null
+01-08 16:28:42.675 13634-13634/com.example.android.wifidisplay I/Timeline: Timeline: Activity_idle id: android.os.BinderProxy@4255caf8 time:38879196
+01-08 16:28:42.675 13634-13634/com.example.android.wifidisplay I/Timeline: Timeline: Activity_idle id: android.os.BinderProxy@4255caf8 time:38879197
+01-08 16:28:43.365 13634-13634/com.example.android.wifidisplay I/SinkPlayerActivity: Starting Sink Player with 192.168.49.203:7236
+01-08 16:28:43.365 13634-13958/com.example.android.wifidisplay I/NetworkSession: connecting socket 67 to 192.168.49.203:7236
+01-08 16:28:43.605 13634-13634/com.example.android.wifidisplay I/SinkPlayerActivity: Starting Sink Player with 192.168.49.203:7236
+01-08 16:28:43.605 13634-13969/com.example.android.wifidisplay I/NetworkSession: connecting socket 70 to 192.168.49.203:7236
+01-08 16:28:45.215 13634-13959/com.example.android.wifidisplay E/NetworkSession: writeMore on socket 67 failed w/ error -113 (No route to host)
+01-08 16:28:45.215 13634-13970/com.example.android.wifidisplay E/NetworkSession: writeMore on socket 70 failed w/ error -113 (No route to host)
+01-08 16:28:45.215 13634-13958/com.example.android.wifidisplay I/WifiDisplaySink: ==============kWhatError===============
+01-08 16:28:45.215 13634-13958/com.example.android.wifidisplay E/WifiDisplaySink: An error occurred in session 1 (-113, 'Connection failed/No route to host').
+01-08 16:28:45.215 13634-13958/com.example.android.wifidisplay I/WifiDisplaySink: Lost control connection.
+01-08 16:28:45.215 13634-13969/com.example.android.wifidisplay I/WifiDisplaySink: ==============kWhatError===============
+01-08 16:28:45.215 13634-13969/com.example.android.wifidisplay E/WifiDisplaySink: An error occurred in session 1 (-113, 'Connection failed/No route to host').
+01-08 16:28:45.215 13634-13969/com.example.android.wifidisplay I/WifiDisplaySink: Lost control connection.
+01-08 16:28:45.215 13634-13969/com.example.android.wifidisplay I/wfd-sink: Start sink finished
+01-08 16:28:45.215 13634-13958/com.example.android.wifidisplay I/wfd-sink: Start sink finished
+01-08 16:30:56.115 13634-13634/com.example.android.wifidisplay I/wfd-sink: Stop sink success
+01-08 16:30:56.115 13634-13634/com.example.android.wifidisplay D/SinkPlayerActivity: Stop native Sink Player success
+01-08 16:30:56.115 13634-13634/com.example.android.wifidisplay I/Timeline: Timeline: Activity_launch_request id:com.example.android.wifidisplay time:39012637
+01-08 16:30:56.135 13634-13634/com.example.android.wifidisplay E/ViewRootImpl: sendUserActionEvent() mView == null
+01-08 16:30:56.145 13634-13634/com.example.android.wifidisplay W/ApplicationPackageManager: getCSCPackageItemText()
+01-08 16:30:56.175 13634-13634/com.example.android.wifidisplay D/DeviceDetailFragment: onActivityCreated is invoked
+01-08 16:30:56.205 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2P state changed: 2
+01-08 16:30:56.205 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p connection changed: 
+                                                                                       ExtraInfo:null
+                                                                                       Reason:null
+                                                                                       Subtype:0
+                                                                                       SubtypeName:
+                                                                                       Type:13
+                                                                                       TypeName:WIFI_P2P
+                                                                                       isAvaliable:true
+                                                                                       isConnected:false
+01-08 16:30:56.205 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p group information: 
+                                                                                       GroupOwner:false
+                                                                                       NetworkName:null
+01-08 16:30:56.205 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p this device changed
+01-08 16:30:56.205 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :3
+01-08 16:30:56.205 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p this device changed
+01-08 16:30:56.205 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :3
+01-08 16:30:56.215 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p this device changed
+01-08 16:30:56.215 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :3
+01-08 16:30:56.285 13634-13634/com.example.android.wifidisplay I/Timeline: Timeline: Activity_idle id: android.os.BinderProxy@424cf790 time:39012803
+01-08 16:33:31.775 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2P peers changed
+01-08 16:33:31.815 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :3
+01-08 16:33:31.825 13634-13634/com.example.android.wifidisplay E/ViewRootImpl: sendUserActionEvent() mView == null
+01-08 16:33:39.455 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2P peers changed
+01-08 16:33:40.405 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :1
+01-08 16:33:40.865 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p this device changed
+01-08 16:33:40.875 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :0
+01-08 16:33:41.025 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2P peers changed
+01-08 16:33:41.035 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p connection changed: 
+                                                                                       ExtraInfo:null
+                                                                                       Reason:null
+                                                                                       Subtype:0
+                                                                                       SubtypeName:
+                                                                                       Type:13
+                                                                                       TypeName:WIFI_P2P
+                                                                                       isAvaliable:true
+                                                                                       isConnected:true
+01-08 16:33:41.035 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p group information: 
+                                                                                       GroupOwner:true
+                                                                                       NetworkName:DIRECT-xn-Sink_fbbc
+01-08 16:33:41.035 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: WifiP2pDevice information
+                                                                                       deviceAddress:42:b0:fa:63:ca:b0
+                                                                                       GroupOwner:false
+                                                                                       devicename:Sink_cab0
+                                                                                       primaryDeviceType:10-0050F204-5
+                                                                                       secondaryDeviceType:null
+                                                                                       wpsDisplaySupported:true
+01-08 16:33:42.045 13634-13634/com.example.android.wifidisplay I/WifiDisplayActivity: VALID   192.168.49.203:7236
+01-08 16:33:42.045 13634-13634/com.example.android.wifidisplay I/Timeline: Timeline: Activity_launch_request id:com.example.android.wifidisplay time:39178563
+01-08 16:33:42.105 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :0
+01-08 16:33:42.115 13634-13634/com.example.android.wifidisplay W/ApplicationPackageManager: getCSCPackageItemText()
+01-08 16:33:42.135 13634-13634/com.example.android.wifidisplay D/SinkPlayerActivity: Source connection information: 
+                                                                                     control port: 7236
+01-08 16:33:42.175 13634-13634/com.example.android.wifidisplay D/SinkPlayerActivity: Surface changed: 
+                                                                                     width  912
+                                                                                     height 492
+                                                                                     format 2
+01-08 16:33:42.235 13634-13634/com.example.android.wifidisplay I/Timeline: Timeline: Activity_idle id: android.os.BinderProxy@425ea080 time:39178757
+01-08 16:33:43.135 13634-13634/com.example.android.wifidisplay I/SinkPlayerActivity: Starting Sink Player with 192.168.49.203:7236
+01-08 16:33:43.135 13634-19203/com.example.android.wifidisplay I/NetworkSession: connecting socket 62 to 192.168.49.203:7236
+01-08 16:33:43.145 13634-19203/com.example.android.wifidisplay I/WifiDisplaySink: ==============kWhatConnected===============
+01-08 16:33:43.145 13634-19203/com.example.android.wifidisplay I/WifiDisplaySink: We're now connected.
+01-08 16:33:43.155 13634-19204/com.example.android.wifidisplay D/NetworkSession: 000   receive 142 142:
+01-08 16:33:43.155 13634-19203/com.example.android.wifidisplay I/WifiDisplaySink: ==============kWhatData===============
+01-08 16:33:43.155 13634-19203/com.example.android.wifidisplay W/WifiDisplaySink: session 1 received 'OPTIONS * RTSP/1.0
+                                                                                  cseq: 1
+                                                                                  date: Fri, 08 Jan 2016 03:33:43 +0000
+                                                                                  require: org.wfa.wfd1.0
+                                                                                  server: stagefright/1.2 (Linux;Android 5.1.1)
+01-08 16:33:43.155 13634-19204/com.example.android.wifidisplay D/NetworkSession: 111  send 170 170:
+01-08 16:33:43.155 13634-19203/com.example.android.wifidisplay D/WifiDisplaySink: call sendM2
+01-08 16:33:43.155 13634-19204/com.example.android.wifidisplay D/NetworkSession: 111  send 144 144:
+01-08 16:33:43.165 13634-19204/com.example.android.wifidisplay D/NetworkSession: 000   receive 198 198:
+01-08 16:33:43.165 13634-19203/com.example.android.wifidisplay I/WifiDisplaySink: ==============kWhatData===============
+01-08 16:33:43.165 13634-19203/com.example.android.wifidisplay W/WifiDisplaySink: session 1 received 'RTSP/1.0 200 OK
+                                                                                  cseq: 1
+                                                                                  date: Fri, 08 Jan 2016 03:33:43 +0000
+                                                                                  public: org.wfa.wfd1.0, SETUP, TEARDOWN, PLAY, PAUSE, GET_PARAMETER, SET_PARAMETER
+                                                                                  server: stagefright/1.2 (Linux;Android 5.1.1)
+01-08 16:33:43.165 13634-19203/com.example.android.wifidisplay D/WifiDisplaySink: onReceiveM2Response
+01-08 16:33:43.165 13634-19203/com.example.android.wifidisplay W/WifiDisplaySink: the session id is 1, resule: 0
+01-08 16:33:43.205 13634-19204/com.example.android.wifidisplay D/NetworkSession: 000   receive 279 279:
+01-08 16:33:43.205 13634-19203/com.example.android.wifidisplay I/WifiDisplaySink: ==============kWhatData===============
+01-08 16:33:43.205 13634-19203/com.example.android.wifidisplay W/WifiDisplaySink: session 1 received 'GET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+                                                                                  content-length: 83
+                                                                                  content-type: text/parameters
+                                                                                  cseq: 2
+                                                                                  date: Fri, 08 Jan 2016 03:33:43 +0000
+                                                                                  server: stagefright/1.2 (Linux;Android 5.1.1)
+01-08 16:33:43.205 13634-19204/com.example.android.wifidisplay D/NetworkSession: 111  send 495 495:
+01-08 16:33:43.215 13634-19204/com.example.android.wifidisplay D/NetworkSession: 000   receive 447 447:
+01-08 16:33:43.215 13634-19203/com.example.android.wifidisplay I/WifiDisplaySink: ==============kWhatData===============
+01-08 16:33:43.215 13634-19203/com.example.android.wifidisplay W/WifiDisplaySink: session 1 received 'SET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+                                                                                  content-length: 250
+                                                                                  content-type: text/parameters
+                                                                                  cseq: 3
+                                                                                  date: Fri, 08 Jan 2016 03:33:43 +0000
+                                                                                  server: stagefright/1.2 (Linux;Android 5.1.1)
+01-08 16:33:43.215 13634-19203/com.example.android.wifidisplay D/WifiDisplaySink: onSetParameterRequest
+01-08 16:33:43.215 13634-19204/com.example.android.wifidisplay D/NetworkSession: 111  send 116 116:
+01-08 16:33:43.215 13634-19204/com.example.android.wifidisplay D/NetworkSession: 000   receive 223 223:
+01-08 16:33:43.215 13634-19203/com.example.android.wifidisplay I/WifiDisplaySink: ==============kWhatData===============
+01-08 16:33:43.215 13634-19203/com.example.android.wifidisplay W/WifiDisplaySink: session 1 received 'SET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+                                                                                  content-length: 27
+                                                                                  content-type: text/parameters
+                                                                                  cseq: 4
+                                                                                  date: Fri, 08 Jan 2016 03:33:43 +0000
+                                                                                  server: stagefright/1.2 (Linux;Android 5.1.1)
+01-08 16:33:43.215 13634-19203/com.example.android.wifidisplay D/WifiDisplaySink: onSetParameterRequest
+01-08 16:33:43.215 13634-19203/com.example.android.wifidisplay D/WifiDisplaySink: sendSetup
+01-08 16:33:43.215 13634-19203/com.example.android.wifidisplay I/NetworkSession: ================kModeCreateUDPSession=====bind local port=========
+01-08 16:33:43.215 13634-19203/com.example.android.wifidisplay I/NetworkSession: ================kModeCreateUDPSession================
+01-08 16:33:43.215 13634-19203/com.example.android.wifidisplay I/NetworkSession: ================kModeCreateUDPSession=====bind local port=========
+01-08 16:33:43.215 13634-19203/com.example.android.wifidisplay I/NetworkSession: ================kModeCreateUDPSession================
+01-08 16:33:43.215 13634-19204/com.example.android.wifidisplay D/NetworkSession: 111  send 191 191:
+01-08 16:33:43.215 13634-19204/com.example.android.wifidisplay D/NetworkSession: 111  send 116 116:
+01-08 16:33:43.325 13634-19204/com.example.android.wifidisplay D/NetworkSession: 000   receive 214 214:
+01-08 16:33:43.325 13634-19203/com.example.android.wifidisplay I/WifiDisplaySink: ==============kWhatData===============
+01-08 16:33:43.325 13634-19203/com.example.android.wifidisplay W/WifiDisplaySink: session 1 received 'RTSP/1.0 200 OK
+                                                                                  cseq: 2
+                                                                                  date: Fri, 08 Jan 2016 03:33:43 +0000
+                                                                                  server: stagefright/1.2 (Linux;Android 5.1.1)
+                                                                                  session: 2007240747;timeout=30
+                                                                                  transport: RTP/AVP/UDP;unicast;client_port=15550;server_port=31644
+01-08 16:33:43.325 13634-19203/com.example.android.wifidisplay D/WifiDisplaySink: onReceiveSetupResponse
+01-08 16:33:43.325 13634-19203/com.example.android.wifidisplay E/WifiDisplaySink: ===========onReceiveSetupResponse============
+01-08 16:33:43.325 13634-19203/com.example.android.wifidisplay D/WifiDisplaySink: configureTransport
+01-08 16:33:43.325 13634-19203/com.example.android.wifidisplay D/WifiDisplaySink: sendPlay
+01-08 16:33:43.325 13634-19204/com.example.android.wifidisplay D/NetworkSession: 111  send 161 161:
+01-08 16:33:43.325 13634-19203/com.example.android.wifidisplay W/WifiDisplaySink: the session id is 1, resule: 0
+01-08 16:33:43.445 13634-19204/com.example.android.wifidisplay D/NetworkSession: 000   receive 163 163:
+01-08 16:33:43.445 13634-19203/com.example.android.wifidisplay I/WifiDisplaySink: ==============kWhatData===============
+01-08 16:33:43.445 13634-19203/com.example.android.wifidisplay W/WifiDisplaySink: session 1 received 'RTSP/1.0 200 OK
+                                                                                  cseq: 3
+                                                                                  date: Fri, 08 Jan 2016 03:33:43 +0000
+                                                                                  range: npt=now-
+                                                                                  server: stagefright/1.2 (Linux;Android 5.1.1)
+                                                                                  session: 2007240747;timeout=30
+01-08 16:33:43.445 13634-19203/com.example.android.wifidisplay W/WifiDisplaySink: the session id is 1, resule: 0
+01-08 16:33:43.495 13634-19203/com.example.android.wifidisplay I/RTPSink: connecting RTP/RTCP sockets to 192.168.49.203:{31644,31645}
+01-08 16:33:43.495 13634-19203/com.example.android.wifidisplay I/RTPSink: =====OK=====connecting RTP sockets to 192.168.49.203:31644
+01-08 16:33:43.495 13634-19203/com.example.android.wifidisplay I/RTPSink: =====OK=====connecting RTCP sockets to 192.168.49.203:31645
+01-08 16:33:43.495 13634-19203/com.example.android.wifidisplay I/RTPSink: packet was -7.47 ms late
+01-08 16:33:43.515 13634-13741/com.example.android.wifidisplay I/TunnelRenderer: Notify 300, 0, 0
+01-08 16:33:43.515 13634-13646/com.example.android.wifidisplay I/TunnelRenderer: Notify 5, 0, 0
+01-08 16:33:43.525 13634-19203/com.example.android.wifidisplay I/RTPSink: packet was 4.14 ms late
+01-08 16:33:43.525 13634-19203/com.example.android.wifidisplay I/RTPSink: packet was 4.61 ms late
+01-08 16:33:43.535 13634-13646/com.example.android.wifidisplay I/TunnelRenderer: Fixing real-time now.
+01-08 16:33:43.545 13634-19203/com.example.android.wifidisplay I/RTPSink: packet was 4.13 ms late
+01-08 16:33:43.555 13634-19203/com.example.android.wifidisplay I/RTPSink: packet was 5.03 ms late
+01-08 16:33:43.555 13634-19203/com.example.android.wifidisplay I/RTPSink: packet was 6.73 ms late
+01-08 16:33:43.555 13634-19203/com.example.android.wifidisplay I/RTPSink: packet was 8.01 ms late
+01-08 16:33:43.565 13634-19203/com.example.android.wifidisplay I/RTPSink: packet was 9.24 ms late
+01-08 16:33:43.565 13634-19203/com.example.android.wifidisplay I/RTPSink: packet was 9.86 ms late
+01-08 16:33:43.565 13634-19203/com.example.android.wifidisplay I/RTPSink: packet was 9.38 ms late
+01-08 16:33:43.695 13634-16068/com.example.android.wifidisplay I/TunnelRenderer: Notify 6, 0, 0
+01-08 16:33:43.695 13634-13646/com.example.android.wifidisplay I/TunnelRenderer: Notify 200, 702, 0
+01-08 16:33:43.755 13634-19203/com.example.android.wifidisplay I/RTPSink: packet was 38.55 ms late
+01-08 16:33:43.975 13634-13645/com.example.android.wifidisplay I/TunnelRenderer: Notify 5, 1280, 720
+01-08 16:33:43.975 13634-13741/com.example.android.wifidisplay I/TunnelRenderer: Notify 200, 3, 0
+01-08 16:33:44.055 13634-19203/com.example.android.wifidisplay I/RTPSink: packet was 60.76 ms late
+01-08 16:33:44.365 13634-19203/com.example.android.wifidisplay I/RTPSink: packet was 72.12 ms late
+01-08 16:33:45.495 13634-19204/com.example.android.wifidisplay E/NetworkSession: readMore on socket 67 failed w/ error -111 (Connection refused)
+01-08 16:33:45.495 13634-19203/com.example.android.wifidisplay E/RTPSink: An error occurred in session 3 (-111, 'Recvfrom failed./Connection refused').
+01-08 16:33:59.785 13634-13634/com.example.android.wifidisplay I/wfd-sink: Stop sink success
+01-08 16:33:59.785 13634-13634/com.example.android.wifidisplay D/SinkPlayerActivity: Stop native Sink Player success
+01-08 16:33:59.785 13634-13634/com.example.android.wifidisplay I/Timeline: Timeline: Activity_launch_request id:com.example.android.wifidisplay time:39196306
+01-08 16:33:59.805 13634-13634/com.example.android.wifidisplay E/ViewRootImpl: sendUserActionEvent() mView == null
+01-08 16:33:59.845 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2P state changed: 2
+01-08 16:33:59.845 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p connection changed: 
+                                                                                       ExtraInfo:null
+                                                                                       Reason:null
+                                                                                       Subtype:0
+                                                                                       SubtypeName:
+                                                                                       Type:13
+                                                                                       TypeName:WIFI_P2P
+                                                                                       isAvaliable:true
+                                                                                       isConnected:true
+01-08 16:33:59.845 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p group information: 
+                                                                                       GroupOwner:true
+                                                                                       NetworkName:DIRECT-xn-Sink_fbbc
+01-08 16:33:59.845 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: WifiP2pDevice information
+                                                                                       deviceAddress:42:b0:fa:63:ca:b0
+                                                                                       GroupOwner:false
+                                                                                       devicename:Sink_cab0
+                                                                                       primaryDeviceType:10-0050F204-5
+                                                                                       secondaryDeviceType:null
+                                                                                       wpsDisplaySupported:true
+01-08 16:33:59.845 13634-13634/com.example.android.wifidisplay I/WifiDisplayActivity: VALID   192.168.49.203:7236
+01-08 16:33:59.845 13634-13634/com.example.android.wifidisplay I/Timeline: Timeline: Activity_launch_request id:com.example.android.wifidisplay time:39196369
+01-08 16:33:59.855 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p this device changed
+01-08 16:33:59.855 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :0
+01-08 16:33:59.875 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p this device changed
+01-08 16:33:59.875 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :0
+01-08 16:33:59.885 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p this device changed
+01-08 16:33:59.885 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :0
+01-08 16:33:59.905 13634-13634/com.example.android.wifidisplay W/ApplicationPackageManager: getCSCPackageItemText()
+01-08 16:33:59.915 13634-13634/com.example.android.wifidisplay D/SinkPlayerActivity: Source connection information: 
+                                                                                     control port: 7236
+01-08 16:33:59.985 13634-13634/com.example.android.wifidisplay D/SinkPlayerActivity: Surface changed: 
+                                                                                     width  912
+                                                                                     height 492
+                                                                                     format 2
+01-08 16:34:00.105 13634-13634/com.example.android.wifidisplay I/Timeline: Timeline: Activity_idle id: android.os.BinderProxy@42611238 time:39196621
+01-08 16:34:00.105 13634-13634/com.example.android.wifidisplay I/Timeline: Timeline: Activity_idle id: android.os.BinderProxy@424cf790 time:39196621
+01-08 16:34:00.415 13634-13645/com.example.android.wifidisplay I/TunnelRenderer: Notify 300, 0, 0
+01-08 16:34:00.415 13634-13645/com.example.android.wifidisplay I/TunnelRenderer: Notify 100, 1, -2147483648
+01-08 16:34:00.915 13634-13634/com.example.android.wifidisplay I/SinkPlayerActivity: Starting Sink Player with 192.168.49.203:7236
+01-08 16:34:00.915 13634-19504/com.example.android.wifidisplay I/NetworkSession: connecting socket 65 to 192.168.49.203:7236
+01-08 16:34:00.925 13634-19504/com.example.android.wifidisplay I/WifiDisplaySink: ==============kWhatConnected===============
+01-08 16:34:00.925 13634-19504/com.example.android.wifidisplay I/WifiDisplaySink: We're now connected.
+01-08 16:34:00.925 13634-19505/com.example.android.wifidisplay D/NetworkSession: 000   receive 0 0:
+01-08 16:34:00.935 13634-19505/com.example.android.wifidisplay E/NetworkSession: readMore on socket 65 failed w/ error -104 (Connection reset by peer)
+01-08 16:34:00.935 13634-19504/com.example.android.wifidisplay I/WifiDisplaySink: ==============kWhatError===============
+01-08 16:34:00.935 13634-19504/com.example.android.wifidisplay E/WifiDisplaySink: An error occurred in session 1 (-104, 'Recv failed./Connection reset by peer').
+01-08 16:34:00.935 13634-19504/com.example.android.wifidisplay I/WifiDisplaySink: Lost control connection.
+01-08 16:34:00.935 13634-19504/com.example.android.wifidisplay I/wfd-sink: Start sink finished
+01-08 16:34:08.325 13634-19204/com.example.android.wifidisplay D/NetworkSession: 000   receive 166 166:
+01-08 16:34:08.325 13634-19203/com.example.android.wifidisplay I/WifiDisplaySink: ==============kWhatData===============
+01-08 16:34:08.325 13634-19203/com.example.android.wifidisplay W/WifiDisplaySink: session 1 received 'GET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+                                                                                  cseq: 5
+                                                                                  date: Fri, 08 Jan 2016 03:34:08 +0000
+                                                                                  server: stagefright/1.2 (Linux;Android 5.1.1)
+                                                                                  session: 2007240747
+01-08 16:34:08.325 13634-19204/com.example.android.wifidisplay D/NetworkSession: 111  send 495 495:
+01-08 16:34:31.775 13634-19203/com.example.android.wifidisplay I/RTPSink: packet was 91.95 ms late
+01-08 16:34:31.775 13634-19203/com.example.android.wifidisplay I/RTPSink: packet was 91.08 ms late
+01-08 16:34:32.305 13634-13634/com.example.android.wifidisplay I/wfd-sink: Stop sink success
+01-08 16:34:32.305 13634-13634/com.example.android.wifidisplay D/SinkPlayerActivity: Stop native Sink Player success
+01-08 16:34:32.305 13634-13634/com.example.android.wifidisplay I/Timeline: Timeline: Activity_launch_request id:com.example.android.wifidisplay time:39228829
+01-08 16:34:32.325 13634-13634/com.example.android.wifidisplay E/ViewRootImpl: sendUserActionEvent() mView == null
+01-08 16:34:32.335 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2P state changed: 2
+01-08 16:34:32.335 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p connection changed: 
+                                                                                       ExtraInfo:null
+                                                                                       Reason:null
+                                                                                       Subtype:0
+                                                                                       SubtypeName:
+                                                                                       Type:13
+                                                                                       TypeName:WIFI_P2P
+                                                                                       isAvaliable:true
+                                                                                       isConnected:true
+01-08 16:34:32.335 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p group information: 
+                                                                                       GroupOwner:true
+                                                                                       NetworkName:DIRECT-xn-Sink_fbbc
+01-08 16:34:32.345 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: WifiP2pDevice information
+                                                                                       deviceAddress:42:b0:fa:63:ca:b0
+                                                                                       GroupOwner:false
+                                                                                       devicename:Sink_cab0
+                                                                                       primaryDeviceType:10-0050F204-5
+                                                                                       secondaryDeviceType:null
+                                                                                       wpsDisplaySupported:true
+01-08 16:34:32.345 13634-13634/com.example.android.wifidisplay I/WifiDisplayActivity: VALID   192.168.49.203:7236
+01-08 16:34:32.345 13634-13634/com.example.android.wifidisplay I/Timeline: Timeline: Activity_launch_request id:com.example.android.wifidisplay time:39228862
+01-08 16:34:32.355 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p this device changed
+01-08 16:34:32.355 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :0
+01-08 16:34:32.375 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p this device changed
+01-08 16:34:32.375 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :0
+01-08 16:34:32.375 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p this device changed
+01-08 16:34:32.375 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :0
+01-08 16:34:32.385 13634-13634/com.example.android.wifidisplay W/ApplicationPackageManager: getCSCPackageItemText()
+01-08 16:34:32.385 13634-13634/com.example.android.wifidisplay D/SinkPlayerActivity: Source connection information: 
+                                                                                     control port: 7236
+01-08 16:34:32.425 13634-13634/com.example.android.wifidisplay D/SinkPlayerActivity: Surface changed: 
+                                                                                     width  912
+                                                                                     height 492
+                                                                                     format 2
+01-08 16:34:32.545 13634-13634/com.example.android.wifidisplay I/Timeline: Timeline: Activity_idle id: android.os.BinderProxy@42637d28 time:39229069
+01-08 16:34:32.545 13634-13634/com.example.android.wifidisplay I/Timeline: Timeline: Activity_idle id: android.os.BinderProxy@424cf790 time:39229069
+01-08 16:34:33.325 13634-19204/com.example.android.wifidisplay D/NetworkSession: 000   receive 166 166:
+01-08 16:34:33.325 13634-19203/com.example.android.wifidisplay I/WifiDisplaySink: ==============kWhatData===============
+01-08 16:34:33.325 13634-19203/com.example.android.wifidisplay W/WifiDisplaySink: session 1 received 'GET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+                                                                                  cseq: 6
+                                                                                  date: Fri, 08 Jan 2016 03:34:33 +0000
+                                                                                  server: stagefright/1.2 (Linux;Android 5.1.1)
+                                                                                  session: 2007240747
+01-08 16:34:33.325 13634-19204/com.example.android.wifidisplay D/NetworkSession: 111  send 495 495:
+01-08 16:34:33.385 13634-13634/com.example.android.wifidisplay I/SinkPlayerActivity: Starting Sink Player with 192.168.49.203:7236
+01-08 16:34:33.395 13634-20086/com.example.android.wifidisplay I/NetworkSession: connecting socket 66 to 192.168.49.203:7236
+01-08 16:34:33.395 13634-20086/com.example.android.wifidisplay I/WifiDisplaySink: ==============kWhatConnected===============
+01-08 16:34:33.395 13634-20086/com.example.android.wifidisplay I/WifiDisplaySink: We're now connected.
+01-08 16:34:33.445 13634-20087/com.example.android.wifidisplay D/NetworkSession: 000   receive 0 0:
+01-08 16:34:33.445 13634-20087/com.example.android.wifidisplay E/NetworkSession: readMore on socket 66 failed w/ error -104 (Connection reset by peer)
+01-08 16:34:33.445 13634-20086/com.example.android.wifidisplay I/WifiDisplaySink: ==============kWhatError===============
+01-08 16:34:33.445 13634-20086/com.example.android.wifidisplay E/WifiDisplaySink: An error occurred in session 1 (-104, 'Recv failed./Connection reset by peer').
+01-08 16:34:33.445 13634-20086/com.example.android.wifidisplay I/WifiDisplaySink: Lost control connection.
+01-08 16:34:33.445 13634-20086/com.example.android.wifidisplay I/wfd-sink: Start sink finished
+01-08 16:34:36.305 13634-13634/com.example.android.wifidisplay I/wfd-sink: Stop sink success
+01-08 16:34:36.305 13634-13634/com.example.android.wifidisplay D/SinkPlayerActivity: Stop native Sink Player success
+01-08 16:34:36.305 13634-13634/com.example.android.wifidisplay I/Timeline: Timeline: Activity_launch_request id:com.example.android.wifidisplay time:39232827
+01-08 16:34:36.325 13634-13634/com.example.android.wifidisplay E/ViewRootImpl: sendUserActionEvent() mView == null
+01-08 16:34:36.345 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2P state changed: 2
+01-08 16:34:36.345 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p connection changed: 
+                                                                                       ExtraInfo:null
+                                                                                       Reason:null
+                                                                                       Subtype:0
+                                                                                       SubtypeName:
+                                                                                       Type:13
+                                                                                       TypeName:WIFI_P2P
+                                                                                       isAvaliable:true
+                                                                                       isConnected:true
+01-08 16:34:36.345 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p group information: 
+                                                                                       GroupOwner:true
+                                                                                       NetworkName:DIRECT-xn-Sink_fbbc
+01-08 16:34:36.345 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: WifiP2pDevice information
+                                                                                       deviceAddress:42:b0:fa:63:ca:b0
+                                                                                       GroupOwner:false
+                                                                                       devicename:Sink_cab0
+                                                                                       primaryDeviceType:10-0050F204-5
+                                                                                       secondaryDeviceType:null
+                                                                                       wpsDisplaySupported:true
+01-08 16:34:36.345 13634-13634/com.example.android.wifidisplay I/WifiDisplayActivity: VALID   192.168.49.203:7236
+01-08 16:34:36.345 13634-13634/com.example.android.wifidisplay I/Timeline: Timeline: Activity_launch_request id:com.example.android.wifidisplay time:39232868
+01-08 16:34:36.355 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p this device changed
+01-08 16:34:36.355 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :0
+01-08 16:34:36.355 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p this device changed
+01-08 16:34:36.355 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :0
+01-08 16:34:36.365 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p this device changed
+01-08 16:34:36.365 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :0
+01-08 16:34:36.385 13634-13634/com.example.android.wifidisplay W/ApplicationPackageManager: getCSCPackageItemText()
+01-08 16:34:36.395 13634-13634/com.example.android.wifidisplay D/SinkPlayerActivity: Source connection information: 
+                                                                                     control port: 7236
+01-08 16:34:36.425 13634-13634/com.example.android.wifidisplay D/SinkPlayerActivity: Surface changed: 
+                                                                                     width  912
+                                                                                     height 492
+                                                                                     format 2
+01-08 16:34:36.535 13634-13634/com.example.android.wifidisplay I/Timeline: Timeline: Activity_idle id: android.os.BinderProxy@4265c7c0 time:39233055
+01-08 16:34:36.535 13634-13634/com.example.android.wifidisplay I/Timeline: Timeline: Activity_idle id: android.os.BinderProxy@424cf790 time:39233058
+01-08 16:34:37.395 13634-13634/com.example.android.wifidisplay I/SinkPlayerActivity: Starting Sink Player with 192.168.49.203:7236
+01-08 16:34:37.395 13634-20155/com.example.android.wifidisplay I/NetworkSession: connecting socket 65 to 192.168.49.203:7236
+01-08 16:34:37.395 13634-20155/com.example.android.wifidisplay I/WifiDisplaySink: ==============kWhatConnected===============
+01-08 16:34:37.395 13634-20155/com.example.android.wifidisplay I/WifiDisplaySink: We're now connected.
+01-08 16:34:37.405 13634-20156/com.example.android.wifidisplay D/NetworkSession: 000   receive 0 0:
+01-08 16:34:37.405 13634-20156/com.example.android.wifidisplay E/NetworkSession: readMore on socket 65 failed w/ error -104 (Connection reset by peer)
+01-08 16:34:37.405 13634-20155/com.example.android.wifidisplay I/WifiDisplaySink: ==============kWhatError===============
+01-08 16:34:37.405 13634-20155/com.example.android.wifidisplay E/WifiDisplaySink: An error occurred in session 1 (-104, 'Recv failed./Connection reset by peer').
+01-08 16:34:37.405 13634-20155/com.example.android.wifidisplay I/WifiDisplaySink: Lost control connection.
+01-08 16:34:37.405 13634-20155/com.example.android.wifidisplay I/wfd-sink: Start sink finished
+01-08 16:34:38.815 13634-19204/com.example.android.wifidisplay D/NetworkSession: 000   receive 226 226:
+01-08 16:34:38.815 13634-19203/com.example.android.wifidisplay I/WifiDisplaySink: ==============kWhatData===============
+01-08 16:34:38.815 13634-19203/com.example.android.wifidisplay W/WifiDisplaySink: session 1 received 'SET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+                                                                                  content-length: 30
+                                                                                  content-type: text/parameters
+                                                                                  cseq: 7
+                                                                                  date: Fri, 08 Jan 2016 03:34:39 +0000
+                                                                                  server: stagefright/1.2 (Linux;Android 5.1.1)
+01-08 16:34:38.815 13634-19203/com.example.android.wifidisplay D/WifiDisplaySink: onSetParameterRequest
+01-08 16:34:38.815 13634-19204/com.example.android.wifidisplay D/NetworkSession: 111  send 116 116:
+01-08 16:34:40.935 13634-19204/com.example.android.wifidisplay D/NetworkSession: 000   receive 0 0:
+01-08 16:34:40.935 13634-19204/com.example.android.wifidisplay E/NetworkSession: readMore on socket 62 failed w/ error -104 (Connection reset by peer)
+01-08 16:34:40.935 13634-19203/com.example.android.wifidisplay I/WifiDisplaySink: ==============kWhatError===============
+01-08 16:34:40.935 13634-19203/com.example.android.wifidisplay E/WifiDisplaySink: An error occurred in session 1 (-104, 'Recv failed./Connection reset by peer').
+01-08 16:34:40.935 13634-19203/com.example.android.wifidisplay I/WifiDisplaySink: Lost control connection.
+01-08 16:34:40.935 13634-19203/com.example.android.wifidisplay I/wfd-sink: Start sink finished
+01-08 16:34:40.935 13634-13646/com.example.android.wifidisplay I/TunnelRenderer: Notify 7, 0, 0
+01-08 16:34:54.325 13634-13634/com.example.android.wifidisplay I/wfd-sink: Stop sink success
+01-08 16:34:54.325 13634-13634/com.example.android.wifidisplay D/SinkPlayerActivity: Stop native Sink Player success
+01-08 16:34:54.325 13634-13634/com.example.android.wifidisplay I/Timeline: Timeline: Activity_launch_request id:com.example.android.wifidisplay time:39250842
+01-08 16:34:54.335 13634-13634/com.example.android.wifidisplay E/ViewRootImpl: sendUserActionEvent() mView == null
+01-08 16:34:54.355 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2P state changed: 2
+01-08 16:34:54.355 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p connection changed: 
+                                                                                       ExtraInfo:null
+                                                                                       Reason:null
+                                                                                       Subtype:0
+                                                                                       SubtypeName:
+                                                                                       Type:13
+                                                                                       TypeName:WIFI_P2P
+                                                                                       isAvaliable:true
+                                                                                       isConnected:false
+01-08 16:34:54.355 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p group information: 
+                                                                                       GroupOwner:false
+                                                                                       NetworkName:null
+01-08 16:34:54.355 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p this device changed
+01-08 16:34:54.355 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :3
+01-08 16:34:54.365 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p this device changed
+01-08 16:34:54.365 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :3
+01-08 16:34:54.365 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p this device changed
+01-08 16:34:54.365 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :3
+01-08 16:34:54.375 13634-13634/com.example.android.wifidisplay I/Timeline: Timeline: Activity_idle id: android.os.BinderProxy@424cf790 time:39250898
+01-08 16:42:40.365 13634-13634/com.example.android.wifidisplay W/ApplicationPackageManager: getCSCPackageItemText()
+01-08 16:42:40.535 13634-13634/com.example.android.wifidisplay D/DeviceDetailFragment: onActivityCreated is invoked
+01-08 16:42:40.565 13634-13634/com.example.android.wifidisplay E/ViewRootImpl: sendUserActionEvent() mView == null
+01-08 16:42:40.565 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2P state changed: 2
+01-08 16:42:40.565 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p connection changed: 
+                                                                                       ExtraInfo:null
+                                                                                       Reason:null
+                                                                                       Subtype:0
+                                                                                       SubtypeName:
+                                                                                       Type:13
+                                                                                       TypeName:WIFI_P2P
+                                                                                       isAvaliable:true
+                                                                                       isConnected:false
+01-08 16:42:40.565 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p group information: 
+                                                                                       GroupOwner:false
+                                                                                       NetworkName:null
+01-08 16:42:40.565 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p this device changed
+01-08 16:42:40.565 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :3
+01-08 16:42:40.565 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p this device changed
+01-08 16:42:40.565 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :3
+01-08 16:42:40.575 13634-13634/com.example.android.wifidisplay D/P2pBroadcastReceiver: P2p this device changed
+01-08 16:42:40.575 13634-13634/com.example.android.wifidisplay D/DeviceListFragment: Peer status :3
+01-08 16:42:40.605 13634-13634/com.example.android.wifidisplay I/Timeline: Timeline: Activity_idle id: android.os.BinderProxy@424cf790 time:39717122
+01-08 16:42:42.785 13634-13634/com.example.android.wifidisplay E/OpenGLRenderer: SFEffectCache:clear(), mSize = 0
+

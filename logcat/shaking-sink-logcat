@@ -1,0 +1,1826 @@
+--------- beginning of main
+01-06 00:46:50.753 D/ConnectivityManager.CallbackHandler(  945): CM callback handler got msg 524290
+--------- beginning of system
+01-06 00:46:51.512 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:46:51.760 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:46:51.778 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:46:53.311 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:46:53.330 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:46:53.619 D/ConnectivityService(  418): reportBadNetwork(NetworkAgentInfo [WIFI () - 106]) by 10008
+01-06 00:46:53.620 D/NetworkMonitor/NetworkAgentInfo [WIFI () - 106](  418): ValidatedState{ when=0 what=532488 arg1=10008 target=com.android.internal.util.StateMachine$SmHandler }
+01-06 00:46:53.621 D/NetworkMonitor/NetworkAgentInfo [WIFI () - 106](  418): DefaultState{ when=-1ms what=532488 arg1=10008 target=com.android.internal.util.StateMachine$SmHandler }
+01-06 00:46:53.621 D/NetworkMonitor/NetworkAgentInfo [WIFI () - 106](  418): Forcing reevaluation
+01-06 00:46:53.621 D/NetworkMonitor/NetworkAgentInfo [WIFI () - 106](  418): EvaluatingState{ when=-1ms what=532486 arg1=7 target=com.android.internal.util.StateMachine$SmHandler }
+01-06 00:46:53.622 D/NetworkMonitor/NetworkAgentInfo [WIFI () - 106](  418): Checking http://connectivitycheck.android.com/generate_204 on "Office"
+01-06 00:46:54.575 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:46:54.897 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:46:54.916 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:46:55.331 V/xiaomi  ( 1743): Service called on timer
+01-06 00:46:56.466 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:46:56.494 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:46:57.667 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:46:58.017 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:46:58.035 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:46:59.138 I/wpa_supplicant(  905): P2P-DEVICE-LOST p2p_dev_addr=12:68:3f:70:d2:71
+01-06 00:46:59.144 D/P2pBroadcastReceiver(26583): P2P peers changed
+01-06 00:46:59.148 D/DeviceListFragment(26583): No device found
+01-06 00:46:59.602 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:46:59.619 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:00.737 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:01.184 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:01.203 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:02.788 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:02.798 E/WifiStateMachine(  418): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=4.79 rxSuccessRate=0.98 targetRoamBSSID=d4:ee:07:22:5d:e2 RSSI=-72
+01-06 00:47:02.799 E/WifiStateMachine(  418): WifiStateMachine starting scan for "Office"WPA_PSK with 2427
+01-06 00:47:02.822 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:02.824 D/ConnectivityService(  418): updateNetworkScore for NetworkAgentInfo [WIFI () - 106] to 60
+01-06 00:47:02.824 D/ConnectivityService(  418): rematching NetworkAgentInfo [WIFI () - 106]
+01-06 00:47:02.824 D/ConnectivityService(  418): Network NetworkAgentInfo [WIFI () - 106] was already satisfying request 1. No change.
+01-06 00:47:02.824 D/ConnectivityService(  418): notifyType AVAILABLE for NetworkAgentInfo [WIFI () - 106]
+01-06 00:47:02.826 D/ConnectivityManager.CallbackHandler(  945): CM callback handler got msg 524290
+01-06 00:47:03.804 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:04.391 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:04.409 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:05.971 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:05.977 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:06.884 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:07.493 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:07.516 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:09.074 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:09.092 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:09.927 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:10.672 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:10.688 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:12.213 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:12.232 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:13.009 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:13.657 D/NetworkMonitor/NetworkAgentInfo [WIFI () - 106](  418): Probably not a portal: exception java.net.UnknownHostException: Unable to resolve host "connectivitycheck.android.com": No address associated with hostname
+01-06 00:47:13.657 D/ConnectivityService(  418): setProvNotificationVisibleIntent: E visible=false networkType=0 extraInfo=null
+01-06 00:47:13.658 D/ConnectivityService(  418): sendStickyBroadcast: action=android.net.conn.INET_CONDITION_ACTION
+01-06 00:47:13.804 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:13.823 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:15.431 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:15.435 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:15.596 W/ActivityManager(  418): getRunningAppProcesses: caller 10082 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:16.088 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:16.954 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:16.972 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:18.540 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:18.567 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:19.142 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:20.125 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:20.137 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:21.660 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:21.681 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:22.216 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:22.800 E/WifiStateMachine(  418): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=5.62 rxSuccessRate=3.86 targetRoamBSSID=d4:ee:07:22:5d:e2 RSSI=-67
+01-06 00:47:23.204 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:23.228 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:24.709 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:24.794 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:24.813 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:25.292 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:26.380 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:26.398 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:27.956 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:27.976 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:28.347 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:29.533 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:29.552 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:30.013 D/ConnectivityService(  418): updateNetworkScore for NetworkAgentInfo [WIFI () - 106] to 56
+01-06 00:47:30.013 D/ConnectivityService(  418): rematching NetworkAgentInfo [WIFI () - 106]
+01-06 00:47:30.013 D/ConnectivityService(  418): Network NetworkAgentInfo [WIFI () - 106] was already satisfying request 1. No change.
+01-06 00:47:30.013 D/ConnectivityService(  418): notifyType AVAILABLE for NetworkAgentInfo [WIFI () - 106]
+01-06 00:47:30.017 D/ConnectivityManager.CallbackHandler(  945): CM callback handler got msg 524290
+01-06 00:47:31.120 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:31.139 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:31.439 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:32.708 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:32.724 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:34.270 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:34.288 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:34.511 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:35.828 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:35.846 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:36.064 D/ConnectivityService(  418): updateNetworkScore for NetworkAgentInfo [WIFI () - 106] to 60
+01-06 00:47:36.065 D/ConnectivityService(  418): rematching NetworkAgentInfo [WIFI () - 106]
+01-06 00:47:36.065 D/ConnectivityService(  418): Network NetworkAgentInfo [WIFI () - 106] was already satisfying request 1. No change.
+01-06 00:47:36.065 D/ConnectivityService(  418): notifyType AVAILABLE for NetworkAgentInfo [WIFI () - 106]
+01-06 00:47:36.068 D/ConnectivityManager.CallbackHandler(  945): CM callback handler got msg 524290
+01-06 00:47:37.417 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:37.439 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:37.595 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:39.004 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:39.014 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:40.573 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:40.591 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:40.646 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:42.112 D/ConnectivityService(  418): updateNetworkScore for NetworkAgentInfo [WIFI () - 106] to 56
+01-06 00:47:42.113 D/ConnectivityService(  418): rematching NetworkAgentInfo [WIFI () - 106]
+01-06 00:47:42.113 D/ConnectivityService(  418): Network NetworkAgentInfo [WIFI () - 106] was already satisfying request 1. No change.
+01-06 00:47:42.113 D/ConnectivityService(  418): notifyType AVAILABLE for NetworkAgentInfo [WIFI () - 106]
+01-06 00:47:42.115 D/ConnectivityManager.CallbackHandler(  945): CM callback handler got msg 524290
+01-06 00:47:42.156 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:42.173 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:42.802 E/WifiStateMachine(  418): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=2.14 rxSuccessRate=3.15 targetRoamBSSID=d4:ee:07:22:5d:e2 RSSI=-71
+01-06 00:47:42.802 E/WifiStateMachine(  418): WifiStateMachine starting scan for "Office"WPA_PSK with 2427
+01-06 00:47:43.709 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:43.738 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:43.760 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:45.132 D/ConnectivityService(  418): updateNetworkScore for NetworkAgentInfo [WIFI () - 106] to 60
+01-06 00:47:45.132 D/ConnectivityService(  418): rematching NetworkAgentInfo [WIFI () - 106]
+01-06 00:47:45.132 D/ConnectivityService(  418): Network NetworkAgentInfo [WIFI () - 106] was already satisfying request 1. No change.
+01-06 00:47:45.133 D/ConnectivityService(  418): notifyType AVAILABLE for NetworkAgentInfo [WIFI () - 106]
+01-06 00:47:45.138 D/ConnectivityManager.CallbackHandler(  945): CM callback handler got msg 524290
+01-06 00:47:45.319 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:45.324 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:45.432 W/ActivityManager(  418): getRunningAppProcesses: caller 10082 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:45.607 W/ActivityManager(  418): getRunningAppProcesses: caller 10082 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:46.797 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:46.875 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:46.880 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:48.431 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:48.448 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:49.848 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:49.995 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:50.013 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:51.567 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:51.588 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:52.897 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:53.142 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:53.164 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:54.707 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:54.725 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:55.952 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:56.289 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:56.308 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:57.872 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:57.887 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:59.030 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:59.404 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:47:59.422 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:00.957 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:00.974 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:02.078 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:02.537 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:02.553 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:02.648 D/com.sigma_rt.phonelinkclient.adb.ADBScan( 6367): exec result :command:[chmod 755 /data/data/com.sigma_rt.phonelinkclient/log4j.log],result:0
+01-06 00:48:02.806 E/WifiStateMachine(  418): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=1.98 rxSuccessRate=1.00 targetRoamBSSID=d4:ee:07:22:5d:e2 RSSI=-59
+01-06 00:48:02.807 E/WifiStateMachine(  418): WifiStateMachine starting scan for "Office"WPA_PSK with 2427
+01-06 00:48:04.123 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:04.142 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:05.143 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:05.686 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:05.705 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:07.262 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:07.283 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:08.223 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:08.848 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:08.867 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:10.430 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:10.453 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:11.247 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:12.019 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:12.037 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:13.598 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:13.616 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:14.336 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:15.186 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:15.205 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:15.609 W/ActivityManager(  418): getRunningAppProcesses: caller 10082 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:16.781 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:16.786 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:17.396 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:18.348 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:18.370 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:19.926 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:19.943 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:20.486 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:21.500 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:21.518 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:22.812 E/WifiStateMachine(  418): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=4.35 rxSuccessRate=2.08 targetRoamBSSID=d4:ee:07:22:5d:e2 RSSI=-60
+01-06 00:48:22.812 E/WifiStateMachine(  418): WifiStateMachine starting scan for "Office"WPA_PSK with 2427
+01-06 00:48:23.076 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:23.081 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:23.566 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:24.605 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:24.622 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:26.187 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:26.193 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:26.631 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:27.741 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:27.758 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:29.336 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:29.342 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:29.701 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:30.904 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:30.921 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:32.481 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:32.488 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:32.734 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:34.044 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:34.064 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:35.621 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:35.641 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:35.797 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:37.183 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:37.203 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:38.774 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:38.798 D/WifiService(  418): acquireWifiLockLocked: WifiLock{NlpWifiLock type=2 binder=android.os.BinderProxy@172dbfda}
+01-06 00:48:38.804 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:38.828 D/WifiService(  418): releaseWifiLockLocked: WifiLock{NlpWifiLock type=2 binder=android.os.BinderProxy@172dbfda}
+01-06 00:48:38.876 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:40.329 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:40.345 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:41.914 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:41.921 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:41.938 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:42.815 E/WifiStateMachine(  418): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=2.26 rxSuccessRate=3.26 targetRoamBSSID=d4:ee:07:22:5d:e2 RSSI=-59
+01-06 00:48:43.498 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:43.518 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:44.675 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:44.977 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:45.089 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:45.108 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:45.431 W/ActivityManager(  418): getRunningAppProcesses: caller 10082 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:45.607 W/ActivityManager(  418): getRunningAppProcesses: caller 10082 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:46.669 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:46.688 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:48.047 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:48.251 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:48.256 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:49.807 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:49.827 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:51.126 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:51.396 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:51.420 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:52.961 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:52.978 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:54.198 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:54.542 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:54.552 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:56.111 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:56.128 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:57.266 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:57.692 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:57.706 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:59.259 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:48:59.277 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:00.346 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:00.837 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:00.854 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:02.411 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:02.429 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:02.820 E/WifiStateMachine(  418): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=2.85 rxSuccessRate=1.25 targetRoamBSSID=d4:ee:07:22:5d:e2 RSSI=-58
+01-06 00:49:02.821 E/WifiStateMachine(  418): WifiStateMachine starting scan for "Office"WPA_PSK with 2427
+01-06 00:49:03.428 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:03.999 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:04.016 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:05.591 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:05.609 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:06.492 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:07.170 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:07.189 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:08.754 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:08.776 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:09.519 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:10.349 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:10.369 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:11.902 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:11.921 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:12.585 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:13.470 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:13.491 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:15.058 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:15.074 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:15.596 W/ActivityManager(  418): getRunningAppProcesses: caller 10082 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:15.665 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:16.625 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:16.643 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:18.208 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:18.228 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:18.719 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:19.771 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:19.788 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:20.346 W/ActivityManager(  418): getRunningAppProcesses: caller 10085 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:21.348 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:21.364 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:21.801 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:22.825 E/WifiStateMachine(  418): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=1.86 rxSuccessRate=1.34 targetRoamBSSID=d4:ee:07:22:5d:e2 RSSI=-60
+01-06 00:49:22.826 E/WifiStateMachine(  418): WifiStateMachine starting scan for "Office"WPA_PSK with 2427
+01-06 00:49:22.934 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:22.946 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:24.489 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:24.507 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:24.877 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:26.058 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:26.078 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:27.628 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:27.633 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:27.967 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:29.195 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:29.213 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:30.777 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:30.796 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:31.031 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:32.348 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:32.367 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:33.931 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:33.936 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:34.102 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:35.472 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:35.489 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:37.061 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:37.067 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:37.172 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:38.603 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:38.618 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:40.169 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:40.187 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:40.250 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:41.723 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:41.740 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:42.847 E/WifiStateMachine(  418): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=2.18 rxSuccessRate=5.11 targetRoamBSSID=d4:ee:07:22:5d:e2 RSSI=-59
+01-06 00:49:42.847 E/WifiStateMachine(  418): WifiStateMachine starting scan for "Office"WPA_PSK with 2427
+01-06 00:49:43.298 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:43.304 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:43.319 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:44.872 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:44.890 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:45.432 W/ActivityManager(  418): getRunningAppProcesses: caller 10082 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:45.574 W/ActivityManager(  418): getRunningAppProcesses: caller 10082 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:46.346 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:46.458 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:46.478 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:48.034 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:48.051 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:49.406 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:49.618 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:49.637 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:51.215 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:51.236 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:52.459 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:52.771 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:52.786 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:54.306 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:54.317 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:55.533 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:55.882 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:55.900 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:57.444 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:57.464 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:58.601 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:58.991 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:49:59.009 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:00.589 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:00.609 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:01.671 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:02.169 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:02.188 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:02.852 E/WifiStateMachine(  418): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=1.98 rxSuccessRate=1.00 targetRoamBSSID=d4:ee:07:22:5d:e2 RSSI=-58
+01-06 00:50:02.852 E/WifiStateMachine(  418): WifiStateMachine starting scan for "Office"WPA_PSK with 2427
+01-06 00:50:03.748 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:03.768 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:04.712 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:05.320 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:05.327 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:06.878 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:06.897 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:07.795 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:08.456 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:08.468 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:10.028 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:10.047 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:10.855 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:11.615 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:11.631 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:13.170 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:13.191 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:13.882 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:14.759 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:14.777 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:15.603 W/ActivityManager(  418): getRunningAppProcesses: caller 10082 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:16.358 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:16.378 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:16.953 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:17.909 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:17.918 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:19.468 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:19.488 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:19.998 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:21.056 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:21.076 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:22.621 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:22.640 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:22.856 E/WifiStateMachine(  418): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=1.98 rxSuccessRate=1.46 targetRoamBSSID=d4:ee:07:22:5d:e2 RSSI=-58
+01-06 00:50:22.857 E/WifiStateMachine(  418): WifiStateMachine starting scan for "Office"WPA_PSK with 2427
+01-06 00:50:23.042 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:24.169 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:24.190 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:25.715 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:25.734 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:26.100 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:27.301 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:27.318 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:28.867 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:28.884 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:29.185 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:30.449 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:30.468 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:32.040 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:32.058 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:32.268 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:33.622 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:33.642 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:35.187 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:35.193 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:35.346 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:36.743 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:36.762 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:38.332 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:38.338 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:38.430 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:39.892 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:39.908 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:41.458 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:41.478 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:41.509 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:42.860 E/WifiStateMachine(  418): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=1.96 rxSuccessRate=0.98 targetRoamBSSID=d4:ee:07:22:5d:e2 RSSI=-54
+01-06 00:50:43.021 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:43.041 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:44.542 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:44.606 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:44.613 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:44.681 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:45.392 W/ActivityManager(  418): getRunningAppProcesses: caller 10082 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:45.608 W/ActivityManager(  418): getRunningAppProcesses: caller 10082 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:46.151 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:46.172 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:47.609 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:47.726 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:47.732 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:49.272 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:49.291 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:50.693 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:50.857 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:50.875 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:52.449 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:52.467 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:53.747 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:54.031 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:54.038 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:55.598 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:55.613 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:56.842 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:57.138 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:57.155 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:57.558 I/ActivityManager(  418): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher/com.android.launcher2.Launcher} from uid 1000 on display 0
+01-06 00:50:57.650 I/OpenGLRenderer( 1244): Initialized EGL, version 1.4
+01-06 00:50:57.654 D/mali_winsys( 1244): new_window_surface returns 0x3000
+01-06 00:50:58.207 W/OpenGLRenderer( 1244): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+01-06 00:50:58.590 W/ResourceType(  945): No package identifier when getting value for resource number 0x00000000
+01-06 00:50:58.590 W/PackageManager(  945): Failure retrieving resources for com.example.android.wifidisplay: Resource ID #0x0
+01-06 00:50:58.723 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:58.739 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:50:59.897 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:00.058 W/ResourcesManager( 1244): Asset path '/system/framework/com.google.android.media.effects.jar' does not exist or contains no resources.
+01-06 00:51:00.160 W/ResourcesManager( 1244): Asset path '/system/framework/com.google.android.maps.jar' does not exist or contains no resources.
+01-06 00:51:00.287 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:00.290 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:01.840 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:01.859 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:02.865 E/WifiStateMachine(  418): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=1.96 rxSuccessRate=0.98 targetRoamBSSID=d4:ee:07:22:5d:e2 RSSI=-58
+01-06 00:51:02.866 E/WifiStateMachine(  418): WifiStateMachine starting scan for "Office"WPA_PSK with 2427
+01-06 00:51:02.968 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:03.395 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:03.416 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:03.707 I/ActivityManager(  418): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.android.wifidisplay/.WiFiDisplayActivity (has extras)} from uid 10014 on display 0
+01-06 00:51:03.758 D/mali_winsys(26583): new_window_surface returns 0x3000
+01-06 00:51:03.761 D/P2pBroadcastReceiver(26583): P2P state changed: 2
+01-06 00:51:03.761 D/P2pBroadcastReceiver(26583): P2p connection changed: 
+01-06 00:51:03.761 D/P2pBroadcastReceiver(26583): ExtraInfo:null
+01-06 00:51:03.761 D/P2pBroadcastReceiver(26583): Reason:null
+01-06 00:51:03.761 D/P2pBroadcastReceiver(26583): Subtype:0
+01-06 00:51:03.761 D/P2pBroadcastReceiver(26583): SubtypeName:
+01-06 00:51:03.761 D/P2pBroadcastReceiver(26583): Type:13
+01-06 00:51:03.761 D/P2pBroadcastReceiver(26583): TypeName:WIFI_P2P
+01-06 00:51:03.761 D/P2pBroadcastReceiver(26583): isAvaliable:true
+01-06 00:51:03.761 D/P2pBroadcastReceiver(26583): isConnected:false
+01-06 00:51:03.761 D/P2pBroadcastReceiver(26583): P2p group information: 
+01-06 00:51:03.761 D/P2pBroadcastReceiver(26583): GroupOwner:false
+01-06 00:51:03.761 D/P2pBroadcastReceiver(26583): NetworkName:null
+01-06 00:51:03.762 D/P2pBroadcastReceiver(26583): P2p this device changed
+01-06 00:51:03.762 D/DeviceListFragment(26583): Peer status :3
+01-06 00:51:03.762 D/WifiDisplayActivity(26583): Callback form ActionListener success
+01-06 00:51:03.762 D/P2pBroadcastReceiver(26583): P2p this device changed
+01-06 00:51:03.763 D/DeviceListFragment(26583): Peer status :3
+01-06 00:51:03.763 D/WifiDisplayActivity(26583): Callback form ActionListener success
+01-06 00:51:03.763 D/P2pBroadcastReceiver(26583): P2p this device changed
+01-06 00:51:03.763 D/DeviceListFragment(26583): Peer status :3
+01-06 00:51:04.980 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:05.000 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:06.044 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:06.571 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:06.577 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:08.125 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:08.147 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:09.134 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:09.686 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:09.705 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:11.254 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:11.274 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:12.153 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:12.837 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:12.844 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:14.391 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:14.395 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:15.236 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:15.588 W/ActivityManager(  418): getRunningAppProcesses: caller 10082 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:15.940 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:15.959 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:17.527 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:17.534 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:18.311 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:19.081 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:19.098 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:20.653 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:20.663 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:21.376 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:21.696 V/WindowManager(  418): not Base app: Adding window Window{35d55d7e u0 Press back to cancel} at 4 of 9
+01-06 00:51:21.724 D/mali_winsys(26583): new_window_surface returns 0x3000
+01-06 00:51:22.211 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:22.215 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:22.868 E/WifiStateMachine(  418): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=1.98 rxSuccessRate=1.19 targetRoamBSSID=d4:ee:07:22:5d:e2 RSSI=-57
+01-06 00:51:22.868 E/WifiStateMachine(  418): WifiStateMachine starting scan for "Office"WPA_PSK with 2427
+01-06 00:51:23.771 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:23.783 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:24.457 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:25.332 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:25.349 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:26.914 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:26.919 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:27.511 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:28.471 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:28.484 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:29.572 I/wpa_supplicant(  905): P2P-DEVICE-FOUND 12:68:3f:70:d2:71 p2p_dev_addr=12:68:3f:70:d2:71 pri_dev_type=10-0050F204-5 name='Sink_d271' config_methods=0x188 dev_capab=0x25 group_capab=0x0 wfd_dev_info=0x00101c440032
+01-06 00:51:29.575 D/P2pBroadcastReceiver(26583): P2P peers changed
+01-06 00:51:29.609 D/DeviceListFragment(26583): Peer status :3
+01-06 00:51:29.615 W/InputMethodManagerService(  418): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@82f8173 attribute=android.view.inputmethod.EditorInfo@79d5830, token = android.os.BinderProxy@1c522a29
+01-06 00:51:29.730 I/wpa_supplicant(  905): P2P-FIND-STOPPED 
+01-06 00:51:29.735 I/wpa_supplicant(  905): rfkill: Cannot open RFKILL control device
+01-06 00:51:29.804 E/wpa_supplicant(  905): Using interface p2p-p2p0-5 with hwaddr be:20:a4:7a:b4:0c and ssid "DIRECT-GL-Sink9681"
+01-06 00:51:29.863 I/wpa_supplicant(  905): p2p-p2p0-5: interface state UNINITIALIZED->ENABLED
+01-06 00:51:29.864 I/wpa_supplicant(  905): p2p-p2p0-5: AP-ENABLED 
+01-06 00:51:29.864 I/wpa_supplicant(  905): p2p-p2p0-5: CTRL-EVENT-CONNECTED - Connection to be:20:a4:7a:b4:0c completed [id=0 id_str=]
+01-06 00:51:29.864 I/wpa_supplicant(  905): P2P-GROUP-STARTED p2p-p2p0-5 GO ssid="DIRECT-GL-Sink9681" freq=2427 go_dev_addr=be:20:a4:7a:34:0c [PERSISTENT]
+01-06 00:51:29.872 D/CommandListener(  127): Setting iface cfg
+01-06 00:51:29.876 D/CommandListener(  127): Trying to bring up p2p-p2p0-5
+01-06 00:51:29.879 D/TetherController(  127): tetherInterface(p2p-p2p0-5)
+01-06 00:51:29.903 D/TetherController(  127): Starting tethering services
+01-06 00:51:29.903 D/TetherController(  127): Sending update msg to dnsmasq [update_ifaces:p2p-p2p0-5]
+01-06 00:51:29.903 D/TetherController(  127): Tethering services running
+01-06 00:51:29.904 D/WifiP2pService(  418): Started Dhcp server on p2p-p2p0-5
+01-06 00:51:29.905 D/P2pBroadcastReceiver(26583): P2p this device changed
+01-06 00:51:29.905 D/DeviceListFragment(26583): Peer status :0
+01-06 00:51:29.910 I/dnsmasq (  639): started, version 2.51 cachesize 150
+01-06 00:51:29.911 I/dnsmasq (  639): compile time options: no-IPv6 GNU-getopt no-DBus no-I18N DHCP no-scripts no-TFTP
+01-06 00:51:29.911 W/dnsmasq (  639): warning: no upstream servers configured
+01-06 00:51:29.911 I/dnsmasq (  639): DHCP, IP range 192.168.49.2 -- 192.168.49.254, lease time 1h
+01-06 00:51:29.911 I/dnsmasq (  639): DHCP, IP range 192.168.48.2 -- 192.168.48.254, lease time 1h
+01-06 00:51:29.911 I/dnsmasq (  639): DHCP, IP range 192.168.47.2 -- 192.168.47.254, lease time 1h
+01-06 00:51:29.911 I/dnsmasq (  639): DHCP, IP range 192.168.46.2 -- 192.168.46.254, lease time 1h
+01-06 00:51:29.911 I/dnsmasq (  639): DHCP, IP range 192.168.45.2 -- 192.168.45.254, lease time 1h
+01-06 00:51:29.911 I/dnsmasq (  639): DHCP, IP range 192.168.44.2 -- 192.168.44.254, lease time 1h
+01-06 00:51:29.911 I/dnsmasq (  639): DHCP, IP range 192.168.43.2 -- 192.168.43.254, lease time 1h
+01-06 00:51:29.911 I/dnsmasq (  639): DHCP, IP range 192.168.42.2 -- 192.168.42.254, lease time 1h
+01-06 00:51:29.911 I/dnsmasq (  639): read /etc/hosts - 1 addresses
+01-06 00:51:30.032 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:30.042 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:30.423 I/wpa_supplicant(  905): p2p-p2p0-5: AP-STA-CONNECTED 12:68:3f:70:52:71 p2p_dev_addr=12:68:3f:70:d2:71
+01-06 00:51:30.425 I/wpa_supplicant(  905): AP-STA-CONNECTED 12:68:3f:70:52:71 p2p_dev_addr=12:68:3f:70:d2:71
+01-06 00:51:30.430 D/P2pBroadcastReceiver(26583): P2P peers changed
+01-06 00:51:30.431 D/P2pBroadcastReceiver(26583): P2p connection changed: 
+01-06 00:51:30.431 D/P2pBroadcastReceiver(26583): ExtraInfo:null
+01-06 00:51:30.431 D/P2pBroadcastReceiver(26583): Reason:null
+01-06 00:51:30.431 D/P2pBroadcastReceiver(26583): Subtype:0
+01-06 00:51:30.431 D/P2pBroadcastReceiver(26583): SubtypeName:
+01-06 00:51:30.431 D/P2pBroadcastReceiver(26583): Type:13
+01-06 00:51:30.431 D/P2pBroadcastReceiver(26583): TypeName:WIFI_P2P
+01-06 00:51:30.431 D/P2pBroadcastReceiver(26583): isAvaliable:true
+01-06 00:51:30.431 D/P2pBroadcastReceiver(26583): isConnected:true
+01-06 00:51:30.431 D/P2pBroadcastReceiver(26583): P2p group information: 
+01-06 00:51:30.431 D/P2pBroadcastReceiver(26583): GroupOwner:true
+01-06 00:51:30.431 D/P2pBroadcastReceiver(26583): NetworkName:DIRECT-GL-Sink9681
+01-06 00:51:30.431 D/P2pBroadcastReceiver(26583): WifiP2pDevice information
+01-06 00:51:30.431 D/P2pBroadcastReceiver(26583): deviceAddress:12:68:3f:70:d2:71
+01-06 00:51:30.431 D/P2pBroadcastReceiver(26583): GroupOwner:false
+01-06 00:51:30.431 D/P2pBroadcastReceiver(26583): devicename:Sink_d271
+01-06 00:51:30.431 D/P2pBroadcastReceiver(26583): primaryDeviceType:10-0050F204-5
+01-06 00:51:30.431 D/P2pBroadcastReceiver(26583): secondaryDeviceType:null
+01-06 00:51:30.431 D/P2pBroadcastReceiver(26583): wpsDisplaySupported:true
+01-06 00:51:30.590 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:30.778 I/dnsmasq (  639): DHCPDISCOVER(p2p-p2p0-5) 12:68:3f:70:52:71 
+01-06 00:51:30.778 I/dnsmasq (  639): DHCPOFFER(p2p-p2p0-5) 192.168.49.73 12:68:3f:70:52:71 
+01-06 00:51:30.784 I/dnsmasq (  639): DHCPREQUEST(p2p-p2p0-5) 192.168.49.73 12:68:3f:70:52:71 
+01-06 00:51:30.784 I/dnsmasq (  639): DHCPACK(p2p-p2p0-5) 192.168.49.73 12:68:3f:70:52:71 android-116e786c10c4d60c
+01-06 00:51:31.440 I/WifiDisplayActivity(26583): VALID   192.168.49.73:7236
+01-06 00:51:31.443 I/ActivityManager(  418): START u0 {cmp=com.example.android.wifidisplay/.SinkPlayerActivity (has extras)} from uid 10094 on display 0
+01-06 00:51:31.452 V/WindowManager(  418): addAppToken: AppWindowToken{2576c1cf token=Token{8d2222e ActivityRecord{13fd5ca9 u0 com.example.android.wifidisplay/.SinkPlayerActivity t205}}} to stack=1 task=205 at 1
+01-06 00:51:31.473 D/DeviceListFragment(26583): Peer status :0
+01-06 00:51:31.487 D/SinkPlayerActivity(26583): Source connection information: 
+01-06 00:51:31.487 D/SinkPlayerActivity(26583): control port: 7236
+01-06 00:51:31.493 V/WindowManager(  418): Adding window Window{25261a65 u0 com.example.android.wifidisplay/com.example.android.wifidisplay.SinkPlayerActivity} at 4 of 9 (after Window{1c8aa1ae u0 com.example.android.wifidisplay/com.example.android.wifidisplay.WiFiDisplayActivity})
+01-06 00:51:31.512 D/mali_winsys(26583): new_window_surface returns 0x3000
+01-06 00:51:31.517 V/WindowManager(  418): Adding window Window{3a47abeb u0 SurfaceView} at 4 of 10 (before Window{25261a65 u0 com.example.android.wifidisplay/com.example.android.wifidisplay.SinkPlayerActivity})
+01-06 00:51:31.524 D/SinkPlayerActivity(26583): Surface changed: 
+01-06 00:51:31.524 D/SinkPlayerActivity(26583): width  2304
+01-06 00:51:31.524 D/SinkPlayerActivity(26583): height 1440
+01-06 00:51:31.524 D/SinkPlayerActivity(26583): format 2
+01-06 00:51:31.546 I/ActivityManager(  418): Displayed com.example.android.wifidisplay/.SinkPlayerActivity: +84ms
+01-06 00:51:31.601 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:31.620 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:32.488 I/SinkPlayerActivity(26583): Starting Sink Player with 192.168.49.73:7236
+01-06 00:51:32.499 I/NetworkSession(26583): connecting socket 41 to 192.168.49.73:7236
+01-06 00:51:32.511 I/WifiDisplaySink(26583): ==============kWhatConnected===============
+01-06 00:51:32.511 I/WifiDisplaySink(26583): We're now connected.
+01-06 00:51:32.517 D/NetworkSession(26583): 000   receive 142 142:
+01-06 00:51:32.517 D/NetworkSession(26583): OPTIONS * RTSP/1.0
+01-06 00:51:32.517 D/NetworkSession(26583): Date: Wed, 06 Jan 2016 23:51:21 +0000
+01-06 00:51:32.517 D/NetworkSession(26583): Server: stagefright/1.2 (Linux;Android 5.1.1)
+01-06 00:51:32.517 D/NetworkSession(26583): CSeq: 1
+01-06 00:51:32.517 D/NetworkSession(26583): Require: org.wfa.wfd1.0
+01-06 00:51:32.517 D/NetworkSession(26583): 
+01-06 00:51:32.517 D/NetworkSession(26583): 
+01-06 00:51:32.518 I/WifiDisplaySink(26583): ==============kWhatData===============
+01-06 00:51:32.518 W/WifiDisplaySink(26583): session 1 received 'OPTIONS * RTSP/1.0
+01-06 00:51:32.518 W/WifiDisplaySink(26583): cseq: 1
+01-06 00:51:32.518 W/WifiDisplaySink(26583): date: Wed, 06 Jan 2016 23:51:21 +0000
+01-06 00:51:32.518 W/WifiDisplaySink(26583): require: org.wfa.wfd1.0
+01-06 00:51:32.518 W/WifiDisplaySink(26583): server: stagefright/1.2 (Linux;Android 5.1.1)
+01-06 00:51:32.518 W/WifiDisplaySink(26583): 
+01-06 00:51:32.518 W/WifiDisplaySink(26583): '
+01-06 00:51:32.518 D/WifiDisplaySink(26583): call sendM2
+01-06 00:51:32.519 D/NetworkSession(26583): 111  send 314 314:
+01-06 00:51:32.519 D/NetworkSession(26583): RTSP/1.0 200 OK
+01-06 00:51:32.519 D/NetworkSession(26583): Date: Wed, 06 Jan 2016 08:51:32 +0000
+01-06 00:51:32.519 D/NetworkSession(26583): User-Agent: stagefright/1.1 (Linux;Android 4.1)
+01-06 00:51:32.519 D/NetworkSession(26583): CSeq: 1
+01-06 00:51:32.519 D/NetworkSession(26583): Public: org.wfa.wfd1.0, GET_PARAMETER, SET_PARAMETER
+01-06 00:51:32.519 D/NetworkSession(26583): 
+01-06 00:51:32.519 D/NetworkSession(26583): OPTIONS * RTSP/1.0
+01-06 00:51:32.519 D/NetworkSession(26583): Date: Wed, 06 Jan 2016 08:51:32 +0000
+01-06 00:51:32.519 D/NetworkSession(26583): User-Agent: stagefright/1.1 (Linux;Android 4.1)
+01-06 00:51:32.519 D/NetworkSession(26583): CSeq: 1
+01-06 00:51:32.519 D/NetworkSession(26583): Require: org.wfa.wfd1.0
+01-06 00:51:32.519 D/NetworkSession(26583): 
+01-06 00:51:32.519 D/NetworkSession(26583): 
+01-06 00:51:32.525 D/NetworkSession(26583): 000   receive 198 198:
+01-06 00:51:32.525 D/NetworkSession(26583): RTSP/1.0 200 OK
+01-06 00:51:32.525 D/NetworkSession(26583): Date: Wed, 06 Jan 2016 23:51:21 +0000
+01-06 00:51:32.525 D/NetworkSession(26583): Server: stagefright/1.2 (Linux;Android 5.1.1)
+01-06 00:51:32.525 D/NetworkSession(26583): CSeq: 1
+01-06 00:51:32.525 D/NetworkSession(26583): Public: org.wfa.wfd1.0, SETUP, TEARDOWN, PLAY, PAUSE, GET_PARAMETER, SET_PARAMETER
+01-06 00:51:32.525 D/NetworkSession(26583): 
+01-06 00:51:32.525 D/NetworkSession(26583): 
+01-06 00:51:32.525 I/WifiDisplaySink(26583): ==============kWhatData===============
+01-06 00:51:32.525 W/WifiDisplaySink(26583): session 1 received 'RTSP/1.0 200 OK
+01-06 00:51:32.525 W/WifiDisplaySink(26583): cseq: 1
+01-06 00:51:32.525 W/WifiDisplaySink(26583): date: Wed, 06 Jan 2016 23:51:21 +0000
+01-06 00:51:32.525 W/WifiDisplaySink(26583): public: org.wfa.wfd1.0, SETUP, TEARDOWN, PLAY, PAUSE, GET_PARAMETER, SET_PARAMETER
+01-06 00:51:32.525 W/WifiDisplaySink(26583): server: stagefright/1.2 (Linux;Android 5.1.1)
+01-06 00:51:32.525 W/WifiDisplaySink(26583): 
+01-06 00:51:32.525 W/WifiDisplaySink(26583): '
+01-06 00:51:32.525 D/WifiDisplaySink(26583): onReceiveM2Response
+01-06 00:51:32.526 W/WifiDisplaySink(26583): the session id is 1, resule: 0
+01-06 00:51:32.670 D/NetworkSession(26583): 000   receive 279 279:
+01-06 00:51:32.670 D/NetworkSession(26583): GET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+01-06 00:51:32.670 D/NetworkSession(26583): Date: Wed, 06 Jan 2016 23:51:21 +0000
+01-06 00:51:32.670 D/NetworkSession(26583): Server: stagefright/1.2 (Linux;Android 5.1.1)
+01-06 00:51:32.670 D/NetworkSession(26583): CSeq: 2
+01-06 00:51:32.670 D/NetworkSession(26583): Content-Type: text/parameters
+01-06 00:51:32.670 D/NetworkSession(26583): Content-Length: 83
+01-06 00:51:32.670 D/NetworkSession(26583): 
+01-06 00:51:32.670 D/NetworkSession(26583): wfd_content_protection
+01-06 00:51:32.670 D/NetworkSession(26583): wfd_video_formats
+01-06 00:51:32.670 D/NetworkSession(26583): wfd_audio_codecs
+01-06 00:51:32.670 D/NetworkSession(26583): wfd_client_rtp_ports
+01-06 00:51:32.670 D/NetworkSession(26583): 
+01-06 00:51:32.671 I/WifiDisplaySink(26583): ==============kWhatData===============
+01-06 00:51:32.671 W/WifiDisplaySink(26583): session 1 received 'GET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+01-06 00:51:32.671 W/WifiDisplaySink(26583): content-length: 83
+01-06 00:51:32.671 W/WifiDisplaySink(26583): content-type: text/parameters
+01-06 00:51:32.671 W/WifiDisplaySink(26583): cseq: 2
+01-06 00:51:32.671 W/WifiDisplaySink(26583): date: Wed, 06 Jan 2016 23:51:21 +0000
+01-06 00:51:32.671 W/WifiDisplaySink(26583): server: stagefright/1.2 (Linux;Android 5.1.1)
+01-06 00:51:32.671 W/WifiDisplaySink(26583): 
+01-06 00:51:32.671 W/WifiDisplaySink(26583): wfd_content_protection
+01-06 00:51:32.671 W/WifiDisplaySink(26583): wfd_video_formats
+01-06 00:51:32.671 W/WifiDisplaySink(26583): wfd_audio_codecs
+01-06 00:51:32.671 W/WifiDisplaySink(26583): wfd_client_rtp_ports
+01-06 00:51:32.671 W/WifiDisplaySink(26583): '
+01-06 00:51:32.673 D/NetworkSession(26583): 111  send 495 495:
+01-06 00:51:32.673 D/NetworkSession(26583): RTSP/1.0 200 OK
+01-06 00:51:32.673 D/NetworkSession(26583): Date: Wed, 06 Jan 2016 08:51:32 +0000
+01-06 00:51:32.673 D/NetworkSession(26583): User-Agent: stagefright/1.1 (Linux;Android 4.1)
+01-06 00:51:32.673 D/NetworkSession(26583): CSeq: 2
+01-06 00:51:32.673 D/NetworkSession(26583): Content-Type: text/parameters
+01-06 00:51:32.673 D/NetworkSession(26583): Content-Length: 327
+01-06 00:51:32.673 D/NetworkSession(26583): 
+01-06 00:51:32.673 D/NetworkSession(26583): wfd_video_formats: 78 00 02 02 000194ab 00000000 00000000 00 0000 0000 00 none none
+01-06 00:51:32.673 D/NetworkSession(26583): wfd_audio_codecs: LPCM 00000003 00
+01-06 00:51:32.673 D/NetworkSession(26583): wfd_content_protection: none
+01-06 00:51:32.673 D/NetworkSession(26583): wfd_coupled_sink: 00 none
+01-06 00:51:32.673 D/NetworkSession(26583): wfd_uibc_capability: none
+01-06 00:51:32.673 D/NetworkSession(26583): wfd_standby_resume_capability: none
+01-06 00:51:32.673 D/NetworkSession(26583): wfd_lg_dlna_uuid: none
+01-06 00:51:32.673 D/NetworkSession(26583): wfd_client_rtp_ports: RTP/AVP/UDP;unicast 15550 0 mode=play
+01-06 00:51:32.673 D/NetworkSession(26583): 
+01-06 00:51:32.685 D/NetworkSession(26583): 000   receive 446 446:
+01-06 00:51:32.685 D/NetworkSession(26583): SET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+01-06 00:51:32.685 D/NetworkSession(26583): Date: Wed, 06 Jan 2016 23:51:21 +0000
+01-06 00:51:32.685 D/NetworkSession(26583): Server: stagefright/1.2 (Linux;Android 5.1.1)
+01-06 00:51:32.685 D/NetworkSession(26583): CSeq: 3
+01-06 00:51:32.685 D/NetworkSession(26583): Content-Type: text/parameters
+01-06 00:51:32.685 D/NetworkSession(26583): Content-Length: 249
+01-06 00:51:32.685 D/NetworkSession(26583): 
+01-06 00:51:32.685 D/NetworkSession(26583): wfd_video_formats: 00 00 02 02 00000020 00000000 00000000 00 0000 0000 00 none none
+01-06 00:51:32.685 D/NetworkSession(26583): wfd_audio_codecs: LPCM 00000002 00
+01-06 00:51:32.685 D/NetworkSession(26583): wfd_presentation_URL: rtsp://192.168.49.73/wfd1.0/streamid=0 none
+01-06 00:51:32.685 D/NetworkSession(26583): wfd_client_rtp_ports: RTP/AVP/UDP;unicast 15550 0 mode=play
+01-06 00:51:32.685 D/NetworkSession(26583): 
+01-06 00:51:32.687 I/WifiDisplaySink(26583): ==============kWhatData===============
+01-06 00:51:32.687 W/WifiDisplaySink(26583): session 1 received 'SET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+01-06 00:51:32.687 W/WifiDisplaySink(26583): content-length: 249
+01-06 00:51:32.687 W/WifiDisplaySink(26583): content-type: text/parameters
+01-06 00:51:32.687 W/WifiDisplaySink(26583): cseq: 3
+01-06 00:51:32.687 W/WifiDisplaySink(26583): date: Wed, 06 Jan 2016 23:51:21 +0000
+01-06 00:51:32.687 W/WifiDisplaySink(26583): server: stagefright/1.2 (Linux;Android 5.1.1)
+01-06 00:51:32.687 W/WifiDisplaySink(26583): 
+01-06 00:51:32.687 W/WifiDisplaySink(26583): wfd_video_formats: 00 00 02 02 00000020 00000000 00000000 00 0000 0000 00 none none
+01-06 00:51:32.687 W/WifiDisplaySink(26583): wfd_audio_codecs: LPCM 00000002 00
+01-06 00:51:32.687 W/WifiDisplaySink(26583): wfd_presentation_URL: rtsp://192.168.49.73/wfd1.0/streamid=0 none
+01-06 00:51:32.687 W/WifiDisplaySink(26583): wfd_client_rtp_ports: RTP/AVP/UDP;unicast 15550 0 mode=play
+01-06 00:51:32.687 W/WifiDisplaySink(26583): '
+01-06 00:51:32.687 D/WifiDisplaySink(26583): onSetParameterRequest
+01-06 00:51:32.689 D/NetworkSession(26583): 111  send 116 116:
+01-06 00:51:32.689 D/NetworkSession(26583): RTSP/1.0 200 OK
+01-06 00:51:32.689 D/NetworkSession(26583): Date: Wed, 06 Jan 2016 08:51:32 +0000
+01-06 00:51:32.689 D/NetworkSession(26583): User-Agent: stagefright/1.1 (Linux;Android 4.1)
+01-06 00:51:32.689 D/NetworkSession(26583): CSeq: 3
+01-06 00:51:32.689 D/NetworkSession(26583): 
+01-06 00:51:32.689 D/NetworkSession(26583): 
+01-06 00:51:32.697 D/NetworkSession(26583): 000   receive 223 223:
+01-06 00:51:32.697 D/NetworkSession(26583): SET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+01-06 00:51:32.697 D/NetworkSession(26583): Date: Wed, 06 Jan 2016 23:51:21 +0000
+01-06 00:51:32.697 D/NetworkSession(26583): Server: stagefright/1.2 (Linux;Android 5.1.1)
+01-06 00:51:32.697 D/NetworkSession(26583): CSeq: 4
+01-06 00:51:32.697 D/NetworkSession(26583): Content-Type: text/parameters
+01-06 00:51:32.697 D/NetworkSession(26583): Content-Length: 27
+01-06 00:51:32.697 D/NetworkSession(26583): 
+01-06 00:51:32.697 D/NetworkSession(26583): wfd_trigger_method: SETUP
+01-06 00:51:32.697 D/NetworkSession(26583): 
+01-06 00:51:32.698 I/WifiDisplaySink(26583): ==============kWhatData===============
+01-06 00:51:32.698 W/WifiDisplaySink(26583): session 1 received 'SET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+01-06 00:51:32.698 W/WifiDisplaySink(26583): content-length: 27
+01-06 00:51:32.698 W/WifiDisplaySink(26583): content-type: text/parameters
+01-06 00:51:32.698 W/WifiDisplaySink(26583): cseq: 4
+01-06 00:51:32.698 W/WifiDisplaySink(26583): date: Wed, 06 Jan 2016 23:51:21 +0000
+01-06 00:51:32.698 W/WifiDisplaySink(26583): server: stagefright/1.2 (Linux;Android 5.1.1)
+01-06 00:51:32.698 W/WifiDisplaySink(26583): 
+01-06 00:51:32.698 W/WifiDisplaySink(26583): wfd_trigger_method: SETUP
+01-06 00:51:32.698 W/WifiDisplaySink(26583): '
+01-06 00:51:32.698 D/WifiDisplaySink(26583): onSetParameterRequest
+01-06 00:51:32.699 D/WifiDisplaySink(26583): sendSetup
+01-06 00:51:32.699 I/NetworkSession(26583): ================kModeCreateUDPSession=====bind local port=========
+01-06 00:51:32.699 I/NetworkSession(26583): ================kModeCreateUDPSession================
+01-06 00:51:32.700 I/NetworkSession(26583): ================kModeCreateUDPSession=====bind local port=========
+01-06 00:51:32.700 I/NetworkSession(26583): ================kModeCreateUDPSession================
+01-06 00:51:32.701 D/NetworkSession(26583): 111  send 191 191:
+01-06 00:51:32.701 D/NetworkSession(26583): SETUP rtsp:///wfd1.0/streamid=0 RTSP/1.0
+01-06 00:51:32.701 D/NetworkSession(26583): Date: Wed, 06 Jan 2016 08:51:32 +0000
+01-06 00:51:32.701 D/NetworkSession(26583): User-Agent: stagefright/1.1 (Linux;Android 4.1)
+01-06 00:51:32.701 D/NetworkSession(26583): CSeq: 2
+01-06 00:51:32.701 D/NetworkSession(26583): Transport: RTP/AVP/UDP;unicast;client_port=15550
+01-06 00:51:32.701 D/NetworkSession(26583): 
+01-06 00:51:32.701 D/NetworkSession(26583): 
+01-06 00:51:32.701 D/NetworkSession(26583): 111  send 116 116:
+01-06 00:51:32.701 D/NetworkSession(26583): RTSP/1.0 200 OK
+01-06 00:51:32.701 D/NetworkSession(26583): Date: Wed, 06 Jan 2016 08:51:32 +0000
+01-06 00:51:32.701 D/NetworkSession(26583): User-Agent: stagefright/1.1 (Linux;Android 4.1)
+01-06 00:51:32.701 D/NetworkSession(26583): CSeq: 4
+01-06 00:51:32.701 D/NetworkSession(26583): 
+01-06 00:51:32.701 D/NetworkSession(26583): 
+01-06 00:51:32.817 D/NetworkSession(26583): 000   receive 214 214:
+01-06 00:51:32.817 D/NetworkSession(26583): RTSP/1.0 200 OK
+01-06 00:51:32.817 D/NetworkSession(26583): Date: Wed, 06 Jan 2016 23:51:22 +0000
+01-06 00:51:32.817 D/NetworkSession(26583): Server: stagefright/1.2 (Linux;Android 5.1.1)
+01-06 00:51:32.817 D/NetworkSession(26583): CSeq: 2
+01-06 00:51:32.817 D/NetworkSession(26583): Session: 2073908260;timeout=30
+01-06 00:51:32.817 D/NetworkSession(26583): Transport: RTP/AVP/UDP;unicast;client_port=15550;server_port=23296
+01-06 00:51:32.817 D/NetworkSession(26583): 
+01-06 00:51:32.817 D/NetworkSession(26583): 
+01-06 00:51:32.818 I/WifiDisplaySink(26583): ==============kWhatData===============
+01-06 00:51:32.820 W/WifiDisplaySink(26583): session 1 received 'RTSP/1.0 200 OK
+01-06 00:51:32.820 W/WifiDisplaySink(26583): cseq: 2
+01-06 00:51:32.820 W/WifiDisplaySink(26583): date: Wed, 06 Jan 2016 23:51:22 +0000
+01-06 00:51:32.820 W/WifiDisplaySink(26583): server: stagefright/1.2 (Linux;Android 5.1.1)
+01-06 00:51:32.820 W/WifiDisplaySink(26583): session: 2073908260;timeout=30
+01-06 00:51:32.820 W/WifiDisplaySink(26583): transport: RTP/AVP/UDP;unicast;client_port=15550;server_port=23296
+01-06 00:51:32.820 W/WifiDisplaySink(26583): 
+01-06 00:51:32.820 W/WifiDisplaySink(26583): '
+01-06 00:51:32.820 D/WifiDisplaySink(26583): onReceiveSetupResponse
+01-06 00:51:32.820 E/WifiDisplaySink(26583): ===========onReceiveSetupResponse============
+01-06 00:51:32.820 D/WifiDisplaySink(26583): configureTransport
+01-06 00:51:32.820 D/WifiDisplaySink(26583): sendPlay
+01-06 00:51:32.821 D/NetworkSession(26583): 111  send 161 161:
+01-06 00:51:32.821 D/NetworkSession(26583): PLAY rtsp:///wfd1.0/streamid=0 RTSP/1.0
+01-06 00:51:32.821 D/NetworkSession(26583): Date: Wed, 06 Jan 2016 08:51:32 +0000
+01-06 00:51:32.821 D/NetworkSession(26583): User-Agent: stagefright/1.1 (Linux;Android 4.1)
+01-06 00:51:32.821 D/NetworkSession(26583): CSeq: 3
+01-06 00:51:32.821 D/NetworkSession(26583): Session: 2073908260
+01-06 00:51:32.821 D/NetworkSession(26583): 
+01-06 00:51:32.821 D/NetworkSession(26583): 
+01-06 00:51:32.822 W/WifiDisplaySink(26583): the session id is 1, resule: 0
+01-06 00:51:32.827 D/NetworkSession(26583): 000   receive 163 163:
+01-06 00:51:32.827 D/NetworkSession(26583): RTSP/1.0 200 OK
+01-06 00:51:32.827 D/NetworkSession(26583): Date: Wed, 06 Jan 2016 23:51:22 +0000
+01-06 00:51:32.827 D/NetworkSession(26583): Server: stagefright/1.2 (Linux;Android 5.1.1)
+01-06 00:51:32.827 D/NetworkSession(26583): CSeq: 3
+01-06 00:51:32.827 D/NetworkSession(26583): Session: 2073908260;timeout=30
+01-06 00:51:32.827 D/NetworkSession(26583): Range: npt=now-
+01-06 00:51:32.827 D/NetworkSession(26583): 
+01-06 00:51:32.827 D/NetworkSession(26583): 
+01-06 00:51:32.828 I/WifiDisplaySink(26583): ==============kWhatData===============
+01-06 00:51:32.828 W/WifiDisplaySink(26583): session 1 received 'RTSP/1.0 200 OK
+01-06 00:51:32.828 W/WifiDisplaySink(26583): cseq: 3
+01-06 00:51:32.828 W/WifiDisplaySink(26583): date: Wed, 06 Jan 2016 23:51:22 +0000
+01-06 00:51:32.828 W/WifiDisplaySink(26583): range: npt=now-
+01-06 00:51:32.828 W/WifiDisplaySink(26583): server: stagefright/1.2 (Linux;Android 5.1.1)
+01-06 00:51:32.828 W/WifiDisplaySink(26583): session: 2073908260;timeout=30
+01-06 00:51:32.828 W/WifiDisplaySink(26583): 
+01-06 00:51:32.828 W/WifiDisplaySink(26583): '
+01-06 00:51:32.829 W/WifiDisplaySink(26583): the session id is 1, resule: 0
+01-06 00:51:32.916 I/RTPSink (26583): connecting RTP/RTCP sockets to 192.168.49.73:{23296,23297}
+01-06 00:51:32.918 I/RTPSink (26583): =====OK=====connecting RTP sockets to 192.168.49.73:23296
+01-06 00:51:32.919 I/RTPSink (26583): =====OK=====connecting RTCP sockets to 192.168.49.73:23297
+01-06 00:51:32.921 D/NuPlayerDriver(  130): start(0xb8437450)
+01-06 00:51:32.922 W/NuPlayer(  130): Unknown video size, reporting 0x0!
+01-06 00:51:32.922 I/TunnelRenderer(26583): Notify 5, 0, 0
+01-06 00:51:32.922 I/TunnelRenderer(26583): Notify 200, 801, 0
+01-06 00:51:32.923 I/TunnelRenderer(26583): Fixing real-time now.
+01-06 00:51:32.928 I/RTPSink (26583): packet was nan ms late
+01-06 00:51:32.940 I/RTPSink (26583): packet was 23.76 ms late
+01-06 00:51:32.948 I/RTPSink (26583): packet was 50.68 ms late
+01-06 00:51:33.040 I/RTPSink (26583): packet was 294.54 ms late
+01-06 00:51:33.040 I/RTPSink (26583): packet was 1109.50 ms late
+01-06 00:51:33.128 I/avc_utils(  130): found AVC codec config (1280 x 720, Baseline-profile level 3.1)
+01-06 00:51:33.178 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:33.193 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:33.237 E/OMXNodeInstance(  130): getConfig(34:Exynos.AVC.Decoder, ConfigCommonOutputCrop(0x700000f)) ERROR: NotReady(0x80001010)
+01-06 00:51:33.249 D/libexynosv4l2(  130): try node: /dev/video6, minor: 6
+01-06 00:51:33.250 I/libexynosv4l2(  130): node found for device s5p-mfc-dec: /dev/video6
+01-06 00:51:33.255 I/libexynosv4l2(  130): open video device /dev/video6
+01-06 00:51:33.302 I/TunnelRenderer(26583): Notify 5, 1280, 720
+01-06 00:51:33.307 I/TunnelRenderer(26583): Notify 200, 3, 0
+01-06 00:51:33.307 I/TunnelRenderer(26583): Notify 6, 0, 0
+01-06 00:51:33.658 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:34.742 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:34.755 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:34.969 E/NetworkSession(26583): readMore on socket 44 failed w/ error -111 (Connection refused)
+01-06 00:51:34.976 E/RTPSink (26583): An error occurred in session 3 (-111, 'Recvfrom failed./Connection refused').
+01-06 00:51:36.323 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:36.334 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:36.727 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:37.889 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:37.895 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:39.447 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:39.455 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:39.804 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:41.016 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:41.033 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:42.585 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:42.592 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:42.861 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:42.872 E/WifiStateMachine(  418): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=1.87 rxSuccessRate=5.68 targetRoamBSSID=d4:ee:07:22:5d:e2 RSSI=-63
+01-06 00:51:42.872 E/WifiStateMachine(  418): WifiStateMachine L2Connected CMD_START_SCAN source -2 545, 546 ignore because P2P is connected
+01-06 00:51:44.156 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:44.163 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:45.431 W/ActivityManager(  418): getRunningAppProcesses: caller 10082 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:45.606 W/ActivityManager(  418): getRunningAppProcesses: caller 10082 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:45.729 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:45.749 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:45.936 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:47.306 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:47.313 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:48.863 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:48.874 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:49.011 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:50.422 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:50.450 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:51.990 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:52.009 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:52.085 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:53.571 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:53.575 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:53.579 I/TunnelRenderer(26583): Failed to get the correct packet the first time.
+01-06 00:51:53.580 I/TunnelRenderer(26583): Requesting retransmission of seqNo 8528
+01-06 00:51:53.582 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.583 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.587 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.588 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.588 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.589 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.612 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.612 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.612 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.614 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.615 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.615 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.616 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.616 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.618 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.619 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.620 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.621 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.622 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.622 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.623 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.623 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.623 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.623 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.623 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.623 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.625 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.626 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.626 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.629 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.629 I/TunnelRenderer(26583): Dropping packet. extSeqNo 8528 didn't arrive in time
+01-06 00:51:53.638 I/ATSParser(  130): discontinuity on stream pid 0x1100
+01-06 00:51:53.641 I/ATSParser(  130): discontinuity on stream pid 0x1011
+01-06 00:51:53.701 I/TunnelRenderer(26583): Failed to get the correct packet the first time.
+01-06 00:51:53.701 I/TunnelRenderer(26583): Requesting retransmission of seqNo 8774
+01-06 00:51:53.711 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.711 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.711 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.711 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.711 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.711 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.711 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.711 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.711 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.711 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.711 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.711 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.716 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.716 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.720 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.720 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.720 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.724 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.724 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.725 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.726 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.726 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.726 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.726 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.726 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.727 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.729 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.731 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.733 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.733 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.733 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.733 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.734 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.734 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.734 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.734 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.734 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.734 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.734 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.734 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.734 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.734 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.734 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.734 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.734 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.734 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.734 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.734 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.734 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.734 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.737 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.737 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.737 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.738 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.738 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.738 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.738 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.739 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.739 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.739 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.739 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.739 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.739 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.739 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.739 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.739 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.739 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.739 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.740 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.740 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.740 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.740 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.740 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.740 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.740 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.740 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.740 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.741 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.743 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.743 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.743 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.744 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.744 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.744 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.744 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.744 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.744 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.744 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.744 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.745 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.745 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.745 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.745 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.745 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.745 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.745 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.745 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.745 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.745 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.745 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.745 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.745 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.745 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.745 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.745 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.745 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.745 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.746 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.747 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.828 I/TunnelRenderer(26583): Dropping packet. extSeqNo 8774 didn't arrive in time
+01-06 00:51:53.850 I/ATSParser(  130): discontinuity on stream pid 0x1011
+01-06 00:51:53.880 I/TunnelRenderer(26583): Failed to get the correct packet the first time.
+01-06 00:51:53.882 I/TunnelRenderer(26583): Requesting retransmission of seqNo 8818
+01-06 00:51:53.884 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.885 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.885 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.890 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.891 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.891 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.909 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.909 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.909 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.910 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.910 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.910 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.914 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.915 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.915 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.918 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.918 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.919 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.920 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.921 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.921 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.921 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.922 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.922 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.922 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.923 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.923 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.923 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.923 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.923 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.923 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.923 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.923 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.923 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.923 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.923 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.923 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.923 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.924 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.924 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.924 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:53.924 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:54.031 I/TunnelRenderer(26583): Dropping packet. extSeqNo 8818 didn't arrive in time
+01-06 00:51:54.036 I/ATSParser(  130): discontinuity on stream pid 0x1100
+01-06 00:51:54.300 I/TunnelRenderer(26583): Failed to get the correct packet the first time.
+01-06 00:51:54.303 I/TunnelRenderer(26583): Requesting retransmission of seqNo 9049
+01-06 00:51:54.306 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:54.309 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:54.312 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:54.316 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:54.317 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:54.317 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:51:54.424 I/TunnelRenderer(26583): Dropping packet. extSeqNo 9049 didn't arrive in time
+01-06 00:51:54.437 I/ATSParser(  130): discontinuity on stream pid 0x1011
+01-06 00:51:55.127 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:55.150 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:55.173 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:55.327 V/xiaomi  ( 1743): Service called on timer
+01-06 00:51:56.738 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:56.744 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:57.817 D/NetworkSession(26583): 000   receive 166 166:
+01-06 00:51:57.817 D/NetworkSession(26583): GET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+01-06 00:51:57.817 D/NetworkSession(26583): Date: Wed, 06 Jan 2016 23:51:47 +0000
+01-06 00:51:57.817 D/NetworkSession(26583): Server: stagefright/1.2 (Linux;Android 5.1.1)
+01-06 00:51:57.817 D/NetworkSession(26583): CSeq: 5
+01-06 00:51:57.817 D/NetworkSession(26583): Session: 2073908260
+01-06 00:51:57.817 D/NetworkSession(26583): 
+01-06 00:51:57.817 D/NetworkSession(26583): 
+01-06 00:51:57.819 I/WifiDisplaySink(26583): ==============kWhatData===============
+01-06 00:51:57.819 W/WifiDisplaySink(26583): session 1 received 'GET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+01-06 00:51:57.819 W/WifiDisplaySink(26583): cseq: 5
+01-06 00:51:57.819 W/WifiDisplaySink(26583): date: Wed, 06 Jan 2016 23:51:47 +0000
+01-06 00:51:57.819 W/WifiDisplaySink(26583): server: stagefright/1.2 (Linux;Android 5.1.1)
+01-06 00:51:57.819 W/WifiDisplaySink(26583): session: 2073908260
+01-06 00:51:57.819 W/WifiDisplaySink(26583): 
+01-06 00:51:57.819 W/WifiDisplaySink(26583): '
+01-06 00:51:57.821 D/NetworkSession(26583): 111  send 495 495:
+01-06 00:51:57.821 D/NetworkSession(26583): RTSP/1.0 200 OK
+01-06 00:51:57.821 D/NetworkSession(26583): Date: Wed, 06 Jan 2016 08:51:57 +0000
+01-06 00:51:57.821 D/NetworkSession(26583): User-Agent: stagefright/1.1 (Linux;Android 4.1)
+01-06 00:51:57.821 D/NetworkSession(26583): CSeq: 5
+01-06 00:51:57.821 D/NetworkSession(26583): Content-Type: text/parameters
+01-06 00:51:57.821 D/NetworkSession(26583): Content-Length: 327
+01-06 00:51:57.821 D/NetworkSession(26583): 
+01-06 00:51:57.821 D/NetworkSession(26583): wfd_video_formats: 78 00 02 02 000194ab 00000000 00000000 00 0000 0000 00 none none
+01-06 00:51:57.821 D/NetworkSession(26583): wfd_audio_codecs: LPCM 00000003 00
+01-06 00:51:57.821 D/NetworkSession(26583): wfd_content_protection: none
+01-06 00:51:57.821 D/NetworkSession(26583): wfd_coupled_sink: 00 none
+01-06 00:51:57.821 D/NetworkSession(26583): wfd_uibc_capability: none
+01-06 00:51:57.821 D/NetworkSession(26583): wfd_standby_resume_capability: none
+01-06 00:51:57.821 D/NetworkSession(26583): wfd_lg_dlna_uuid: none
+01-06 00:51:57.821 D/NetworkSession(26583): wfd_client_rtp_ports: RTP/AVP/UDP;unicast 15550 0 mode=play
+01-06 00:51:57.821 D/NetworkSession(26583): 
+01-06 00:51:58.240 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:58.294 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:58.314 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:59.871 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:51:59.880 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:01.294 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:01.426 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:01.433 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:02.874 E/WifiStateMachine(  418): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=2.25 rxSuccessRate=1.29 targetRoamBSSID=d4:ee:07:22:5d:e2 RSSI=-57
+01-06 00:52:02.874 E/WifiStateMachine(  418): WifiStateMachine L2Connected CMD_START_SCAN source -2 546, 547 ignore because P2P is connected
+01-06 00:52:02.981 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:02.987 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:04.383 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:04.542 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:04.553 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:06.102 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:06.120 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:07.441 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:07.671 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:07.676 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:09.225 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:09.241 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:10.519 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:10.802 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:10.832 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:12.386 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:12.390 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:13.581 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:13.936 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:13.941 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:15.496 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:15.501 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:15.609 W/ActivityManager(  418): getRunningAppProcesses: caller 10082 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:16.646 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:17.051 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:17.057 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:18.614 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:18.626 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:19.715 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:19.846 I/TunnelRenderer(26583): Failed to get the correct packet the first time.
+01-06 00:52:19.848 I/TunnelRenderer(26583): Requesting retransmission of seqNo 21927
+01-06 00:52:19.851 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.851 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.852 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.852 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.852 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.852 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.852 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.852 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.852 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.852 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.852 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.852 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.853 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.853 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.853 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.853 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.853 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.853 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.853 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.853 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.853 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.853 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.853 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.853 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.853 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.853 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.853 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.853 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.853 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.854 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.854 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.854 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.854 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.857 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.857 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.913 I/TunnelRenderer(26583): Dropping packet. extSeqNo 21927 didn't arrive in time
+01-06 00:52:19.918 I/ATSParser(  130): discontinuity on stream pid 0x1100
+01-06 00:52:19.927 I/ATSParser(  130): discontinuity on stream pid 0x1011
+01-06 00:52:19.951 I/TunnelRenderer(26583): Failed to get the correct packet the first time.
+01-06 00:52:19.952 I/TunnelRenderer(26583): Requesting retransmission of seqNo 22066
+01-06 00:52:19.953 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.953 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.955 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.959 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.960 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:19.961 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.038 I/TunnelRenderer(26583): Dropping packet. extSeqNo 22066 didn't arrive in time
+01-06 00:52:20.045 I/ATSParser(  130): discontinuity on stream pid 0x1100
+01-06 00:52:20.058 I/ATSParser(  130): discontinuity on stream pid 0x1011
+01-06 00:52:20.088 I/TunnelRenderer(26583): Failed to get the correct packet the first time.
+01-06 00:52:20.089 I/TunnelRenderer(26583): Requesting retransmission of seqNo 22173
+01-06 00:52:20.089 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.092 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.092 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.093 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.094 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.094 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.136 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.138 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.138 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.138 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.138 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.138 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.143 I/TunnelRenderer(26583): Dropping packet. extSeqNo 22173 didn't arrive in time
+01-06 00:52:20.160 I/ATSParser(  130): discontinuity on stream pid 0x1011
+01-06 00:52:20.176 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:20.180 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:20.363 I/TunnelRenderer(26583): Failed to get the correct packet the first time.
+01-06 00:52:20.363 I/TunnelRenderer(26583): Requesting retransmission of seqNo 22361
+01-06 00:52:20.363 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.363 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.363 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.364 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.364 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.364 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.364 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.364 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.365 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.365 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.365 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.365 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.365 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.366 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.366 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.366 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.366 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.366 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.366 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.366 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.366 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.366 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.366 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.369 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.370 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.370 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.431 I/TunnelRenderer(26583): Dropping packet. extSeqNo 22361 didn't arrive in time
+01-06 00:52:20.447 I/ATSParser(  130): discontinuity on stream pid 0x1011
+01-06 00:52:20.512 I/TunnelRenderer(26583): Failed to get the correct packet the first time.
+01-06 00:52:20.514 I/TunnelRenderer(26583): Requesting retransmission of seqNo 22439
+01-06 00:52:20.514 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.514 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.514 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.516 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.516 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.523 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.540 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.541 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.541 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.543 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.543 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.543 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.543 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.546 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.546 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.546 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.546 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.546 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.546 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.546 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.546 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.546 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.546 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.546 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.546 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.546 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.546 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.547 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.547 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.547 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.547 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.547 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.547 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.547 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.547 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.547 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.547 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.547 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.552 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.557 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.557 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.557 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.557 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.557 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.557 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.557 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.557 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.557 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.557 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.557 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.558 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.558 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.558 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.558 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.558 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.558 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.561 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.561 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.562 I/TunnelRenderer(26583): Dropping packet. extSeqNo 22439 didn't arrive in time
+01-06 00:52:20.565 I/ATSParser(  130): discontinuity on stream pid 0x1011
+01-06 00:52:20.652 I/TunnelRenderer(26583): Failed to get the correct packet the first time.
+01-06 00:52:20.657 I/TunnelRenderer(26583): Requesting retransmission of seqNo 22516
+01-06 00:52:20.657 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.657 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.658 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.658 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.658 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.658 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.658 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.658 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.658 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.658 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.658 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.658 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.658 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.659 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.659 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.659 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.659 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.659 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.659 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.659 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.659 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.659 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.659 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.659 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.659 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.659 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.659 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.659 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.659 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.659 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.659 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.659 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.659 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.659 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.660 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.660 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.660 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.660 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.660 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.660 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.660 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.660 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.660 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.660 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.660 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.660 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.661 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.661 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.661 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.661 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.661 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.661 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.661 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.661 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.661 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.661 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.667 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.669 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.669 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.669 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.669 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.670 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.670 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.767 I/TunnelRenderer(26583): Dropping packet. extSeqNo 22516 didn't arrive in time
+01-06 00:52:20.770 I/ATSParser(  130): discontinuity on stream pid 0x1011
+01-06 00:52:20.794 I/TunnelRenderer(26583): Failed to get the correct packet the first time.
+01-06 00:52:20.795 I/TunnelRenderer(26583): Requesting retransmission of seqNo 22553
+01-06 00:52:20.796 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.796 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.801 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.802 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.802 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.803 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:20.881 I/TunnelRenderer(26583): Dropping packet. extSeqNo 22553 didn't arrive in time
+01-06 00:52:20.885 I/ATSParser(  130): discontinuity on stream pid 0x1100
+01-06 00:52:20.895 I/ATSParser(  130): discontinuity on stream pid 0x1011
+01-06 00:52:21.731 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:21.739 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:22.778 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:22.874 E/WifiStateMachine(  418): WifiStateMachine CMD_START_SCAN source -2 txSuccessRate=1.75 rxSuccessRate=0.88 targetRoamBSSID=d4:ee:07:22:5d:e2 RSSI=-55
+01-06 00:52:22.874 E/WifiStateMachine(  418): WifiStateMachine L2Connected CMD_START_SCAN source -2 547, 548 ignore because P2P is connected
+01-06 00:52:23.215 I/TunnelRenderer(26583): Failed to get the correct packet the first time.
+01-06 00:52:23.218 I/TunnelRenderer(26583): Requesting retransmission of seqNo 23497
+01-06 00:52:23.220 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.221 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.221 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.221 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.221 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.222 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.222 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.224 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.224 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.225 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.225 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.229 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.229 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.229 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.229 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.229 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.229 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.229 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.229 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.229 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.229 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.229 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.229 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.230 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.230 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.230 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.232 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.232 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.232 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.232 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.232 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.232 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.232 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.233 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.295 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:23.308 I/TunnelRenderer(26583): Dropping packet. extSeqNo 23497 didn't arrive in time
+01-06 00:52:23.312 I/ATSParser(  130): discontinuity on stream pid 0x1100
+01-06 00:52:23.317 I/ATSParser(  130): discontinuity on stream pid 0x1011
+01-06 00:52:23.337 I/TunnelRenderer(26583): Failed to get the correct packet the first time.
+01-06 00:52:23.337 I/TunnelRenderer(26583): Requesting retransmission of seqNo 23650
+01-06 00:52:23.338 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.340 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:23.346 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.347 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.347 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.347 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.347 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.415 I/TunnelRenderer(26583): Dropping packet. extSeqNo 23650 didn't arrive in time
+01-06 00:52:23.418 I/ATSParser(  130): discontinuity on stream pid 0x1100
+01-06 00:52:23.436 D/NetworkSession(26583): 000   receive 166 166:
+01-06 00:52:23.436 D/NetworkSession(26583): GET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+01-06 00:52:23.436 D/NetworkSession(26583): Date: Wed, 06 Jan 2016 23:52:12 +0000
+01-06 00:52:23.436 D/NetworkSession(26583): Server: stagefright/1.2 (Linux;Android 5.1.1)
+01-06 00:52:23.436 D/NetworkSession(26583): CSeq: 6
+01-06 00:52:23.436 D/NetworkSession(26583): Session: 2073908260
+01-06 00:52:23.436 D/NetworkSession(26583): 
+01-06 00:52:23.436 D/NetworkSession(26583): 
+01-06 00:52:23.439 I/ATSParser(  130): discontinuity on stream pid 0x1011
+01-06 00:52:23.443 I/WifiDisplaySink(26583): ==============kWhatData===============
+01-06 00:52:23.443 W/WifiDisplaySink(26583): session 1 received 'GET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+01-06 00:52:23.443 W/WifiDisplaySink(26583): cseq: 6
+01-06 00:52:23.443 W/WifiDisplaySink(26583): date: Wed, 06 Jan 2016 23:52:12 +0000
+01-06 00:52:23.443 W/WifiDisplaySink(26583): server: stagefright/1.2 (Linux;Android 5.1.1)
+01-06 00:52:23.443 W/WifiDisplaySink(26583): session: 2073908260
+01-06 00:52:23.443 W/WifiDisplaySink(26583): 
+01-06 00:52:23.443 W/WifiDisplaySink(26583): '
+01-06 00:52:23.443 D/NetworkSession(26583): 111  send 495 495:
+01-06 00:52:23.443 D/NetworkSession(26583): RTSP/1.0 200 OK
+01-06 00:52:23.443 D/NetworkSession(26583): Date: Wed, 06 Jan 2016 08:52:23 +0000
+01-06 00:52:23.443 D/NetworkSession(26583): User-Agent: stagefright/1.1 (Linux;Android 4.1)
+01-06 00:52:23.443 D/NetworkSession(26583): CSeq: 6
+01-06 00:52:23.443 D/NetworkSession(26583): Content-Type: text/parameters
+01-06 00:52:23.443 D/NetworkSession(26583): Content-Length: 327
+01-06 00:52:23.443 D/NetworkSession(26583): 
+01-06 00:52:23.443 D/NetworkSession(26583): wfd_video_formats: 78 00 02 02 000194ab 00000000 00000000 00 0000 0000 00 none none
+01-06 00:52:23.443 D/NetworkSession(26583): wfd_audio_codecs: LPCM 00000003 00
+01-06 00:52:23.443 D/NetworkSession(26583): wfd_content_protection: none
+01-06 00:52:23.443 D/NetworkSession(26583): wfd_coupled_sink: 00 none
+01-06 00:52:23.443 D/NetworkSession(26583): wfd_uibc_capability: none
+01-06 00:52:23.443 D/NetworkSession(26583): wfd_standby_resume_capability: none
+01-06 00:52:23.443 D/NetworkSession(26583): wfd_lg_dlna_uuid: none
+01-06 00:52:23.443 D/NetworkSession(26583): wfd_client_rtp_ports: RTP/AVP/UDP;unicast 15550 0 mode=play
+01-06 00:52:23.443 D/NetworkSession(26583): 
+01-06 00:52:23.470 I/TunnelRenderer(26583): Failed to get the correct packet the first time.
+01-06 00:52:23.479 I/TunnelRenderer(26583): Requesting retransmission of seqNo 23737
+01-06 00:52:23.480 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.480 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.481 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.481 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.481 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.481 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.502 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.502 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.502 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.502 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.502 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.503 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.513 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.513 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.513 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.513 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.514 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.515 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.515 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.515 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.515 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.515 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.515 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.515 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.515 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.515 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.515 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.515 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.533 I/TunnelRenderer(26583): Dropping packet. extSeqNo 23737 didn't arrive in time
+01-06 00:52:23.540 I/ATSParser(  130): discontinuity on stream pid 0x1100
+01-06 00:52:23.543 I/ATSParser(  130): discontinuity on stream pid 0x1011
+01-06 00:52:23.618 I/TunnelRenderer(26583): Failed to get the correct packet the first time.
+01-06 00:52:23.619 I/TunnelRenderer(26583): Requesting retransmission of seqNo 23848
+01-06 00:52:23.619 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.620 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.620 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.620 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.620 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.620 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.620 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.620 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.620 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.620 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.620 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.620 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.620 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.620 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.623 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.624 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.624 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.625 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.625 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.625 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.625 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.625 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.626 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.628 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.628 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.628 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.628 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.628 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.628 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.628 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.628 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.629 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.629 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.629 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.629 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.631 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.631 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.631 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.631 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.631 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.631 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.631 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.631 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.631 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.631 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.631 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.632 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.632 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.632 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.632 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.632 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.632 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.632 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.632 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.634 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.634 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.634 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.634 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.634 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.634 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.634 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.636 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.636 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.636 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.636 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.637 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.637 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.637 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.637 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.637 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.637 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.637 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.637 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.637 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.637 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.638 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.638 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.638 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.638 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.638 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.638 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.638 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.638 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.638 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.638 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.638 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.638 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.638 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.638 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.638 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.736 I/TunnelRenderer(26583): Dropping packet. extSeqNo 23848 didn't arrive in time
+01-06 00:52:23.756 I/ATSParser(  130): discontinuity on stream pid 0x1011
+01-06 00:52:23.777 I/TunnelRenderer(26583): Failed to get the correct packet the first time.
+01-06 00:52:23.779 I/TunnelRenderer(26583): Requesting retransmission of seqNo 23882
+01-06 00:52:23.779 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.779 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.779 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.788 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.788 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.788 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.822 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.824 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.824 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.824 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.824 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.826 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.826 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.826 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.826 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.826 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.826 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.827 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.827 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.827 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.827 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.827 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.827 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.827 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.827 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.827 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.827 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.827 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.827 I/TunnelRenderer(26583): Dropping packet. extSeqNo 23882 didn't arrive in time
+01-06 00:52:23.827 I/ATSParser(  130): discontinuity on stream pid 0x1100
+01-06 00:52:23.838 I/ATSParser(  130): discontinuity on stream pid 0x1011
+01-06 00:52:23.870 I/TunnelRenderer(26583): Failed to get the correct packet the first time.
+01-06 00:52:23.870 I/TunnelRenderer(26583): Requesting retransmission of seqNo 23997
+01-06 00:52:23.870 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.870 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.870 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.871 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.871 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.878 I/TunnelRenderer(26583): Still waiting for the correct packet to arrive.
+01-06 00:52:23.931 I/TunnelRenderer(26583): Dropping packet. extSeqNo 23997 didn't arrive in time
+01-06 00:52:23.940 I/ATSParser(  130): discontinuity on stream pid 0x1100
+01-06 00:52:23.950 I/ATSParser(  130): discontinuity on stream pid 0x1011
+01-06 00:52:24.887 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:24.894 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:25.850 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:26.446 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:26.450 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:28.002 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:28.008 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:28.912 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:29.566 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:29.578 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:31.131 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:31.138 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:31.987 W/ActivityManager(  418): getRunningAppProcesses: caller 10093 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:32.692 W/ActivityManager(  418): getTasks: caller 10080 does not hold REAL_GET_TASKS; limiting output
+01-06 00:52:32.705 W/ActivityManager(  418): getRunningAppProcesses: caller 10080 does not hold REAL_GET_TASKS; limiting output
