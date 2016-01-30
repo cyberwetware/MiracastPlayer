@@ -1,0 +1,527 @@
+--------- beginning of /dev/log/main
+01-13 20:00:55.340 D/KeyCharacterMap(  545): mapKey: scanCode=28, usageCode=0x00000000 ~ Failed.
+01-13 20:00:55.340 D/InputDispatcher(  545): notifyKey - eventTime=45312434255000, deviceId=1, source=0x301, policyFlags=0x0, action=0x0, flags=0x8, keyCode=0x42, scanCode=0x1c, metaState=0x0, downTime=45312434255000
+01-13 20:00:55.350 I/PinyinIME(  817): onKeyDown inputViewShow : false
+01-13 20:00:55.350 I/key down(  817): KEYCODE_ENTER
+--------- beginning of /dev/log/system
+01-13 20:00:55.350 D/PowerManagerService(  545): checkScreenSaverTimeoutLocked come 120000 reason=userActivity
+01-13 20:00:55.490 D/KeyCharacterMap(  545): mapKey: scanCode=28, usageCode=0x00000000 ~ Failed.
+01-13 20:00:55.490 D/InputDispatcher(  545): notifyKey - eventTime=45312580106000, deviceId=1, source=0x301, policyFlags=0x0, action=0x1, flags=0x8, keyCode=0x42, scanCode=0x1c, metaState=0x0, downTime=45312434255000
+01-13 20:00:55.490 V/WindowManager(  545): ######## Clear factory key sequence ########
+01-13 20:00:55.490 I/PinyinIME(  817): onKeyUp inputViewShow : false
+01-13 20:00:55.490 I/key up  (  817): KEYCODE_ENTER
+01-13 20:00:55.490 V/AudioFlinger(  146): AUDIO_OUTPUT_FLAG_FAST denied: isTimed=0 sharedBuffer=0xb725dd98 frameCount=5733 mFrameCount=1024 format=1 isLinear=1 channelMask=0x3 sampleRate=44100 mSampleRate=48000 hasFastMixer=0 tid=11422 fastTrackAvailMask=0xfe
+01-13 20:00:55.500 V/AudioFlinger(  146): ThreadBase::setParameters() routing=2
+01-13 20:00:55.500 V/AudioFlinger(  146): thread 0xb3568008 type 0 TID 599 waking up
+01-13 20:00:55.500 V/AudioFlinger(  146): acquireWakeLock_l() AudioOut_2 status 0
+01-13 20:00:55.500 D/audio_hw_primary(  146): out_set_parameters(kvpairs(routing=2), out_device=0x2)
+01-13 20:00:55.510 V/AudioFlinger(  146): ThreadBase::setParameters() routing=1024
+01-13 20:00:55.510 V/AudioFlinger(  146): thread 0xb3393008 type 0 TID 600 waking up
+01-13 20:00:55.510 V/AudioFlinger(  146): acquireWakeLock_l() AudioOut_2 status 0
+01-13 20:00:55.510 V/AudioFlinger(  146): acquireWakeLock_l() AudioOut_6 status 0
+01-13 20:00:55.510 D/audio_hw_hdmi(  146): out_set_parameters(kvpairs(routing=1024), out_device=0x400)
+01-13 20:00:55.510 V/AudioFlinger(  146): acquireWakeLock_l() AudioOut_6 status 0
+01-13 20:00:55.510 V/AudioFlinger(  146): thread 0xb3252008 type 2 TID 601 waking up
+01-13 20:00:55.520 V/AudioFlinger(  146): acquireWakeLock_l() AudioOut_7 status 0
+01-13 20:00:55.520 V/AudioFlinger(  146): acquireWakeLock_l() AudioOut_7 status 0
+01-13 20:00:55.520 I/Track   (  146): OutPut Track restore active track to thread 0xb3393008
+01-13 20:00:55.520 I/Track   (  146): OutPut Track restore active track to thread 0xb3568008
+01-13 20:00:55.520 I/Track   (  146): OutPut Track restore active track to thread 0xb3393008
+01-13 20:00:55.520 I/Track   (  146): OutPut Track restore active track to thread 0xb3568008
+01-13 20:00:55.520 I/Track   (  146): OutPut Track restore active track to thread 0xb3393008
+01-13 20:00:55.520 I/Track   (  146): OutPut Track restore active track to thread 0xb3568008
+01-13 20:00:55.520 I/Track   (  146): OutPut Track restore active track to thread 0xb3393008
+01-13 20:00:55.520 V/AudioFlinger(  146): acquireWakeLock_l() AudioOut_2 status 0
+01-13 20:00:55.520 D/audio_hw_primary(  146): start_output_stream(adev->out_device=0x2, adev->mode=0)
+01-13 20:00:55.520 D/audio_hw_primary(  146): select_devices(mode=0, out_device=0x2)
+01-13 20:00:55.520 D/audio_hw_primary(  146): ~~~~ select_devices : hs=0 , hp=0, sp=2, hdmi=0x0,earpiece=0x0
+01-13 20:00:55.520 D/audio_hw_primary(  146): ~~~~ select_devices : in_device(0x4), mic_in(0x4), headset_mic(0)
+01-13 20:00:55.520 D/audio_hw_primary(  146): ****select_devices : output_standby=1,input_standby=1
+01-13 20:00:55.520 D/audio_hw_primary(  146): *start_output_stream, open card(0) port(0)-------
+01-13 20:00:55.520 D/audio_hw_primary(  146): channels=2---format=0---period_count4---period_size1024---rate=48000---
+01-13 20:00:55.520 V/AudioFlinger(  146): acquireWakeLock_l() AudioOut_6 status 0
+01-13 20:00:55.520 D/audio_hw_hdmi(  146): select_output_device(mode=0, out_device=0x400)
+01-13 20:00:55.520 D/audio_hw_hdmi(  146): start_output_stream(adev->out_device=0x400, adev->mode=0)
+01-13 20:00:55.520 I/audio_hw_hdmi(  146): hdmi sound card id 0,device id 1 
+01-13 20:00:55.520 D/audio_hw_hdmi(  146): ------------open on board audio-------
+01-13 20:00:55.520 I/audio_hw_hdmi(  146): channels=2---format=0---period_count4---period_size1024---rate=48000---
+01-13 20:00:55.540 V/AudioFlinger(  146): remove track (4099) and delete from mixer
+01-13 20:00:55.560 I/Track   (  146): OutPut Track restore active track to thread 0xb3393008
+01-13 20:00:55.660 I/wpa_supplicant(  750): p2p-dev-wlan0: Control interface command 'P2P_FIND 120'
+01-13 20:00:55.660 D/WifiMonitor(  545): Event [IFNAME=p2p-dev-wlan0 Control interface command 'P2P_FIND 120']
+01-13 20:00:55.660 W/WifiMonitor(  545): couldn't identify event type - Control interface command 'P2P_FIND 120'
+01-13 20:00:55.800 D/skia    ( 9412): found cached face <sans-serif-condensed> <sans-serif-condensed> 0x6669e3a8 [5]
+01-13 20:00:56.630 V/AudioFlinger(  146): removeTracks_l removing track on session 86,mId 7 
+01-13 20:00:56.630 V/AudioFlinger(  146): acquireWakeLock_l() AudioOut_7 status 0
+01-13 20:00:56.710 V/AudioFlinger(  146): removeTracks_l removing track on session 0,mId 6 
+01-13 20:00:56.710 V/AudioFlinger(  146): acquireWakeLock_l() AudioOut_6 status 0
+01-13 20:00:56.730 V/AudioFlinger(  146): removeTracks_l removing track on session 0,mId 2 
+01-13 20:00:56.730 V/AudioFlinger(  146): acquireWakeLock_l() AudioOut_2 status 0
+01-13 20:00:56.940 D/dalvikvm(  865): GC_CONCURRENT freed 390K, 20% free 3268K/4056K, paused 4ms+7ms, total 73ms
+01-13 20:00:59.210 I/wpa_supplicant(  750): P2P-DEVICE-FOUND 12:68:3f:70:d2:71 p2p_dev_addr=12:68:3f:70:d2:71 pri_dev_type=10-0050F204-5 name='Sink-d271' config_methods=0x188 dev_capab=0x25 group_capab=0x0 wfd_dev_info=0x00000600101c440032
+01-13 20:00:59.220 D/WifiMonitor(  545): Event [IFNAME=p2p-dev-wlan0 CTRL-EVENT-BSS-ADDED 54 c0:3f:0e:16:f1:f8]
+01-13 20:00:59.220 D/WifiMonitor(  545): Event [P2P-DEVICE-FOUND 12:68:3f:70:d2:71 p2p_dev_addr=12:68:3f:70:d2:71 pri_dev_type=10-0050F204-5 name='Sink-d271' config_methods=0x188 dev_capab=0x25 group_capab=0x0 wfd_dev_info=0x00000600101c440032]
+01-13 20:00:59.250 D/P2pBroadcastReceiver( 9412): P2P peers changed
+01-13 20:00:59.290 D/DeviceListFragment( 9412): Peer status :3
+01-13 20:00:59.310 W/InputMethodManagerService(  545): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41d0e148 attribute=null, token = android.os.BinderProxy@424e5828
+01-13 20:00:59.550 V/AudioFlinger(  146): releaseWakeLock_l() AudioOut_7
+01-13 20:00:59.550 V/AudioFlinger(  146): thread 0xb3252008 type 2 TID 601 going to sleep
+01-13 20:00:59.610 V/AudioFlinger(  146): Audio hardware entering standby, mixer 0xb3393008, suspend count 0,mid 6
+01-13 20:00:59.610 D/audio_hw_hdmi(  146): out_standby(0xb7243648)
+01-13 20:00:59.610 I/audio_hw_hdmi(  146): [do_output_standby 855]Clear LastStream/0xb7243648 
+01-13 20:00:59.610 V/AudioFlinger(  146): releaseWakeLock_l() AudioOut_6
+01-13 20:00:59.610 V/AudioFlinger(  146): thread 0xb3393008 type 0 TID 600 going to sleep
+01-13 20:00:59.640 V/AudioFlinger(  146): Audio hardware entering standby, mixer 0xb3568008, suspend count 0,mid 2
+01-13 20:00:59.640 D/audio_hw_primary(  146): do_output_standby(0xb723f7b0)
+01-13 20:00:59.640 D/audio_hw_primary(  146): do_output_standby : output_standby=1,input_standby=1
+01-13 20:00:59.640 V/AudioFlinger(  146): releaseWakeLock_l() AudioOut_2
+01-13 20:00:59.640 V/AudioFlinger(  146): thread 0xb3568008 type 0 TID 599 going to sleep
+01-13 20:00:59.680 I/wpa_supplicant(  750): P2P-DEVICE-FOUND 06:e6:76:ae:69:89 p2p_dev_addr=06:e6:76:ae:69:89 pri_dev_type=10-0050F204-5 name='Sink-6989' config_methods=0x188 dev_capab=0x25 group_capab=0x0 wfd_dev_info=0x00000600111c440032
+01-13 20:00:59.680 D/WifiMonitor(  545): Event [P2P-DEVICE-FOUND 06:e6:76:ae:69:89 p2p_dev_addr=06:e6:76:ae:69:89 pri_dev_type=10-0050F204-5 name='Sink-6989' config_methods=0x188 dev_capab=0x25 group_capab=0x0 wfd_dev_info=0x00000600111c440032]
+01-13 20:00:59.680 D/P2pBroadcastReceiver( 9412): P2P peers changed
+01-13 20:00:59.690 D/DeviceListFragment( 9412): Peer status :3
+01-13 20:00:59.710 D/DeviceListFragment( 9412): Peer status :3
+01-13 20:01:00.720 I/wpa_supplicant(  750): P2P-DEVICE-FOUND 12:68:3f:70:d2:71 p2p_dev_addr=12:68:3f:70:d2:71 pri_dev_type=10-0050F204-5 name='Sink-d271' config_methods=0x188 dev_capab=0x25 group_capab=0x0 wfd_dev_info=0x00000600101c440032
+01-13 20:01:00.730 D/WifiMonitor(  545): Event [P2P-DEVICE-FOUND 12:68:3f:70:d2:71 p2p_dev_addr=12:68:3f:70:d2:71 pri_dev_type=10-0050F204-5 name='Sink-d271' config_methods=0x188 dev_capab=0x25 group_capab=0x0 wfd_dev_info=0x00000600101c440032]
+01-13 20:01:00.750 D/P2pBroadcastReceiver( 9412): P2P peers changed
+01-13 20:01:00.760 I/hdmiswitch(  307):  recv n=257
+01-13 20:01:00.760 I/hdmiswitch(  307):  recv n=238
+01-13 20:01:00.760 I/hdmiswitch(  307):  recv n=238
+01-13 20:01:00.800 D/DeviceListFragment( 9412): Peer status :3
+01-13 20:01:00.810 D/DeviceListFragment( 9412): Peer status :3
+01-13 20:01:00.970 I/wpa_supplicant(  750): P2P-FIND-STOPPED 
+01-13 20:01:00.970 D/WifiMonitor(  545): Event [P2P-FIND-STOPPED ]
+01-13 20:01:00.970 I/wpa_supplicant(  750): rfkill: Cannot open RFKILL control device
+01-13 20:01:01.020 D/WifiMonitor(  545): Event [IFNAME=p2p-wlan0-8 CTRL-EVENT-STATE-CHANGE id=-1 state=2 BSSID=00:00:00:00:00:00 SSID=]
+01-13 20:01:01.090 D/WifiMonitor(  545): Event [IFNAME=p2p-wlan0-8 CTRL-EVENT-STATE-CHANGE id=-1 state=0 BSSID=00:00:00:00:00:00 SSID=]
+01-13 20:01:01.090 D/WifiMonitor(  545): Event [IFNAME=p2p-wlan0-8 CTRL-EVENT-STATE-CHANGE id=-1 state=3 BSSID=00:00:00:00:00:00 SSID=]
+01-13 20:01:01.100 E/wpa_supplicant(  750): Using interface p2p-wlan0-8 with hwaddr 9a:3b:16:5c:9a:64 and ssid "DIRECT-0z-Sink-1a64"
+01-13 20:01:01.150 I/wpa_supplicant(  750): p2p-wlan0-8: CTRL-EVENT-CONNECTED - Connection to 9a:3b:16:5c:9a:64 completed (auth) [id=0 id_str=]
+01-13 20:01:01.150 D/WifiMonitor(  545): Event [IFNAME=p2p-wlan0-8 CTRL-EVENT-CONNECTED - Connection to 9a:3b:16:5c:9a:64 completed (auth) [id=0 id_str=]]
+01-13 20:01:01.150 E/WifiMonitor(  545): received CONNECTED handleNetworkStateChange 
+01-13 20:01:01.150 D/wifi_gbk2utf(  545): constructEventSsid, SSID = DIRECT-0z-Sink-1a64
+01-13 20:01:01.150 D/WifiMonitor(  545): Event [IFNAME=p2p-wlan0-8 CTRL-EVENT-STATE-CHANGE id=0 state=9 BSSID=9a:3b:16:5c:9a:64 SSID=DIRECT-0z-Sink-1a64]
+01-13 20:01:01.150 I/wpa_supplicant(  750): P2P-GROUP-STARTED p2p-wlan0-8 GO ssid="DIRECT-0z-Sink-1a64" freq=2462 passphrase="7dlRZehn" go_dev_addr=9a:3b:16:5c:1a:64 [PERSISTENT]
+01-13 20:01:01.150 D/WifiMonitor(  545): Event [P2P-GROUP-STARTED p2p-wlan0-8 GO ssid="DIRECT-0z-Sink-1a64" freq=2462 passphrase="7dlRZehn" go_dev_addr=9a:3b:16:5c:1a:64 [PERSISTENT]]
+01-13 20:01:01.160 I/wpa_supplicant(  750): p2p-dev-wlan0: Control interface command 'LIST_NETWORKS'
+01-13 20:01:01.160 D/WifiMonitor(  545): Event [IFNAME=p2p-dev-wlan0 Control interface command 'LIST_NETWORKS']
+01-13 20:01:01.160 W/WifiMonitor(  545): couldn't identify event type - Control interface command 'LIST_NETWORKS'
+01-13 20:01:01.170 I/wpa_supplicant(  750): p2p-wlan0-8: Control interface command 'SET p2p_group_idle 10'
+01-13 20:01:01.170 D/WifiMonitor(  545): Event [IFNAME=p2p-wlan0-8 Control interface command 'SET p2p_group_idle 10']
+01-13 20:01:01.170 W/WifiMonitor(  545): couldn't identify event type - Control interface command 'SET p2p_group_idle 10'
+01-13 20:01:01.180 D/CommandListener(  139): Setting iface cfg
+01-13 20:01:01.190 D/CommandListener(  139): Trying to bring up p2p-wlan0-8
+01-13 20:01:01.190 D/TetherController(  139): Starting tethering services
+01-13 20:01:01.190 D/TetherController(  139): Tethering services running
+01-13 20:01:01.200 D/P2pBroadcastReceiver( 9412): P2p this device changed
+01-13 20:01:01.200 D/DeviceListFragment( 9412): Peer status :0
+01-13 20:01:01.200 D/WifiP2pService(  545): Started Dhcp server on p2p-wlan0-8
+01-13 20:01:01.210 I/dnsmasq (11532): started, version 2.51 cachesize 150
+01-13 20:01:01.210 I/dnsmasq (11532): compile time options: no-IPv6 GNU-getopt no-DBus no-I18N DHCP no-scripts no-TFTP
+01-13 20:01:01.210 W/dnsmasq (11532): warning: no upstream servers configured
+01-13 20:01:01.210 I/dnsmasq (11532): DHCP, IP range 192.168.49.2 -- 192.168.49.254, lease time 1h
+01-13 20:01:01.210 I/dnsmasq (11532): read /etc/hosts - 1 addresses
+01-13 20:01:01.210 D/WifiDisplayController(  545): WFD : File changed : path=dnsmasq.txt event=2
+01-13 20:01:01.490 I/wpa_supplicant(  750): p2p-wlan0-8: AP-STA-CONNECTED 12:68:3f:70:52:71 p2p_dev_addr=12:68:3f:70:d2:71
+01-13 20:01:01.490 I/wpa_supplicant(  750): AP-STA-CONNECTED 12:68:3f:70:52:71 p2p_dev_addr=12:68:3f:70:d2:71
+01-13 20:01:01.490 D/WifiMonitor(  545): Event [IFNAME=p2p-wlan0-8 AP-STA-CONNECTED 12:68:3f:70:52:71 p2p_dev_addr=12:68:3f:70:d2:71]
+01-13 20:01:01.500 I/wpa_supplicant(  750): p2p-wlan0-8: Control interface command 'SET p2p_group_idle 0'
+01-13 20:01:01.500 D/WifiMonitor(  545): Event [IFNAME=p2p-wlan0-8 Control interface command 'SET p2p_group_idle 0']
+01-13 20:01:01.500 W/WifiMonitor(  545): couldn't identify event type - Control interface command 'SET p2p_group_idle 0'
+01-13 20:01:01.510 D/P2pBroadcastReceiver( 9412): P2P peers changed
+01-13 20:01:01.520 D/P2pBroadcastReceiver( 9412): P2p connection changed: 
+01-13 20:01:01.520 D/P2pBroadcastReceiver( 9412): ExtraInfo:null
+01-13 20:01:01.520 D/P2pBroadcastReceiver( 9412): Reason:null
+01-13 20:01:01.520 D/P2pBroadcastReceiver( 9412): Subtype:0
+01-13 20:01:01.520 D/P2pBroadcastReceiver( 9412): SubtypeName:
+01-13 20:01:01.520 D/P2pBroadcastReceiver( 9412): Type:13
+01-13 20:01:01.520 D/P2pBroadcastReceiver( 9412): TypeName:WIFI_P2P
+01-13 20:01:01.520 D/P2pBroadcastReceiver( 9412): isAvaliable:true
+01-13 20:01:01.520 D/P2pBroadcastReceiver( 9412): isConnected:true
+01-13 20:01:01.520 D/P2pBroadcastReceiver( 9412): P2p group information: 
+01-13 20:01:01.520 D/P2pBroadcastReceiver( 9412): GroupOwner:true
+01-13 20:01:01.520 D/P2pBroadcastReceiver( 9412): NetworkName:DIRECT-0z-Sink-1a64
+01-13 20:01:01.520 D/P2pBroadcastReceiver( 9412): WifiP2pDevice information
+01-13 20:01:01.520 D/P2pBroadcastReceiver( 9412): deviceAddress:12:68:3f:70:d2:71
+01-13 20:01:01.520 D/P2pBroadcastReceiver( 9412): GroupOwner:false
+01-13 20:01:01.520 D/P2pBroadcastReceiver( 9412): devicename:Sink-d271
+01-13 20:01:01.520 D/P2pBroadcastReceiver( 9412): primaryDeviceType:10-0050F204-5
+01-13 20:01:01.520 D/P2pBroadcastReceiver( 9412): secondaryDeviceType:null
+01-13 20:01:01.520 D/P2pBroadcastReceiver( 9412): wpsDisplaySupported:true
+01-13 20:01:01.520 D/WifiDisplayController(  545): WFD : I am GO
+01-13 20:01:01.820 I/dnsmasq (11532): DHCPDISCOVER(p2p-wlan0-8) 12:68:3f:70:52:71 
+01-13 20:01:01.820 I/dnsmasq (11532): DHCPOFFER(p2p-wlan0-8) 192.168.49.73 12:68:3f:70:52:71 
+01-13 20:01:01.830 I/dnsmasq (11532): DHCPREQUEST(p2p-wlan0-8) 192.168.49.73 12:68:3f:70:52:71 
+01-13 20:01:01.830 I/dnsmasq (11532): DHCPACK(p2p-wlan0-8) 192.168.49.73 12:68:3f:70:52:71 android-116e786c10c4d60c
+01-13 20:01:01.830 I/dnsmasq (11532): EXTRA : mac=12:68:3f:70:52:71, ip=192.168.49.73
+01-13 20:01:01.830 D/WifiDisplayController(  545): WFD : File changed : path=dnsmasq.txt event=2
+01-13 20:01:01.840 D/WifiDisplayController(  545): Sending DNSMASQ_IP_ADDR_ACTION broadcast : mac=xx.xx.xx.xx.xx.xx ip=192.168.49.73 port=7236
+01-13 20:01:01.840 D/WifiDisplayController(  545): Received DNSMASQ_IP_ADDR_ACTION : mac=xx.xx.xx.xx.xx.xx ip=192.168.49.73 port=7236
+01-13 20:01:02.550 I/WifiDisplayActivity( 9412): VALID   192.168.49.73:7236
+01-13 20:01:02.560 I/ActivityManager(  545): START u0 {cmp=com.example.android.wifidisplay/.SinkPlayerActivity (has extras)} from pid 9412
+01-13 20:01:02.560 I/ActivityManager(  545): start package name is com.example.android.wifidisplay, class name is com.example.android.wifidisplay.SinkPlayerActivity, error code is 0
+01-13 20:01:02.580 I/MitvPolicyDatabaseManager(  641): updatePackageUsage com.example.android.wifidisplay/.WiFiDisplayActivity (0,1,40)
+01-13 20:01:02.650 W/SurfaceComposerClient(  545): setVDisplaySize---0 3
+01-13 20:01:02.650 D/ActivityManager(  545): --------------------enableFreeScaleMBX runable
+01-13 20:01:02.670 D/DisplayMetrics(  545): densityDpi 213
+01-13 20:01:02.780 D/DeviceListFragment( 9412): Peer status :3
+01-13 20:01:02.830 D/DeviceListFragment( 9412): Peer status :0
+01-13 20:01:02.830 D/dalvikvm(  641): GC_CONCURRENT freed 371K, 23% free 3021K/3908K, paused 7ms+30ms, total 234ms
+01-13 20:01:02.890 D/DisplayMetrics(  545): densityDpi 213
+01-13 20:01:02.910 D/SinkPlayerActivity( 9412): Source connection information: 
+01-13 20:01:02.910 D/SinkPlayerActivity( 9412): Source IP: 192.168.49.73
+01-13 20:01:02.910 D/SinkPlayerActivity( 9412): control port: 7236
+01-13 20:01:02.940 E/ActivityManager(  545): Refuse to set cpu frequency true com.example.android.wifidisplay
+01-13 20:01:03.050 D/SinkPlayerActivity( 9412): Surface changed: 
+01-13 20:01:03.050 D/SinkPlayerActivity( 9412): width  1110
+01-13 20:01:03.050 D/SinkPlayerActivity( 9412): height 678
+01-13 20:01:03.050 D/SinkPlayerActivity( 9412): format 2
+01-13 20:01:03.160 D/PinyinIME(  817): onFinishInput.
+01-13 20:01:03.160 D/PinyinIME(  817): onStartInput  ccontentType: 0 Restarting:false
+01-13 20:01:03.170 I/ActivityManager(  545): Displayed com.example.android.wifidisplay/.SinkPlayerActivity: +498ms
+01-13 20:01:03.920 I/SinkPlayerActivity( 9412): Starting Sink Player with 192.168.49.73:7236
+01-13 20:01:03.920 I/NetworkSession( 9412): connecting socket 56 to 192.168.49.73:7236
+01-13 20:01:03.940 I/WifiDisplaySink( 9412): ==============kWhatConnected===============
+01-13 20:01:03.940 I/WifiDisplaySink( 9412): We're now connected.
+01-13 20:01:03.950 D/NetworkSession( 9412): 000   receive 142 142:
+01-13 20:01:03.950 D/NetworkSession( 9412): OPTIONS * RTSP/1.0
+01-13 20:01:03.950 D/NetworkSession( 9412): Date: Thu, 14 Jan 2016 03:00:51 +0000
+01-13 20:01:03.950 D/NetworkSession( 9412): Server: stagefright/1.2 (Linux;Android 5.1.1)
+01-13 20:01:03.950 D/NetworkSession( 9412): CSeq: 1
+01-13 20:01:03.950 D/NetworkSession( 9412): Require: org.wfa.wfd1.0
+01-13 20:01:03.950 D/NetworkSession( 9412): 
+01-13 20:01:03.950 D/NetworkSession( 9412): 
+01-13 20:01:03.950 I/WifiDisplaySink( 9412): ==============kWhatData===============
+01-13 20:01:03.950 W/WifiDisplaySink( 9412): session 1 received 'OPTIONS * RTSP/1.0
+01-13 20:01:03.950 W/WifiDisplaySink( 9412): cseq: 1
+01-13 20:01:03.950 W/WifiDisplaySink( 9412): date: Thu, 14 Jan 2016 03:00:51 +0000
+01-13 20:01:03.950 W/WifiDisplaySink( 9412): require: org.wfa.wfd1.0
+01-13 20:01:03.950 W/WifiDisplaySink( 9412): server: stagefright/1.2 (Linux;Android 5.1.1)
+01-13 20:01:03.950 W/WifiDisplaySink( 9412): 
+01-13 20:01:03.950 W/WifiDisplaySink( 9412): '
+01-13 20:01:03.960 D/WifiDisplaySink( 9412): call sendM2
+01-13 20:01:03.960 D/NetworkSession( 9412): 111  send 170 170:
+01-13 20:01:03.960 D/NetworkSession( 9412): RTSP/1.0 200 OK
+01-13 20:01:03.960 D/NetworkSession( 9412): Date: Wed, 13 Jan 2016 12:01:03 +0000
+01-13 20:01:03.960 D/NetworkSession( 9412): User-Agent: stagefright/1.1 (Linux;Android 4.1)
+01-13 20:01:03.960 D/NetworkSession( 9412): CSeq: 1
+01-13 20:01:03.960 D/NetworkSession( 9412): Public: org.wfa.wfd1.0, GET_PARAMETER, SET_PARAMETER
+01-13 20:01:03.960 D/NetworkSession( 9412): 
+01-13 20:01:03.960 D/NetworkSession( 9412): 
+01-13 20:01:03.960 D/NetworkSession( 9412): 111  send 144 144:
+01-13 20:01:03.960 D/NetworkSession( 9412): OPTIONS * RTSP/1.0
+01-13 20:01:03.960 D/NetworkSession( 9412): Date: Wed, 13 Jan 2016 12:01:03 +0000
+01-13 20:01:03.960 D/NetworkSession( 9412): User-Agent: stagefright/1.1 (Linux;Android 4.1)
+01-13 20:01:03.960 D/NetworkSession( 9412): CSeq: 1
+01-13 20:01:03.960 D/NetworkSession( 9412): Require: org.wfa.wfd1.0
+01-13 20:01:03.960 D/NetworkSession( 9412): 
+01-13 20:01:03.960 D/NetworkSession( 9412): 
+01-13 20:01:03.970 D/NetworkSession( 9412): 000   receive 198 198:
+01-13 20:01:03.970 D/NetworkSession( 9412): RTSP/1.0 200 OK
+01-13 20:01:03.970 D/NetworkSession( 9412): Date: Thu, 14 Jan 2016 03:00:51 +0000
+01-13 20:01:03.970 D/NetworkSession( 9412): Server: stagefright/1.2 (Linux;Android 5.1.1)
+01-13 20:01:03.970 D/NetworkSession( 9412): CSeq: 1
+01-13 20:01:03.970 D/NetworkSession( 9412): Public: org.wfa.wfd1.0, SETUP, TEARDOWN, PLAY, PAUSE, GET_PARAMETER, SET_PARAMETER
+01-13 20:01:03.970 D/NetworkSession( 9412): 
+01-13 20:01:03.970 D/NetworkSession( 9412): 
+01-13 20:01:03.970 I/WifiDisplaySink( 9412): ==============kWhatData===============
+01-13 20:01:03.980 W/WifiDisplaySink( 9412): session 1 received 'RTSP/1.0 200 OK
+01-13 20:01:03.980 W/WifiDisplaySink( 9412): cseq: 1
+01-13 20:01:03.980 W/WifiDisplaySink( 9412): date: Thu, 14 Jan 2016 03:00:51 +0000
+01-13 20:01:03.980 W/WifiDisplaySink( 9412): public: org.wfa.wfd1.0, SETUP, TEARDOWN, PLAY, PAUSE, GET_PARAMETER, SET_PARAMETER
+01-13 20:01:03.980 W/WifiDisplaySink( 9412): server: stagefright/1.2 (Linux;Android 5.1.1)
+01-13 20:01:03.980 W/WifiDisplaySink( 9412): 
+01-13 20:01:03.980 W/WifiDisplaySink( 9412): '
+01-13 20:01:03.980 D/WifiDisplaySink( 9412): onReceiveM2Response
+01-13 20:01:03.980 W/WifiDisplaySink( 9412): the session id is 1, resule: 0
+01-13 20:01:04.010 D/NetworkSession( 9412): 000   receive 279 279:
+01-13 20:01:04.010 D/NetworkSession( 9412): GET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+01-13 20:01:04.010 D/NetworkSession( 9412): Date: Thu, 14 Jan 2016 03:00:51 +0000
+01-13 20:01:04.010 D/NetworkSession( 9412): Server: stagefright/1.2 (Linux;Android 5.1.1)
+01-13 20:01:04.010 D/NetworkSession( 9412): CSeq: 2
+01-13 20:01:04.010 D/NetworkSession( 9412): Content-Type: text/parameters
+01-13 20:01:04.010 D/NetworkSession( 9412): Content-Length: 83
+01-13 20:01:04.010 D/NetworkSession( 9412): 
+01-13 20:01:04.010 D/NetworkSession( 9412): wfd_content_protection
+01-13 20:01:04.010 D/NetworkSession( 9412): wfd_video_formats
+01-13 20:01:04.010 D/NetworkSession( 9412): wfd_audio_codecs
+01-13 20:01:04.010 D/NetworkSession( 9412): wfd_client_rtp_ports
+01-13 20:01:04.010 D/NetworkSession( 9412): 
+01-13 20:01:04.010 I/WifiDisplaySink( 9412): ==============kWhatData===============
+01-13 20:01:04.010 W/WifiDisplaySink( 9412): session 1 received 'GET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+01-13 20:01:04.010 W/WifiDisplaySink( 9412): content-length: 83
+01-13 20:01:04.010 W/WifiDisplaySink( 9412): content-type: text/parameters
+01-13 20:01:04.010 W/WifiDisplaySink( 9412): cseq: 2
+01-13 20:01:04.010 W/WifiDisplaySink( 9412): date: Thu, 14 Jan 2016 03:00:51 +0000
+01-13 20:01:04.010 W/WifiDisplaySink( 9412): server: stagefright/1.2 (Linux;Android 5.1.1)
+01-13 20:01:04.010 W/WifiDisplaySink( 9412): 
+01-13 20:01:04.010 W/WifiDisplaySink( 9412): wfd_content_protection
+01-13 20:01:04.010 W/WifiDisplaySink( 9412): wfd_video_formats
+01-13 20:01:04.010 W/WifiDisplaySink( 9412): wfd_audio_codecs
+01-13 20:01:04.010 W/WifiDisplaySink( 9412): wfd_client_rtp_ports
+01-13 20:01:04.010 W/WifiDisplaySink( 9412): '
+01-13 20:01:04.010 D/NetworkSession( 9412): 111  send 495 495:
+01-13 20:01:04.010 D/NetworkSession( 9412): RTSP/1.0 200 OK
+01-13 20:01:04.010 D/NetworkSession( 9412): Date: Wed, 13 Jan 2016 12:01:04 +0000
+01-13 20:01:04.010 D/NetworkSession( 9412): User-Agent: stagefright/1.1 (Linux;Android 4.1)
+01-13 20:01:04.010 D/NetworkSession( 9412): CSeq: 2
+01-13 20:01:04.010 D/NetworkSession( 9412): Content-Type: text/parameters
+01-13 20:01:04.010 D/NetworkSession( 9412): Content-Length: 327
+01-13 20:01:04.010 D/NetworkSession( 9412): 
+01-13 20:01:04.010 D/NetworkSession( 9412): wfd_video_formats: 78 00 02 02 000194ab 00000000 00000000 00 0000 0000 00 none none
+01-13 20:01:04.010 D/NetworkSession( 9412): wfd_audio_codecs: LPCM 00000003 00
+01-13 20:01:04.010 D/NetworkSession( 9412): wfd_content_protection: none
+01-13 20:01:04.010 D/NetworkSession( 9412): wfd_coupled_sink: 00 none
+01-13 20:01:04.010 D/NetworkSession( 9412): wfd_uibc_capability: none
+01-13 20:01:04.010 D/NetworkSession( 9412): wfd_standby_resume_capability: none
+01-13 20:01:04.010 D/NetworkSession( 9412): wfd_lg_dlna_uuid: none
+01-13 20:01:04.010 D/NetworkSession( 9412): wfd_client_rtp_ports: RTP/AVP/UDP;unicast 15550 0 mode=play
+01-13 20:01:04.010 D/NetworkSession( 9412): 
+01-13 20:01:04.020 D/NetworkSession( 9412): 000   receive 446 446:
+01-13 20:01:04.020 D/NetworkSession( 9412): SET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+01-13 20:01:04.020 D/NetworkSession( 9412): Date: Thu, 14 Jan 2016 03:00:51 +0000
+01-13 20:01:04.020 D/NetworkSession( 9412): Server: stagefright/1.2 (Linux;Android 5.1.1)
+01-13 20:01:04.020 D/NetworkSession( 9412): CSeq: 3
+01-13 20:01:04.020 D/NetworkSession( 9412): Content-Type: text/parameters
+01-13 20:01:04.020 D/NetworkSession( 9412): Content-Length: 249
+01-13 20:01:04.020 D/NetworkSession( 9412): 
+01-13 20:01:04.020 D/NetworkSession( 9412): wfd_video_formats: 00 00 02 02 00000020 00000000 00000000 00 0000 0000 00 none none
+01-13 20:01:04.020 D/NetworkSession( 9412): wfd_audio_codecs: LPCM 00000002 00
+01-13 20:01:04.020 D/NetworkSession( 9412): wfd_presentation_URL: rtsp://192.168.49.73/wfd1.0/streamid=0 none
+01-13 20:01:04.020 D/NetworkSession( 9412): wfd_client_rtp_ports: RTP/AVP/UDP;unicast 15550 0 mode=play
+01-13 20:01:04.020 D/NetworkSession( 9412): 
+01-13 20:01:04.020 I/WifiDisplaySink( 9412): ==============kWhatData===============
+01-13 20:01:04.020 W/WifiDisplaySink( 9412): session 1 received 'SET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+01-13 20:01:04.020 W/WifiDisplaySink( 9412): content-length: 249
+01-13 20:01:04.020 W/WifiDisplaySink( 9412): content-type: text/parameters
+01-13 20:01:04.020 W/WifiDisplaySink( 9412): cseq: 3
+01-13 20:01:04.020 W/WifiDisplaySink( 9412): date: Thu, 14 Jan 2016 03:00:51 +0000
+01-13 20:01:04.020 W/WifiDisplaySink( 9412): server: stagefright/1.2 (Linux;Android 5.1.1)
+01-13 20:01:04.020 W/WifiDisplaySink( 9412): 
+01-13 20:01:04.020 W/WifiDisplaySink( 9412): wfd_video_formats: 00 00 02 02 00000020 00000000 00000000 00 0000 0000 00 none none
+01-13 20:01:04.020 W/WifiDisplaySink( 9412): wfd_audio_codecs: LPCM 00000002 00
+01-13 20:01:04.020 W/WifiDisplaySink( 9412): wfd_presentation_URL: rtsp://192.168.49.73/wfd1.0/streamid=0 none
+01-13 20:01:04.020 W/WifiDisplaySink( 9412): wfd_client_rtp_ports: RTP/AVP/UDP;unicast 15550 0 mode=play
+01-13 20:01:04.020 W/WifiDisplaySink( 9412): '
+01-13 20:01:04.020 D/WifiDisplaySink( 9412): onSetParameterRequest
+01-13 20:01:04.020 D/NetworkSession( 9412): 111  send 116 116:
+01-13 20:01:04.020 D/NetworkSession( 9412): RTSP/1.0 200 OK
+01-13 20:01:04.020 D/NetworkSession( 9412): Date: Wed, 13 Jan 2016 12:01:04 +0000
+01-13 20:01:04.020 D/NetworkSession( 9412): User-Agent: stagefright/1.1 (Linux;Android 4.1)
+01-13 20:01:04.020 D/NetworkSession( 9412): CSeq: 3
+01-13 20:01:04.020 D/NetworkSession( 9412): 
+01-13 20:01:04.020 D/NetworkSession( 9412): 
+01-13 20:01:04.030 D/NetworkSession( 9412): 000   receive 223 223:
+01-13 20:01:04.030 D/NetworkSession( 9412): SET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+01-13 20:01:04.030 D/NetworkSession( 9412): Date: Thu, 14 Jan 2016 03:00:51 +0000
+01-13 20:01:04.030 D/NetworkSession( 9412): Server: stagefright/1.2 (Linux;Android 5.1.1)
+01-13 20:01:04.030 D/NetworkSession( 9412): CSeq: 4
+01-13 20:01:04.030 D/NetworkSession( 9412): Content-Type: text/parameters
+01-13 20:01:04.030 D/NetworkSession( 9412): Content-Length: 27
+01-13 20:01:04.030 D/NetworkSession( 9412): 
+01-13 20:01:04.030 D/NetworkSession( 9412): wfd_trigger_method: SETUP
+01-13 20:01:04.030 D/NetworkSession( 9412): 
+01-13 20:01:04.030 I/WifiDisplaySink( 9412): ==============kWhatData===============
+01-13 20:01:04.030 W/WifiDisplaySink( 9412): session 1 received 'SET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+01-13 20:01:04.030 W/WifiDisplaySink( 9412): content-length: 27
+01-13 20:01:04.030 W/WifiDisplaySink( 9412): content-type: text/parameters
+01-13 20:01:04.030 W/WifiDisplaySink( 9412): cseq: 4
+01-13 20:01:04.030 W/WifiDisplaySink( 9412): date: Thu, 14 Jan 2016 03:00:51 +0000
+01-13 20:01:04.030 W/WifiDisplaySink( 9412): server: stagefright/1.2 (Linux;Android 5.1.1)
+01-13 20:01:04.030 W/WifiDisplaySink( 9412): 
+01-13 20:01:04.030 W/WifiDisplaySink( 9412): wfd_trigger_method: SETUP
+01-13 20:01:04.030 W/WifiDisplaySink( 9412): '
+01-13 20:01:04.030 D/WifiDisplaySink( 9412): onSetParameterRequest
+01-13 20:01:04.030 D/WifiDisplaySink( 9412): sendSetup
+01-13 20:01:04.030 I/NetworkSession( 9412): ================kModeCreateUDPSession=====bind local port=========
+01-13 20:01:04.030 I/NetworkSession( 9412): ================kModeCreateUDPSession================
+01-13 20:01:04.030 I/NetworkSession( 9412): ================kModeCreateUDPSession=====bind local port=========
+01-13 20:01:04.030 I/NetworkSession( 9412): ================kModeCreateUDPSession================
+01-13 20:01:04.030 D/NetworkSession( 9412): 111  send 191 191:
+01-13 20:01:04.030 D/NetworkSession( 9412): SETUP rtsp:///wfd1.0/streamid=0 RTSP/1.0
+01-13 20:01:04.030 D/NetworkSession( 9412): Date: Wed, 13 Jan 2016 12:01:04 +0000
+01-13 20:01:04.030 D/NetworkSession( 9412): User-Agent: stagefright/1.1 (Linux;Android 4.1)
+01-13 20:01:04.030 D/NetworkSession( 9412): CSeq: 2
+01-13 20:01:04.030 D/NetworkSession( 9412): Transport: RTP/AVP/UDP;unicast;client_port=15550
+01-13 20:01:04.030 D/NetworkSession( 9412): 
+01-13 20:01:04.030 D/NetworkSession( 9412): 
+01-13 20:01:04.030 D/NetworkSession( 9412): 111  send 116 116:
+01-13 20:01:04.030 D/NetworkSession( 9412): RTSP/1.0 200 OK
+01-13 20:01:04.030 D/NetworkSession( 9412): Date: Wed, 13 Jan 2016 12:01:04 +0000
+01-13 20:01:04.030 D/NetworkSession( 9412): User-Agent: stagefright/1.1 (Linux;Android 4.1)
+01-13 20:01:04.030 D/NetworkSession( 9412): CSeq: 4
+01-13 20:01:04.030 D/NetworkSession( 9412): 
+01-13 20:01:04.030 D/NetworkSession( 9412): 
+01-13 20:01:04.090 D/NetworkSession( 9412): 000   receive 213 213:
+01-13 20:01:04.090 D/NetworkSession( 9412): RTSP/1.0 200 OK
+01-13 20:01:04.090 D/NetworkSession( 9412): Date: Thu, 14 Jan 2016 03:00:51 +0000
+01-13 20:01:04.090 D/NetworkSession( 9412): Server: stagefright/1.2 (Linux;Android 5.1.1)
+01-13 20:01:04.090 D/NetworkSession( 9412): CSeq: 2
+01-13 20:01:04.090 D/NetworkSession( 9412): Session: 951632961;timeout=30
+01-13 20:01:04.090 D/NetworkSession( 9412): Transport: RTP/AVP/UDP;unicast;client_port=15550;server_port=17734
+01-13 20:01:04.090 D/NetworkSession( 9412): 
+01-13 20:01:04.090 D/NetworkSession( 9412): 
+01-13 20:01:04.100 I/WifiDisplaySink( 9412): ==============kWhatData===============
+01-13 20:01:04.100 W/WifiDisplaySink( 9412): session 1 received 'RTSP/1.0 200 OK
+01-13 20:01:04.100 W/WifiDisplaySink( 9412): cseq: 2
+01-13 20:01:04.100 W/WifiDisplaySink( 9412): date: Thu, 14 Jan 2016 03:00:51 +0000
+01-13 20:01:04.100 W/WifiDisplaySink( 9412): server: stagefright/1.2 (Linux;Android 5.1.1)
+01-13 20:01:04.100 W/WifiDisplaySink( 9412): session: 951632961;timeout=30
+01-13 20:01:04.100 W/WifiDisplaySink( 9412): transport: RTP/AVP/UDP;unicast;client_port=15550;server_port=17734
+01-13 20:01:04.100 W/WifiDisplaySink( 9412): 
+01-13 20:01:04.100 W/WifiDisplaySink( 9412): '
+01-13 20:01:04.100 D/WifiDisplaySink( 9412): onReceiveSetupResponse
+01-13 20:01:04.100 E/WifiDisplaySink( 9412): ===========onReceiveSetupResponse============
+01-13 20:01:04.100 D/WifiDisplaySink( 9412): configureTransport
+01-13 20:01:04.100 D/WifiDisplaySink( 9412): sendPlay
+01-13 20:01:04.100 D/NetworkSession( 9412): 111  send 160 160:
+01-13 20:01:04.100 D/NetworkSession( 9412): PLAY rtsp:///wfd1.0/streamid=0 RTSP/1.0
+01-13 20:01:04.100 D/NetworkSession( 9412): Date: Wed, 13 Jan 2016 12:01:04 +0000
+01-13 20:01:04.100 D/NetworkSession( 9412): User-Agent: stagefright/1.1 (Linux;Android 4.1)
+01-13 20:01:04.100 D/NetworkSession( 9412): CSeq: 3
+01-13 20:01:04.100 D/NetworkSession( 9412): Session: 951632961
+01-13 20:01:04.100 D/NetworkSession( 9412): 
+01-13 20:01:04.100 D/NetworkSession( 9412): 
+01-13 20:01:04.100 W/WifiDisplaySink( 9412): the session id is 1, resule: 0
+01-13 20:01:04.140 D/NetworkSession( 9412): 000   receive 162 162:
+01-13 20:01:04.140 D/NetworkSession( 9412): RTSP/1.0 200 OK
+01-13 20:01:04.140 D/NetworkSession( 9412): Date: Thu, 14 Jan 2016 03:00:51 +0000
+01-13 20:01:04.140 D/NetworkSession( 9412): Server: stagefright/1.2 (Linux;Android 5.1.1)
+01-13 20:01:04.140 D/NetworkSession( 9412): CSeq: 3
+01-13 20:01:04.140 D/NetworkSession( 9412): Session: 951632961;timeout=30
+01-13 20:01:04.140 D/NetworkSession( 9412): Range: npt=now-
+01-13 20:01:04.140 D/NetworkSession( 9412): 
+01-13 20:01:04.140 D/NetworkSession( 9412): 
+01-13 20:01:04.140 I/WifiDisplaySink( 9412): ==============kWhatData===============
+01-13 20:01:04.140 W/WifiDisplaySink( 9412): session 1 received 'RTSP/1.0 200 OK
+01-13 20:01:04.140 W/WifiDisplaySink( 9412): cseq: 3
+01-13 20:01:04.140 W/WifiDisplaySink( 9412): date: Thu, 14 Jan 2016 03:00:51 +0000
+01-13 20:01:04.140 W/WifiDisplaySink( 9412): range: npt=now-
+01-13 20:01:04.140 W/WifiDisplaySink( 9412): server: stagefright/1.2 (Linux;Android 5.1.1)
+01-13 20:01:04.140 W/WifiDisplaySink( 9412): session: 951632961;timeout=30
+01-13 20:01:04.140 W/WifiDisplaySink( 9412): 
+01-13 20:01:04.140 W/WifiDisplaySink( 9412): '
+01-13 20:01:04.140 W/WifiDisplaySink( 9412): the session id is 1, resule: 0
+01-13 20:01:04.170 D/libp2p  ( 2122): 30s package send__count = 1 recv_count = 0
+01-13 20:01:04.250 I/RTPSink ( 9412): connecting RTP/RTCP sockets to 192.168.49.73:{17734,17735}
+01-13 20:01:04.260 I/RTPSink ( 9412): =====OK=====connecting RTP sockets to 192.168.49.73:17734
+01-13 20:01:04.270 I/RTPSink ( 9412): =====OK=====connecting RTCP sockets to 192.168.49.73:17735
+01-13 20:01:04.270 I/RTPSink ( 9412): packet was -0.01 ms late
+01-13 20:01:04.270 V/MediaPlayerService(  146): Client(6) constructor
+01-13 20:01:04.270 V/MediaPlayerService(  146): Create new client(6) from pid 9412, uid 10067, 
+01-13 20:01:04.270 I/MediaPlayerService(  146): MediaPlayerService::Client::setDataSource(const sp<IStreamSource> &source) 
+01-13 20:01:04.270 V/MediaPlayerService(  146): player type = 110
+01-13 20:01:04.270 V/MediaPlayerService(  146): createPlayer:968 
+01-13 20:01:04.270 V/MediaPlayerService(  146): Create AmlogicPlayer
+01-13 20:01:04.280 I/AmlogicPlayer(  146): media.amplayer.stopbuftime is not set used def=0.000000
+01-13 20:01:04.280 I/AmlogicPlayer(  146): media.amplayer.streamtimeadd is not set used def=0.000000
+01-13 20:01:04.280 I/AmlogicPlayer(  146): media.amplayer.droptinyseek.ms is not set used def=-1.000000
+01-13 20:01:04.280 I/AmlogicPlayer(  146): media.amplayer.delaybuffering.s is not set used def=0.000000
+01-13 20:01:04.280 I/AmlogicPlayer(  146): found 0 not exit player threads,try exit it now
+01-13 20:01:04.280 V/AudioSink(  146): AudioOutput(0)
+01-13 20:01:04.280 E/AmlogicPlayer(  146): mFdPath /proc/self/fd/-1 mFileName  
+01-13 20:01:04.280 I/AmlogicPlayer(  146): media.amplayer.disp_url is not setting,use default true
+01-13 20:01:04.280 V/MediaPlayerService(  146):  setDataSource
+01-13 20:01:04.280 V/MediaPlayerService(  146): [6] setVideoSurfaceTexture(0xb7251600)
+01-13 20:01:04.280 E/MediaPlayerService(  146): [6] setVideoSurfaceTexture(0xb7251600), binder(0xb72515a8)
+01-13 20:01:04.280 I/MediaPlayerService(  146): [6] start
+01-13 20:01:04.290 I/AmlogicPlayer(  146): GetCallingAPKName /proc/9412/comm,name=[oid.wifidisplay]
+01-13 20:01:04.290 I/AmlogicPlayer(  146): GetCallingAPKName calling apk name...[oid.wifidisplay]
+01-13 20:01:04.290 I/AmlogicPlayer(  146): media.amplayer.displast_frame is not setting,use default false
+01-13 20:01:04.290 I/AmlogicPlayer(  146): media.amplayer.v4osd.all is not setting,use default false
+01-13 20:01:04.290 I/AmlogicPlayer(  146): calling name=[oid.wifidisplay]
+01-13 20:01:04.290 I/AmlogicPlayer(  146): AmlogicPlayerRender,needosdvideo=0,isHTTPSource=0
+01-13 20:01:04.290 I/AmlogicPlayerRender(  146): AmlogicPlayerRender
+01-13 20:01:04.290 I/AmlogicPlayerRender(  146): AmlogicPlayerRender::onFirstRef
+01-13 20:01:04.290 I/AmlogicPlayerRender(  146): onFirstRef___________amstream_vbuf_______OK
+01-13 20:01:04.300 V/MediaPlayerService(  146): [6] notify (0xb7259818, 5, 0, 0)
+01-13 20:01:04.300 I/TunnelRenderer( 9412): Notify 5, 0, 0
+01-13 20:01:04.300 V/MediaPlayerService(  146): [6] notify (0xb7259818, 200, 3, 0)
+01-13 20:01:04.300 I/TunnelRenderer( 9412): Notify 200, 3, 0
+01-13 20:01:04.300 E/AmlogicPlayer(  146):  exitAllRunningPlayerThreads enter 
+01-13 20:01:04.300 E/AmlogicPlayer(  146): found 0 not exit player threads,try exit it now
+01-13 20:01:04.300 I/amplayer(  146): [player_start_play:enter]pid=-1
+01-13 20:01:04.330 I/RTPSink ( 9412): packet was 0.75 ms late
+01-13 20:01:04.330 I/RTPSink ( 9412): packet was 3.94 ms late
+01-13 20:01:04.430 I/RTPSink ( 9412): packet was 4.02 ms late
+01-13 20:01:04.450 I/RTPSink ( 9412): packet was 7.31 ms late
+01-13 20:01:04.450 I/RTPSink ( 9412): packet was 19.91 ms late
+01-13 20:01:04.460 I/RTPSink ( 9412): packet was 26.22 ms late
+01-13 20:01:04.470 I/AmlogicPlayer(  146): media.amplayer.osd2xenable is not setting,use default false
+01-13 20:01:04.510 I/amavutils(  142): amvideo_utils_set_virtual_position :: x=85 y=21 w=1110 h=678
+01-13 20:01:04.510 I/amavutils(  142): device resolution 1280x720
+01-13 20:01:04.520 I/amavutils(  142): disp resolution 1280x3240
+01-13 20:01:04.520 I/amavutils(  142): amvideo_utils_set_virtual_position:: disp_w=1280, disp_h=1080
+01-13 20:01:04.520 I/amavutils(  142): video global_offset 0
+01-13 20:01:04.530 I/RTPSink ( 9412): packet was 32.20 ms late
+01-13 20:01:04.540 I/amavutils(  142): set ppmgr angle :0
+01-13 20:01:04.540 I/amavutils(  142): amvideo_utils_set_virtual_position (corrected):: x=85 y=21 w=1110 h=678
+01-13 20:01:04.550 I/amavutils(  142): /sys/class/graphics/fb0/free_scale_axis axis: 0 0 1279 719
+01-13 20:01:04.550 D/amavutils(  142): amvideo_setscreenmode as 1.778859
+01-13 20:01:04.610 I/RTPSink ( 9412): packet was 33.26 ms late
+01-13 20:01:04.620 I/AmlogicPlayer(  146): media.amplayer.osd2xenable is not setting,use default false
+01-13 20:01:04.620 I/RTPSink ( 9412): packet was 34.09 ms late
+01-13 20:01:04.630 I/RTPSink ( 9412): packet was 34.67 ms late
+01-13 20:01:04.630 I/RTPSink ( 9412): packet was 37.36 ms late
+01-13 20:01:04.680 D/WifiMonitor(  545): Event [IFNAME=p2p-dev-wlan0 CTRL-EVENT-BSS-REMOVED 54 c0:3f:0e:16:f1:f8]
+01-13 20:01:04.740 I/AmlogicPlayer(  146): media.amplayer.osd2xenable is not setting,use default false
+01-13 20:01:04.820 D/AlarmPingSender( 1442): Ping 1 times.
+01-13 20:01:04.820 D/AlarmPingSender( 1442): Check time :1452686464826
+01-13 20:01:04.820 E/ClientState( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: checkForActivity entered
+01-13 20:01:04.820 E/ClientState( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: ping needed. keepAlive=120,000 lastOutboundActivity=1,452,686,344,803 lastInboundActivity=1,452,686,344,889
+01-13 20:01:04.820 E/CommsTokenStore( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: key=Ping message=PINGREQ
+01-13 20:01:04.820 E/CommsTokenStore( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: key=Ping token=org.eclipse.paho.client.mqttv3.MqttToken@41ca8e98
+01-13 20:01:04.820 E/ClientState( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: notifying queueLock holders
+01-13 20:01:04.820 E/ClientState( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: new work or ping arrived 
+01-13 20:01:04.830 E/CommsSender( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: network send key=Ping msg=PINGREQ
+01-13 20:01:04.830 E/ClientState( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: connected
+01-13 20:01:04.830 E/MqttOutputStream( 1442): null: 500
+01-13 20:01:04.830 E/ClientState( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: key=Ping
+01-13 20:01:04.830 E/Token   ( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: > key=Ping
+01-13 20:01:04.830 E/ClientState( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: ping sent. pingOutstanding: 1
+01-13 20:01:04.830 E/ClientState( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: wait for new work or for space in the inflight window
+01-13 20:01:04.830 E/ClientState( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: Schedule next ping at 120,000
+01-13 20:01:04.830 D/AlarmPingSender( 1442): Schedule next alarm at 1452686584839
+01-13 20:01:04.850 D/AlarmPingSender( 1442): Acquire lock.
+01-13 20:01:04.910 E/ClientState( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: received bytes count=1
+01-13 20:01:04.910 E/MqttInputStream( 1442): null: 501
+01-13 20:01:04.910 E/ClientState( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: received key=0 message=PINGRESP msgId 0
+01-13 20:01:04.910 E/Token   ( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: >key=Ping response=PINGRESP msgId 0 excep=null
+01-13 20:01:04.910 E/ClientState( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: keyPing, msg=PINGRESP msgId 0, excep=null
+01-13 20:01:04.910 E/CommsCallback( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: new workAvailable. key=Ping
+01-13 20:01:04.910 E/CommsTokenStore( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: key=Ping
+01-13 20:01:04.920 E/ClientState( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: ping response received. pingOutstanding: 0
+01-13 20:01:04.920 E/CommsReceiver( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: network read message
+01-13 20:01:04.930 E/CommsCallback( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: callback and notify for key=Ping
+01-13 20:01:04.930 E/Token   ( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: >key=Ping response=PINGRESP msgId 0 excep=null
+01-13 20:01:04.930 E/CommsCallback( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: call onSuccess key=Ping
+01-13 20:01:04.930 D/AlarmPingSender( 1442): Success. Release lock(MqttService.client.5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e):1452686464936
+01-13 20:01:04.930 D/AlarmPingSender( 1442): release lock.
+01-13 20:01:04.930 E/ClientState( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: received key=0 token=org.eclipse.paho.client.mqttv3.MqttToken@41ca8e98 message=PINGRESP msgId 0
+01-13 20:01:04.930 E/CommsCallback( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: notify spaceAvailable
+01-13 20:01:04.930 E/CommsCallback( 1442): 5c2ac62418a1463e294c14eb63707c82:a3ebb32607144c01a88759865dcb9f7e: wait for workAvailable
+01-13 20:01:05.000 D/dalvikvm(  545): GC_CONCURRENT freed 1883K, 24% free 11885K/15496K, paused 28ms+19ms, total 347ms
+01-13 20:01:06.240 I/RTPSink ( 9412): packet was 65.79 ms late
+01-13 20:01:06.240 I/RTPSink ( 9412): packet was 66.40 ms late
+01-13 20:01:06.240 I/RTPSink ( 9412): packet was 66.48 ms late
+01-13 20:01:06.250 I/RTPSink ( 9412): packet was 66.48 ms late
+01-13 20:01:06.250 I/RTPSink ( 9412): packet was 66.58 ms late
+01-13 20:01:06.250 I/RTPSink ( 9412): packet was 68.32 ms late
+01-13 20:01:06.260 I/RTPSink ( 9412): packet was 80.59 ms late
+01-13 20:01:06.260 I/RTPSink ( 9412): packet was 81.42 ms late
+01-13 20:01:06.260 I/RTPSink ( 9412): packet was 81.05 ms late
+01-13 20:01:06.290 E/NetworkSession( 9412): readMore on socket 59 failed w/ error -111 (Connection refused)
+01-13 20:01:06.290 E/RTPSink ( 9412): An error occurred in session 3 (-111, 'Recvfrom failed./Connection refused').
+01-13 20:01:07.500 W/ContextImpl(  915): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1518 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.xiaomi.push.service.receivers.PingReceiver.onReceive:-1 android.app.ActivityThread.handleReceiver:2419 
+01-13 20:01:07.510 W/PushService(  915): 2016-01-13 20:01:07,520 - [WARN::PushService] - [Thread:1] Service called on timer
+01-13 20:01:07.730 W/ProcessCpuTracker(  545): Skipping unknown process pid 11664
+01-13 20:01:07.960 D/dalvikvm( 8863): GC_CONCURRENT freed 416K, 19% free 3985K/4868K, paused 5ms+14ms, total 103ms
+01-13 20:01:09.660 D/dalvikvm(  865): GC_CONCURRENT freed 392K, 20% free 3262K/4068K, paused 7ms+17ms, total 93ms
+01-13 20:01:10.110 I/RTPSink ( 9412): packet was 94.39 ms late
+01-13 20:01:11.780 D/UDTJmDNSThread(  865): Wifi is active connectivity
+01-13 20:01:11.780 D/UDTJmDNSThread(  865): get wifi IP: /192.168.1.20
+01-13 20:01:11.780 D/UDTJmDNSThread(  865): JmDNS address:/192.168.1.20
+01-13 20:01:11.780 I/UDTDiscoverManager(  865): UDTJmDNSThread now available, no operation
+01-13 20:01:13.850 W/ProcessCpuTracker(  545): Skipping unknown process pid 11787
+01-13 20:01:13.850 W/ProcessCpuTracker(  545): Skipping unknown process pid 11789
+01-13 20:01:16.530 D/dalvikvm(  886): GC_CONCURRENT freed 385K, 20% free 2868K/3568K, paused 7ms+4ms, total 101ms
