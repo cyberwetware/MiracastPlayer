@@ -1,0 +1,1054 @@
+--------- beginning of /dev/log/main
+02-02 09:42:43.380 W/System.err( 3841): xmjcifs.smb.SmbAuthException: Logon failure: unknown user name or bad password.
+02-02 09:42:43.390 W/System.err( 3841): 	at xmjcifs.smb.SmbTransport.checkStatus(SmbTransport.java:563)
+02-02 09:42:43.390 W/System.err( 3841): 	at xmjcifs.smb.SmbTransport.send(SmbTransport.java:680)
+02-02 09:42:43.390 W/System.err( 3841): 	at xmjcifs.smb.SmbSession.sessionSetup(SmbSession.java:391)
+02-02 09:42:43.390 W/System.err( 3841): 	at xmjcifs.smb.SmbSession.send(SmbSession.java:219)
+02-02 09:42:43.390 W/System.err( 3841): 	at xmjcifs.smb.SmbTree.treeConnect(SmbTree.java:177)
+02-02 09:42:43.390 W/System.err( 3841): 	at xmjcifs.smb.SmbFile.doConnect(SmbFile.java:925)
+02-02 09:42:43.390 W/System.err( 3841): 	at xmjcifs.smb.SmbFile.doShareEnum(SmbFile.java:1809)
+02-02 09:42:43.390 W/System.err( 3841): 	at xmjcifs.smb.SmbFile.doEnum(SmbFile.java:1757)
+02-02 09:42:43.390 W/System.err( 3841): 	at xmjcifs.smb.SmbFile.list(SmbFile.java:1715)
+02-02 09:42:43.400 W/System.err( 3841): 	at xmjcifs.smb.SmbFile.list(SmbFile.java:1625)
+02-02 09:42:43.400 W/System.err( 3841): 	at com.duokan.cloudalbum.DKSmbManager.searchSmbList(DKSmbManager.java:241)
+02-02 09:42:43.400 W/System.err( 3841): 	at com.duokan.cloudalbum.DKSmbManager.searchSmb(DKSmbManager.java:300)
+02-02 09:42:43.400 W/System.err( 3841): 	at com.duokan.cloudalbum.DKSmbManager.onSearched(DKSmbManager.java:567)
+02-02 09:42:43.400 W/System.err( 3841): 	at com.duokan.cloudalbum.SmbSearch.listServer(SmbSearch.java:109)
+02-02 09:42:43.400 W/System.err( 3841): 	at com.duokan.cloudalbum.SmbSearch.listDomain(SmbSearch.java:91)
+02-02 09:42:43.400 W/System.err( 3841): 	at com.duokan.cloudalbum.SmbSearch.start(SmbSearch.java:69)
+02-02 09:42:43.400 W/System.err( 3841): 	at com.duokan.cloudalbum.SmbSearch.startSearch(SmbSearch.java:39)
+02-02 09:42:43.400 W/System.err( 3841): 	at com.duokan.cloudalbum.DKSmbManager.SearchLAN(DKSmbManager.java:471)
+02-02 09:42:43.400 W/System.err( 3841): 	at com.duokan.cloudalbum.DKSmbManager.SearchAll(DKSmbManager.java:525)
+02-02 09:42:43.400 W/System.err( 3841): 	at com.duokan.cloudalbum.DKSmbManager$SearchThread.run(DKSmbManager.java:539)
+02-02 09:42:45.180 D/MiracastPlayerP2P(31393): Discovering peers at 09:42:45
+02-02 09:42:45.200 I/wpa_supplicant(  771): p2p-dev-wlan0: Control interface command 'P2P_FIND 120'
+02-02 09:42:45.210 D/WifiMonitor(  547): Event [IFNAME=p2p-dev-wlan0 Control interface command 'P2P_FIND 120']
+02-02 09:42:45.210 W/WifiMonitor(  547): couldn't identify event type - Control interface command 'P2P_FIND 120'
+02-02 09:42:45.240 D/MiracastPlayerP2P(31393): Discover peers successfully
+02-02 09:42:45.690 D/StatusBar.NetworkController(  635): onReceive WIFI state change.
+02-02 09:42:45.690 D/MiTVNetworkController(  939): action onReceive is : android.net.wifi.RSSI_CHANGED, mitv.network.ethernet.action.ETHERNET_STATE_CHANGED
+02-02 09:42:45.690 D/MiTVNetworkController(  939): updateWifiIcons mWifiConnected:true, mWifiLevel:3 mEthernetConnected false
+02-02 09:42:45.690 D/NetworkStateManager(  939): changeNetworkState, type:2, flag:0, level:3, lable:vodafoneE509
+02-02 09:42:45.690 D/NetworkStateView(  939): changeNetworkState type:2, flag:0, level:3, label:vodafoneE509, last_lable:null
+02-02 09:42:48.120 D/BluetoothAdapter(  663): stopLeScan()
+02-02 09:42:48.130 D/BtGatt.GattService(  663): stopScan() - queue=1
+02-02 09:42:48.130 D/BtGatt.GattService(  663): stopScan() - queue empty; stopping scan
+02-02 09:42:48.130 D/BtGatt.btif(  663): btif_gattc_scan
+02-02 09:42:48.130 D/bt-btif (  663): btif_transfer_context event 1003, len 739
+02-02 09:42:48.130 D/bt-btif (  663): btif task fetched event a001
+02-02 09:42:48.130 D/bt-btif (  663): btif_context_switched
+02-02 09:42:48.130 D/BtGatt.btif(  663): btgattc_handle_event: Event 1003
+02-02 09:42:48.130 I/bt-btif (  663): BTA_DmBleObserve:start = 0 
+02-02 09:42:48.130 I/bt-btif (  663): BTA got event 0x120
+02-02 09:42:48.130 I/bt-btif (  663): bta_dm_sm_execute event:0x20
+02-02 09:42:48.130 I/bt-btm  (  663): BTM_BleObserve 
+02-02 09:42:48.130 I/bt-btm  (  663): btm_ble_stop_scan 
+02-02 09:42:48.130 E/GKI_LINUX(  663): ##### ERROR : acquire_wake_lock: got lock success ret=2#####
+02-02 09:42:48.130 D/bt-btm  (  663): BTM Inq Compl Callback: status 0x00, num results 1
+02-02 09:42:48.130 I/bt-btm  (  663): btm_update_scanner_filter_policy
+02-02 09:42:48.130 D/bt-btm  (  663): btm_acl_update_busy_level
+02-02 09:42:48.130 D/bt-btm  (  663): BTM_BLI_INQ_DONE_EVT
+02-02 09:42:48.130 D/BtGatt.GattService(  663): unregisterClient() - clientIf=6
+02-02 09:42:48.130 D/BtGatt.btif(  663): btif_gattc_unregister_app
+02-02 09:42:48.130 D/bt-btif (  663): btif_transfer_context event 1001, len 739
+02-02 09:42:48.130 D/bt-btif (  663): btif task fetched event a001
+02-02 09:42:48.130 E/bt_upio (  663): upio_set : open(/proc/bluetooth/sleep/btwrite) for write failed: No such file or directory (2)
+02-02 09:42:48.130 D/bt-btif (  663): btif_context_switched
+02-02 09:42:48.130 D/BtGatt.btif(  663): btgattc_handle_event: Event 1001
+02-02 09:42:48.130 I/bt-btif (  663): BTA got event 0x1f17
+02-02 09:42:48.130 D/bt-btif (  663): bta_gattc_hdl_event: Event [BTA_GATTC_API_DEREG_EVT]
+02-02 09:42:48.130 I/bt-att  (  663): GATT_Deregister gatt_if=6
+02-02 09:42:48.130 I/bt-att  (  663): GATT_Listen gatt_if=6
+02-02 09:42:48.130 I/bt-btm  (  663): BTM_BleUpdateAdvFilterPolicy
+02-02 09:42:48.130 I/bt-btm  (  663): BTM_ReadConnectability
+02-02 09:42:48.130 I/bt-btm  (  663): BTM_SetConnectability
+02-02 09:42:48.130 I/bt-btm  (  663): btm_ble_set_connectability mode=0x0 combined_mode=0x1
+02-02 09:42:48.130 I/bt-btm  (  663): always disable adv in non-discoverable non-connectable mode with no scan rsp
+02-02 09:42:48.130 I/bt-btm  (  663): BTM_SetConnectability: mode 1 [NonConn-0, Conn-1], window 0x0012, interval 0x0800
+02-02 09:42:48.130 D/bt-btif (  663): btif_transfer_context event 1, len 676
+02-02 09:42:48.130 D/bt-btif (  663): btif task fetched event a001
+02-02 09:42:48.130 D/bt-btif (  663): btif_context_switched
+02-02 09:42:48.130 D/BtGatt.btif(  663): btif_gattc_upstreams_evt: Event 1
+02-02 09:42:48.130 D/bt_upio (  663): BT_WAKE is asserted already
+02-02 09:42:48.130 E/bt_upio (  663): upio_set : open(/proc/bluetooth/sleep/btwrite) for write failed: No such file or directory (2)
+02-02 09:42:48.130 D/bt_upio (  663): BT_WAKE is asserted already
+02-02 09:42:48.140 E/bt_upio (  663): upio_set : open(/proc/bluetooth/sleep/btwrite) for write failed: No such file or directory (2)
+02-02 09:42:48.140 D/bt-btif (  663): HC lib lpm deassertion return 0
+02-02 09:42:48.140 D/bt-btif (  663): HC lib lpm deassertion return 0
+02-02 09:42:48.230 I/wpa_supplicant(  771): P2P-DEVICE-FOUND 42:b0:fa:63:ca:b0 p2p_dev_addr=42:b0:fa:63:ca:b0 pri_dev_type=10-0050F204-5 name='Sink_cab0' config_methods=0x188 dev_capab=0x25 group_capab=0x0 wfd_dev_info=0x00000600101c440032
+02-02 09:42:48.230 E/GKI_LINUX(  663): ##### ERROR : release_wake_lock: release lock success ret=2#####
+02-02 09:42:48.230 D/WifiMonitor(  547): Event [P2P-DEVICE-FOUND 42:b0:fa:63:ca:b0 p2p_dev_addr=42:b0:fa:63:ca:b0 pri_dev_type=10-0050F204-5 name='Sink_cab0' config_methods=0x188 dev_capab=0x25 group_capab=0x0 wfd_dev_info=0x00000600101c440032]
+02-02 09:42:48.240 D/MiracastPlayerP2P(31393): Receive a P2P action android.net.wifi.p2p.PEERS_CHANGED
+02-02 09:42:48.240 D/MiracastPlayerP2P(31393): Received WIFI_P2P_PEERS_CHANGED_ACTION.
+02-02 09:42:48.240 D/MiracastPlayerP2P(31393): Request peers now
+02-02 09:42:48.250 D/MiracastPlayerP2P(31393): Peers are available
+02-02 09:42:48.250 D/MiracastPlayerP2P(31393): Device: Sink_cab0
+02-02 09:42:48.250 D/MiracastPlayerP2P(31393):  deviceAddress: 42:b0:fa:63:ca:b0
+02-02 09:42:48.250 D/MiracastPlayerP2P(31393):  primary type: 10-0050F204-5
+02-02 09:42:48.250 D/MiracastPlayerP2P(31393):  secondary type: null
+02-02 09:42:48.250 D/MiracastPlayerP2P(31393):  wps: 392
+02-02 09:42:48.250 D/MiracastPlayerP2P(31393):  grpcapab: 0
+02-02 09:42:48.250 D/MiracastPlayerP2P(31393):  devcapab: 37
+02-02 09:42:48.250 D/MiracastPlayerP2P(31393):  status: 3
+02-02 09:42:48.250 D/MiracastPlayerP2P(31393):  wfdInfo: WFD enabled: trueWFD DeviceInfo: 16
+02-02 09:42:48.250 D/MiracastPlayerP2P(31393):  WFD CtrlPort: 7236
+02-02 09:42:48.250 D/MiracastPlayerP2P(31393):  WFD MaxThroughput: 50
+02-02 09:42:48.250 D/MiracastPlayerP2P(31393): Detect a nearby miracast device
+02-02 09:42:48.260 D/MiracastPlayerP2P(31393): Find WFD CtrlPort: 7236
+02-02 09:42:48.260 D/MiracastPlayerP2P(31393): Connect status: Available
+02-02 09:42:48.630 V/BleRemoteControllerService(  663): requestScan,RC size:0,hasInit:true,isBinded:false,mIsPair:false,Connecting:false
+02-02 09:42:48.630 D/BluetoothAdapterService(1101120176)(  663): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d570
+02-02 09:42:48.630 D/BluetoothAdapterService(1101120176)(  663): Get Bonded Devices being called
+02-02 09:42:48.630 D/BluetoothAdapterProperties(  663): getBondedDevices: length=1
+02-02 09:42:48.640 D/BluetoothAdapterService(1101120176)(  663): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d570
+02-02 09:42:48.650 E/BleRemoteControllerService(  663): compare name failed!
+02-02 09:42:48.650 D/BluetoothAdapterService(1101120176)(  663): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d570
+02-02 09:42:48.650 D/BluetoothAdapterService(1101120176)(  663): Get Bonded Devices being called
+02-02 09:42:48.660 D/BluetoothAdapterProperties(  663): getBondedDevices: length=1
+02-02 09:42:48.660 D/BluetoothAdapterService(1101120176)(  663): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d570
+02-02 09:42:48.670 E/BleRemoteControllerService(  663): compare name failed!
+02-02 09:42:48.680 D/BluetoothAdapterService(1101120176)(  663): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d570
+02-02 09:42:48.680 D/BluetoothAdapter(  663): startLeScan(): null
+02-02 09:42:48.680 D/BtGatt.GattService(  663): registerClient() - UUID=c1151c6f-a7b6-4823-a205-8199c6bcea1f
+02-02 09:42:48.680 D/BtGatt.btif(  663): btif_gattc_register_app
+02-02 09:42:48.680 D/bt-btif (  663): btif_transfer_context event 1000, len 739
+02-02 09:42:48.680 D/bt-btif (  663): btif task fetched event a001
+02-02 09:42:48.680 D/bt-btif (  663): btif_context_switched
+02-02 09:42:48.680 D/BtGatt.btif(  663): btgattc_handle_event: Event 1000
+02-02 09:42:48.680 I/bt-btif (  663): BTA got event 0x1f16
+02-02 09:42:48.680 D/bt-btif (  663): bta_gattc_hdl_event: Event [BTA_GATTC_API_REG_EVT]
+02-02 09:42:48.680 D/bt-btif (  663): bta_gattc_register state 2
+02-02 09:42:48.680 I/bt-att  (  663): GATT_Register
+02-02 09:42:48.680 D/bt-att  (  663): UUID=[0xc1151c6fa7b64823a2058199c6bcea1f]
+02-02 09:42:48.680 I/bt-att  (  663): allocated gatt_if=6
+02-02 09:42:48.680 D/bt-btif (  663): btif_transfer_context event 0, len 676
+02-02 09:42:48.680 I/bt-btif (  663): BTA got event 0x1f15
+02-02 09:42:48.680 D/bt-btif (  663): bta_gattc_hdl_event: Event [BTA_GATTC_INT_START_IF_EVT]
+02-02 09:42:48.680 D/bt-btif (  663): GATT_StartIf gatt_if=6
+02-02 09:42:48.680 I/bt-att  (  663): GATT_StartIf gatt_if=6
+02-02 09:42:48.680 D/bt-btif (  663): gatt_find_the_connect
+02-02 09:42:48.680 D/bt-att  (  663): gatt_find_the_connected_bda start_idx=0
+02-02 09:42:48.680 D/BtGatt.btif(  663): btif_gattc_upstreams_evt: Event 0
+02-02 09:42:48.680 D/bt-att  (  663): gatt_find_the_connected_bda found=0 found_idx=18
+02-02 09:42:48.680 I/bt-btif (  663): HAL bt_gatt_callbacks->client->register_client_cb
+02-02 09:42:48.680 D/BtGatt.GattService(  663): onClientRegistered() - UUID=c1151c6f-a7b6-4823-a205-8199c6bcea1f, clientIf=6
+02-02 09:42:48.680 D/BluetoothAdapter(  663): onClientRegistered() - status=0 clientIf=6
+02-02 09:42:48.690 D/BtGatt.GattService(  663): startScan() - queue=0
+02-02 09:42:48.690 D/BtGatt.GattService(  663): startScan() - adding client=6
+02-02 09:42:48.690 D/BtGatt.btif(  663): btif_gattc_scan
+02-02 09:42:48.690 D/bt-btif (  663): btif_transfer_context event 1002, len 739
+02-02 09:42:48.690 D/bt-btif (  663): btif task fetched event a001
+02-02 09:42:48.690 D/bt-btif (  663): btif_context_switched
+02-02 09:42:48.690 D/BtGatt.btif(  663): btgattc_handle_event: Event 1002
+02-02 09:42:48.690 I/bt-btif (  663): BTA_DmBleObserve:start = 1 
+02-02 09:42:48.690 V/BleRemoteControllerService(  663): scanLeDevice spend:14
+02-02 09:42:48.690 I/bt-btif (  663): BTA got event 0x120
+02-02 09:42:48.690 I/bt-btif (  663): bta_dm_sm_execute event:0x20
+02-02 09:42:48.690 I/bt-btm  (  663): BTM_BleObserve 
+02-02 09:42:48.690 E/GKI_LINUX(  663): ##### ERROR : acquire_wake_lock: got lock success ret=2#####
+02-02 09:42:48.690 D/bt_upio (  663): BT_WAKE is asserted already
+02-02 09:42:48.690 E/bt_upio (  663): upio_set : open(/proc/bluetooth/sleep/btwrite) for write failed: No such file or directory (2)
+02-02 09:42:48.700 D/bt_upio (  663): BT_WAKE is asserted already
+02-02 09:42:48.700 E/bt_upio (  663): upio_set : open(/proc/bluetooth/sleep/btwrite) for write failed: No such file or directory (2)
+02-02 09:42:48.700 D/bt-btif (  663): HC lib lpm deassertion return 0
+02-02 09:42:48.700 D/bt-btif (  663): HC lib lpm deassertion return 0
+02-02 09:42:48.790 E/GKI_LINUX(  663): ##### ERROR : release_wake_lock: release lock success ret=2#####
+02-02 09:42:49.120 D/HttpLoader(  939): resUrl http://42.62.94.110/tvservice/getweatherforecast2?days=1&weatherver=2&locale=null&deviceid=0a09735235581c2044f48af3e379c41d&apiver=1.8&ver=4.4.2&codever=3&ptf=1000&ts=1454377359&nonce=203&opaque=eaa20218699a71d9cb3902ea3a873c3f5aa5e7c2
+02-02 09:42:49.700 D/bt_upio (  663): btwake deassertion
+02-02 09:42:49.720 D/WeatherReportUpdater(  939): err occur 13
+02-02 09:42:49.720 D/WeatherReportUpdater(  939): Weather dataLoad failed retry
+02-02 09:42:50.610 D/WifiMonitor(  547): Event [IFNAME=p2p-dev-wlan0 CTRL-EVENT-BSS-REMOVED 41 34:cd:be:1f:e5:10]
+02-02 09:42:50.830 D/WifiMonitor(  547): Event [IFNAME=p2p-dev-wlan0 CTRL-EVENT-BSS-ADDED 42 34:cd:be:1f:e5:10]
+02-02 09:42:51.820 D/dalvikvm(  841): GC_CONCURRENT freed 385K, 18% free 3528K/4268K, paused 13ms+17ms, total 165ms
+02-02 09:42:54.780 D/StatusBar.NetworkController(  635): onReceive WIFI state change.
+02-02 09:42:54.780 D/MiTVNetworkController(  939): action onReceive is : android.net.wifi.RSSI_CHANGED, mitv.network.ethernet.action.ETHERNET_STATE_CHANGED
+02-02 09:42:54.780 D/MiTVNetworkController(  939): updateWifiIcons mWifiConnected:true, mWifiLevel:4 mEthernetConnected false
+02-02 09:42:54.780 D/NetworkStateManager(  939): changeNetworkState, type:2, flag:0, level:4, lable:vodafoneE509
+02-02 09:42:54.780 D/NetworkStateView(  939): changeNetworkState type:2, flag:0, level:4, label:vodafoneE509, last_lable:null
+02-02 09:42:58.690 D/BluetoothAdapter(  663): stopLeScan()
+02-02 09:42:58.690 D/BtGatt.GattService(  663): stopScan() - queue=1
+02-02 09:42:58.690 D/BtGatt.GattService(  663): stopScan() - queue empty; stopping scan
+02-02 09:42:58.690 D/BtGatt.btif(  663): btif_gattc_scan
+02-02 09:42:58.690 D/bt-btif (  663): btif_transfer_context event 1003, len 739
+02-02 09:42:58.690 D/bt-btif (  663): btif task fetched event a001
+02-02 09:42:58.690 D/bt-btif (  663): btif_context_switched
+02-02 09:42:58.690 D/BtGatt.btif(  663): btgattc_handle_event: Event 1003
+02-02 09:42:58.690 I/bt-btif (  663): BTA_DmBleObserve:start = 0 
+02-02 09:42:58.690 I/bt-btif (  663): BTA got event 0x120
+02-02 09:42:58.690 I/bt-btif (  663): bta_dm_sm_execute event:0x20
+02-02 09:42:58.690 I/bt-btm  (  663): BTM_BleObserve 
+02-02 09:42:58.690 I/bt-btm  (  663): btm_ble_stop_scan 
+02-02 09:42:58.690 E/GKI_LINUX(  663): ##### ERROR : acquire_wake_lock: got lock success ret=2#####
+02-02 09:42:58.690 D/bt-btm  (  663): BTM Inq Compl Callback: status 0x00, num results 1
+02-02 09:42:58.690 D/BtGatt.GattService(  663): unregisterClient() - clientIf=6
+02-02 09:42:58.690 I/bt-btm  (  663): btm_update_scanner_filter_policy
+02-02 09:42:58.690 D/bt-btm  (  663): btm_acl_update_busy_level
+02-02 09:42:58.690 D/bt-btm  (  663): BTM_BLI_INQ_DONE_EVT
+02-02 09:42:58.690 D/BtGatt.btif(  663): btif_gattc_unregister_app
+02-02 09:42:58.690 D/bt-btif (  663): btif_transfer_context event 1001, len 739
+02-02 09:42:58.690 D/bt-btif (  663): btif task fetched event a001
+02-02 09:42:58.690 D/bt-btif (  663): btif_context_switched
+02-02 09:42:58.690 D/BtGatt.btif(  663): btgattc_handle_event: Event 1001
+02-02 09:42:58.690 E/bt_upio (  663): upio_set : open(/proc/bluetooth/sleep/btwrite) for write failed: No such file or directory (2)
+02-02 09:42:58.690 I/bt-btif (  663): BTA got event 0x1f17
+02-02 09:42:58.690 D/bt-btif (  663): bta_gattc_hdl_event: Event [BTA_GATTC_API_DEREG_EVT]
+02-02 09:42:58.690 I/bt-att  (  663): GATT_Deregister gatt_if=6
+02-02 09:42:58.690 I/bt-att  (  663): GATT_Listen gatt_if=6
+02-02 09:42:58.690 I/bt-btm  (  663): BTM_BleUpdateAdvFilterPolicy
+02-02 09:42:58.690 I/bt-btm  (  663): BTM_ReadConnectability
+02-02 09:42:58.690 I/bt-btm  (  663): BTM_SetConnectability
+02-02 09:42:58.690 I/bt-btm  (  663): btm_ble_set_connectability mode=0x0 combined_mode=0x1
+02-02 09:42:58.690 I/bt-btm  (  663): always disable adv in non-discoverable non-connectable mode with no scan rsp
+02-02 09:42:58.690 I/bt-btm  (  663): BTM_SetConnectability: mode 1 [NonConn-0, Conn-1], window 0x0012, interval 0x0800
+02-02 09:42:58.690 D/bt-btif (  663): btif_transfer_context event 1, len 676
+02-02 09:42:58.690 D/bt-btif (  663): btif task fetched event a001
+02-02 09:42:58.690 D/bt-btif (  663): btif_context_switched
+02-02 09:42:58.690 D/BtGatt.btif(  663): btif_gattc_upstreams_evt: Event 1
+02-02 09:42:58.700 D/bt_upio (  663): BT_WAKE is asserted already
+02-02 09:42:58.700 E/bt_upio (  663): upio_set : open(/proc/bluetooth/sleep/btwrite) for write failed: No such file or directory (2)
+02-02 09:42:58.700 D/bt_upio (  663): BT_WAKE is asserted already
+02-02 09:42:58.700 E/bt_upio (  663): upio_set : open(/proc/bluetooth/sleep/btwrite) for write failed: No such file or directory (2)
+02-02 09:42:58.700 D/bt-btif (  663): HC lib lpm deassertion return 0
+02-02 09:42:58.700 D/bt-btif (  663): HC lib lpm deassertion return 0
+02-02 09:42:58.790 E/GKI_LINUX(  663): ##### ERROR : release_wake_lock: release lock success ret=2#####
+02-02 09:42:59.190 V/BleRemoteControllerService(  663): requestScan,RC size:0,hasInit:true,isBinded:false,mIsPair:false,Connecting:false
+02-02 09:42:59.190 D/BluetoothAdapterService(1101120176)(  663): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d570
+02-02 09:42:59.200 D/BluetoothAdapterService(1101120176)(  663): Get Bonded Devices being called
+02-02 09:42:59.200 D/BluetoothAdapterProperties(  663): getBondedDevices: length=1
+02-02 09:42:59.200 D/BluetoothAdapterService(1101120176)(  663): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d570
+02-02 09:42:59.220 E/BleRemoteControllerService(  663): compare name failed!
+02-02 09:42:59.220 D/BluetoothAdapterService(1101120176)(  663): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d570
+02-02 09:42:59.220 D/BluetoothAdapterService(1101120176)(  663): Get Bonded Devices being called
+02-02 09:42:59.220 D/BluetoothAdapterProperties(  663): getBondedDevices: length=1
+02-02 09:42:59.220 D/BluetoothAdapterService(1101120176)(  663): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d570
+02-02 09:42:59.240 E/BleRemoteControllerService(  663): compare name failed!
+02-02 09:42:59.240 D/BluetoothAdapterService(1101120176)(  663): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d570
+02-02 09:42:59.240 D/BluetoothAdapter(  663): startLeScan(): null
+02-02 09:42:59.240 D/BtGatt.GattService(  663): registerClient() - UUID=8e19ba68-89e3-4c42-850e-77a856793186
+02-02 09:42:59.240 D/BtGatt.btif(  663): btif_gattc_register_app
+02-02 09:42:59.240 D/bt-btif (  663): btif_transfer_context event 1000, len 739
+02-02 09:42:59.240 D/bt-btif (  663): btif task fetched event a001
+02-02 09:42:59.240 D/bt-btif (  663): btif_context_switched
+02-02 09:42:59.240 D/BtGatt.btif(  663): btgattc_handle_event: Event 1000
+02-02 09:42:59.240 I/bt-btif (  663): BTA got event 0x1f16
+02-02 09:42:59.240 D/bt-btif (  663): bta_gattc_hdl_event: Event [BTA_GATTC_API_REG_EVT]
+02-02 09:42:59.240 D/bt-btif (  663): bta_gattc_register state 2
+02-02 09:42:59.240 I/bt-att  (  663): GATT_Register
+02-02 09:42:59.240 D/bt-att  (  663): UUID=[0x8e19ba6889e34c42850e77a856793186]
+02-02 09:42:59.240 I/bt-att  (  663): allocated gatt_if=6
+02-02 09:42:59.240 D/bt-btif (  663): btif_transfer_context event 0, len 676
+02-02 09:42:59.240 I/bt-btif (  663): BTA got event 0x1f15
+02-02 09:42:59.240 D/bt-btif (  663): bta_gattc_hdl_event: Event [BTA_GATTC_INT_START_IF_EVT]
+02-02 09:42:59.240 I/bt-att  (  663): GATT_StartIf gatt_if=6
+02-02 09:42:59.240 D/bt-att  (  663): gatt_find_the_connected_bda start_idx=0
+02-02 09:42:59.250 D/bt-att  (  663): gatt_find_the_connected_bda found=0 found_idx=18
+02-02 09:42:59.250 D/bt-btif (  663): btif task fetched event a001
+02-02 09:42:59.250 D/bt-btif (  663): btif_context_switched
+02-02 09:42:59.250 D/BtGatt.btif(  663): btif_gattc_upstreams_evt: Event 0
+02-02 09:42:59.250 I/bt-btif (  663): HAL bt_gatt_callbacks->client->register_client_cb
+02-02 09:42:59.250 D/BtGatt.GattService(  663): onClientRegistered() - UUID=8e19ba68-89e3-4c42-850e-77a856793186, clientIf=6
+02-02 09:42:59.250 D/BluetoothAdapter(  663): onClientRegistered() - status=0 clientIf=6
+02-02 09:42:59.250 D/BtGatt.GattService(  663): startScan() - queue=0
+02-02 09:42:59.250 D/BtGatt.GattService(  663): startScan() - adding client=6
+02-02 09:42:59.250 D/BtGatt.btif(  663): btif_gattc_scan
+02-02 09:42:59.250 D/bt-btif (  663): btif_transfer_context event 1002, len 739
+02-02 09:42:59.250 D/bt-btif (  663): btif task fetched event a001
+02-02 09:42:59.250 D/bt-btif (  663): btif_context_switched
+02-02 09:42:59.250 D/BtGatt.btif(  663): btgattc_handle_event: Event 1002
+02-02 09:42:59.250 I/bt-btif (  663): BTA_DmBleObserve:start = 1 
+02-02 09:42:59.250 V/BleRemoteControllerService(  663): scanLeDevice spend:13
+02-02 09:42:59.250 I/bt-btif (  663): BTA got event 0x120
+02-02 09:42:59.250 I/bt-btif (  663): bta_dm_sm_execute event:0x20
+02-02 09:42:59.250 I/bt-btm  (  663): BTM_BleObserve 
+02-02 09:42:59.250 E/GKI_LINUX(  663): ##### ERROR : acquire_wake_lock: got lock success ret=2#####
+02-02 09:42:59.250 D/bt_upio (  663): BT_WAKE is asserted already
+02-02 09:42:59.250 E/bt_upio (  663): upio_set : open(/proc/bluetooth/sleep/btwrite) for write failed: No such file or directory (2)
+02-02 09:42:59.260 D/bt_upio (  663): BT_WAKE is asserted already
+02-02 09:42:59.260 E/bt_upio (  663): upio_set : open(/proc/bluetooth/sleep/btwrite) for write failed: No such file or directory (2)
+02-02 09:42:59.260 D/bt-btif (  663): HC lib lpm deassertion return 0
+02-02 09:42:59.260 D/bt-btif (  663): HC lib lpm deassertion return 0
+02-02 09:42:59.350 E/GKI_LINUX(  663): ##### ERROR : release_wake_lock: release lock success ret=2#####
+02-02 09:43:00.260 D/bt_upio (  663): btwake deassertion
+02-02 09:43:00.610 D/WifiMonitor(  547): Event [IFNAME=p2p-dev-wlan0 CTRL-EVENT-BSS-REMOVED 42 34:cd:be:1f:e5:10]
+02-02 09:43:01.030 D/TVMQTTPushManager( 1366): Monitor Timer, onReceive: isManagerStarted: true ,isRegistering: false ,isRegistered true ,isRetrivingSSEC: false
+02-02 09:43:01.140 D/WifiMonitor(  547): Event [IFNAME=p2p-dev-wlan0 CTRL-EVENT-BSS-ADDED 43 34:cd:be:1f:e5:10]
+02-02 09:43:02.720 D/dalvikvm(  841): GC_CONCURRENT freed 402K, 18% free 3514K/4268K, paused 14ms+14ms, total 145ms
+02-02 09:43:04.960 D/UDTJmDNSThread(  841): Wifi is active connectivity
+02-02 09:43:04.970 D/UDTJmDNSThread(  841): get wifi IP: /192.168.1.7
+02-02 09:43:04.970 D/UDTJmDNSThread(  841): JmDNS address:/192.168.1.7
+02-02 09:43:04.970 I/UDTDiscoverManager(  841): UDTJmDNSThread now available, no operation
+02-02 09:43:07.930 I/wpa_supplicant(  771): P2P-DEVICE-FOUND 42:b0:fa:63:ca:b0 p2p_dev_addr=42:b0:fa:63:ca:b0 pri_dev_type=10-0050F204-5 name='Sink_cab0' config_methods=0x188 dev_capab=0x25 group_capab=0x0 wfd_dev_info=0x00000600101c440032
+02-02 09:43:07.940 D/WifiMonitor(  547): Event [P2P-DEVICE-FOUND 42:b0:fa:63:ca:b0 p2p_dev_addr=42:b0:fa:63:ca:b0 pri_dev_type=10-0050F204-5 name='Sink_cab0' config_methods=0x188 dev_capab=0x25 group_capab=0x0 wfd_dev_info=0x00000600101c440032]
+02-02 09:43:07.950 D/MiracastPlayerP2P(31393): Receive a P2P action android.net.wifi.p2p.PEERS_CHANGED
+02-02 09:43:07.950 D/MiracastPlayerP2P(31393): Received WIFI_P2P_PEERS_CHANGED_ACTION.
+02-02 09:43:07.950 D/MiracastPlayerP2P(31393): Request peers now
+02-02 09:43:07.960 D/MiracastPlayerP2P(31393): Peers are available
+02-02 09:43:07.960 D/MiracastPlayerP2P(31393): Device: Sink_cab0
+02-02 09:43:07.960 D/MiracastPlayerP2P(31393):  deviceAddress: 42:b0:fa:63:ca:b0
+02-02 09:43:07.960 D/MiracastPlayerP2P(31393):  primary type: 10-0050F204-5
+02-02 09:43:07.960 D/MiracastPlayerP2P(31393):  secondary type: null
+02-02 09:43:07.960 D/MiracastPlayerP2P(31393):  wps: 392
+02-02 09:43:07.960 D/MiracastPlayerP2P(31393):  grpcapab: 0
+02-02 09:43:07.960 D/MiracastPlayerP2P(31393):  devcapab: 37
+02-02 09:43:07.960 D/MiracastPlayerP2P(31393):  status: 3
+02-02 09:43:07.960 D/MiracastPlayerP2P(31393):  wfdInfo: WFD enabled: trueWFD DeviceInfo: 16
+02-02 09:43:07.960 D/MiracastPlayerP2P(31393):  WFD CtrlPort: 7236
+02-02 09:43:07.960 D/MiracastPlayerP2P(31393):  WFD MaxThroughput: 50
+02-02 09:43:07.960 D/MiracastPlayerP2P(31393): Detect a nearby miracast device
+02-02 09:43:07.960 D/MiracastPlayerP2P(31393): Find WFD CtrlPort: 7236
+02-02 09:43:07.960 D/MiracastPlayerP2P(31393): Connect status: Available
+02-02 09:43:07.990 I/hdmiswitch(  373):  recv n=260
+02-02 09:43:08.000 I/hdmiswitch(  373):  recv n=240
+02-02 09:43:08.010 I/hdmiswitch(  373):  recv n=240
+02-02 09:43:08.200 I/wpa_supplicant(  771): P2P-FIND-STOPPED 
+02-02 09:43:08.200 D/WifiMonitor(  547): Event [P2P-FIND-STOPPED ]
+02-02 09:43:08.210 I/wpa_supplicant(  771): rfkill: Cannot open RFKILL control device
+02-02 09:43:08.290 D/WifiMonitor(  547): Event [IFNAME=p2p-wlan0-11 CTRL-EVENT-STATE-CHANGE id=-1 state=2 BSSID=00:00:00:00:00:00 SSID=]
+02-02 09:43:08.370 D/WifiMonitor(  547): Event [IFNAME=p2p-wlan0-11 CTRL-EVENT-STATE-CHANGE id=-1 state=0 BSSID=00:00:00:00:00:00 SSID=]
+02-02 09:43:08.370 D/WifiMonitor(  547): Event [IFNAME=p2p-wlan0-11 CTRL-EVENT-STATE-CHANGE id=-1 state=3 BSSID=00:00:00:00:00:00 SSID=]
+02-02 09:43:08.400 E/wpa_supplicant(  771): Using interface p2p-wlan0-11 with hwaddr 06:e6:76:cf:6e:32 and ssid "DIRECT-EK-Sink_ee32"
+02-02 09:43:08.490 I/wpa_supplicant(  771): p2p-wlan0-11: CTRL-EVENT-CONNECTED - Connection to 06:e6:76:cf:6e:32 completed (auth) [id=0 id_str=]
+02-02 09:43:08.490 D/WifiMonitor(  547): Event [IFNAME=p2p-wlan0-11 CTRL-EVENT-CONNECTED - Connection to 06:e6:76:cf:6e:32 completed (auth) [id=0 id_str=]]
+02-02 09:43:08.490 E/WifiMonitor(  547): received CONNECTED handleNetworkStateChange 
+02-02 09:43:08.490 D/wifi_gbk2utf(  547): constructEventSsid, SSID = DIRECT-EK-Sink_ee32
+02-02 09:43:08.490 D/WifiMonitor(  547): Event [IFNAME=p2p-wlan0-11 CTRL-EVENT-STATE-CHANGE id=0 state=9 BSSID=06:e6:76:cf:6e:32 SSID=DIRECT-EK-Sink_ee32]
+02-02 09:43:08.490 I/wpa_supplicant(  771): P2P-GROUP-STARTED p2p-wlan0-11 GO ssid="DIRECT-EK-Sink_ee32" freq=2427 passphrase="qYiGL58S" go_dev_addr=06:e6:76:cf:ee:32 [PERSISTENT]
+02-02 09:43:08.490 D/WifiMonitor(  547): Event [P2P-GROUP-STARTED p2p-wlan0-11 GO ssid="DIRECT-EK-Sink_ee32" freq=2427 passphrase="qYiGL58S" go_dev_addr=06:e6:76:cf:ee:32 [PERSISTENT]]
+02-02 09:43:08.500 I/wpa_supplicant(  771): p2p-dev-wlan0: Control interface command 'LIST_NETWORKS'
+02-02 09:43:08.500 D/WifiMonitor(  547): Event [IFNAME=p2p-dev-wlan0 Control interface command 'LIST_NETWORKS']
+02-02 09:43:08.500 W/WifiMonitor(  547): couldn't identify event type - Control interface command 'LIST_NETWORKS'
+02-02 09:43:08.510 I/wpa_supplicant(  771): p2p-wlan0-11: Control interface command 'SET p2p_group_idle 10'
+02-02 09:43:08.510 D/WifiMonitor(  547): Event [IFNAME=p2p-wlan0-11 Control interface command 'SET p2p_group_idle 10']
+02-02 09:43:08.510 W/WifiMonitor(  547): couldn't identify event type - Control interface command 'SET p2p_group_idle 10'
+02-02 09:43:08.530 D/CommandListener(  167): Setting iface cfg
+02-02 09:43:08.530 D/CommandListener(  167): Trying to bring up p2p-wlan0-11
+02-02 09:43:08.540 D/TetherController(  167): Starting tethering services
+02-02 09:43:08.550 D/TetherController(  167): Tethering services running
+--------- beginning of /dev/log/system
+02-02 09:43:08.550 D/WifiP2pService(  547): Started Dhcp server on p2p-wlan0-11
+02-02 09:43:08.560 D/MiracastPlayerP2P(31393): Receive a P2P action android.net.wifi.p2p.THIS_DEVICE_CHANGED
+02-02 09:43:08.580 D/WifiDisplayController(  547): WFD : File changed : path=dnsmasq.txt event=2
+02-02 09:43:08.590 I/dnsmasq ( 3937): started, version 2.51 cachesize 150
+02-02 09:43:08.590 I/dnsmasq ( 3937): compile time options: no-IPv6 GNU-getopt no-DBus no-I18N DHCP no-scripts no-TFTP
+02-02 09:43:08.590 W/dnsmasq ( 3937): warning: no upstream servers configured
+02-02 09:43:08.590 I/dnsmasq ( 3937): DHCP, IP range 192.168.49.2 -- 192.168.49.254, lease time 1h
+02-02 09:43:08.590 I/dnsmasq ( 3937): read /etc/hosts - 1 addresses
+02-02 09:43:08.750 I/wpa_supplicant(  771): p2p-wlan0-11: AP-STA-CONNECTED 42:b0:fa:63:4a:b0 p2p_dev_addr=42:b0:fa:63:ca:b0
+02-02 09:43:08.750 D/WifiMonitor(  547): Event [IFNAME=p2p-wlan0-11 AP-STA-CONNECTED 42:b0:fa:63:4a:b0 p2p_dev_addr=42:b0:fa:63:ca:b0]
+02-02 09:43:08.760 I/wpa_supplicant(  771): AP-STA-CONNECTED 42:b0:fa:63:4a:b0 p2p_dev_addr=42:b0:fa:63:ca:b0
+02-02 09:43:08.760 I/wpa_supplicant(  771): p2p-wlan0-11: Control interface command 'SET p2p_group_idle 0'
+02-02 09:43:08.760 D/WifiMonitor(  547): Event [IFNAME=p2p-wlan0-11 Control interface command 'SET p2p_group_idle 0']
+02-02 09:43:08.760 W/WifiMonitor(  547): couldn't identify event type - Control interface command 'SET p2p_group_idle 0'
+02-02 09:43:08.760 D/MiracastPlayerP2P(31393): Receive a P2P action android.net.wifi.p2p.PEERS_CHANGED
+02-02 09:43:08.760 D/MiracastPlayerP2P(31393): Received WIFI_P2P_PEERS_CHANGED_ACTION.
+02-02 09:43:08.760 D/MiracastPlayerP2P(31393): Request peers now
+02-02 09:43:08.770 D/MiracastPlayerP2P(31393): Receive a P2P action android.net.wifi.p2p.CONNECTION_STATE_CHANGE
+02-02 09:43:08.770 D/MiracastPlayerP2P(31393): Received WIFI_P2P_CONNECTION_CHANGED_ACTION: networkInfo=NetworkInfo: type: WIFI_P2P[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+02-02 09:43:08.770 D/MiracastPlayerP2P(31393): A peer connection is changed
+02-02 09:43:08.770 D/MiracastPlayerP2P(31393): Peers are available
+02-02 09:43:08.770 D/MiracastPlayerP2P(31393): Device: Sink_cab0
+02-02 09:43:08.770 D/MiracastPlayerP2P(31393):  deviceAddress: 42:b0:fa:63:ca:b0
+02-02 09:43:08.770 D/MiracastPlayerP2P(31393):  primary type: 10-0050F204-5
+02-02 09:43:08.770 D/MiracastPlayerP2P(31393):  secondary type: null
+02-02 09:43:08.770 D/MiracastPlayerP2P(31393):  wps: 392
+02-02 09:43:08.770 D/MiracastPlayerP2P(31393):  grpcapab: 0
+02-02 09:43:08.770 D/MiracastPlayerP2P(31393):  devcapab: 37
+02-02 09:43:08.770 D/MiracastPlayerP2P(31393):  status: 0
+02-02 09:43:08.770 D/MiracastPlayerP2P(31393):  wfdInfo: WFD enabled: trueWFD DeviceInfo: 16
+02-02 09:43:08.770 D/MiracastPlayerP2P(31393):  WFD CtrlPort: 7236
+02-02 09:43:08.770 D/MiracastPlayerP2P(31393):  WFD MaxThroughput: 50
+02-02 09:43:08.770 D/MiracastPlayerP2P(31393): Detect a nearby miracast device
+02-02 09:43:08.770 D/MiracastPlayerP2P(31393): Find WFD CtrlPort: 7236
+02-02 09:43:08.770 D/MiracastPlayerP2P(31393): Connect status: Connected
+02-02 09:43:08.770 D/WifiDisplayController(  547): WFD : I am GO
+02-02 09:43:09.250 D/BluetoothAdapter(  663): stopLeScan()
+02-02 09:43:09.250 D/BtGatt.GattService(  663): stopScan() - queue=1
+02-02 09:43:09.250 D/BtGatt.GattService(  663): stopScan() - queue empty; stopping scan
+02-02 09:43:09.250 D/BtGatt.btif(  663): btif_gattc_scan
+02-02 09:43:09.250 D/bt-btif (  663): btif_transfer_context event 1003, len 739
+02-02 09:43:09.250 D/bt-btif (  663): btif task fetched event a001
+02-02 09:43:09.250 D/bt-btif (  663): btif_context_switched
+02-02 09:43:09.250 D/BtGatt.btif(  663): btgattc_handle_event: Event 1003
+02-02 09:43:09.250 I/bt-btif (  663): BTA_DmBleObserve:start = 0 
+02-02 09:43:09.250 I/bt-btif (  663): BTA got event 0x120
+02-02 09:43:09.250 I/bt-btif (  663): bta_dm_sm_execute event:0x20
+02-02 09:43:09.250 I/bt-btm  (  663): BTM_BleObserve 
+02-02 09:43:09.250 I/bt-btm  (  663): btm_ble_stop_scan 
+02-02 09:43:09.250 E/GKI_LINUX(  663): ##### ERROR : acquire_wake_lock: got lock success ret=2#####
+02-02 09:43:09.250 D/bt-btm  (  663): BTM Inq Compl Callback: status 0x00, num results 1
+02-02 09:43:09.250 I/bt-btm  (  663): btm_update_scanner_filter_policy
+02-02 09:43:09.250 D/bt-btm  (  663): btm_acl_update_busy_level
+02-02 09:43:09.250 D/bt-btm  (  663): BTM_BLI_INQ_DONE_EVT
+02-02 09:43:09.250 E/bt_upio (  663): upio_set : open(/proc/bluetooth/sleep/btwrite) for write failed: No such file or directory (2)
+02-02 09:43:09.250 D/BtGatt.GattService(  663): unregisterClient() - clientIf=6
+02-02 09:43:09.250 D/BtGatt.btif(  663): btif_gattc_unregister_app
+02-02 09:43:09.250 D/bt-btif (  663): btif_transfer_context event 1001, len 739
+02-02 09:43:09.260 D/bt-btif (  663): btif task fetched event a001
+02-02 09:43:09.260 D/bt-btif (  663): btif_context_switched
+02-02 09:43:09.260 D/BtGatt.btif(  663): btgattc_handle_event: Event 1001
+02-02 09:43:09.260 I/bt-btif (  663): BTA got event 0x1f17
+02-02 09:43:09.260 D/bt-btif (  663): bta_gattc_hdl_event: Event [BTA_GATTC_API_DEREG_EVT]
+02-02 09:43:09.260 I/bt-att  (  663): GATT_Deregister gatt_if=6
+02-02 09:43:09.260 I/bt-att  (  663): GATT_Listen gatt_if=6
+02-02 09:43:09.260 I/bt-btm  (  663): BTM_BleUpdateAdvFilterPolicy
+02-02 09:43:09.260 I/bt-btm  (  663): BTM_ReadConnectability
+02-02 09:43:09.260 I/bt-btm  (  663): BTM_SetConnectability
+02-02 09:43:09.260 I/bt-btm  (  663): btm_ble_set_connectability mode=0x0 combined_mode=0x1
+02-02 09:43:09.260 I/bt-btm  (  663): always disable adv in non-discoverable non-connectable mode with no scan rsp
+02-02 09:43:09.260 I/bt-btm  (  663): BTM_SetConnectability: mode 1 [NonConn-0, Conn-1], window 0x0012, interval 0x0800
+02-02 09:43:09.260 D/bt-btif (  663): btif_transfer_context event 1, len 676
+02-02 09:43:09.260 D/bt-btif (  663): btif task fetched event a001
+02-02 09:43:09.260 D/bt-btif (  663): btif_context_switched
+02-02 09:43:09.260 D/BtGatt.btif(  663): btif_gattc_upstreams_evt: Event 1
+02-02 09:43:09.260 D/bt_upio (  663): BT_WAKE is asserted already
+02-02 09:43:09.260 E/bt_upio (  663): upio_set : open(/proc/bluetooth/sleep/btwrite) for write failed: No such file or directory (2)
+02-02 09:43:09.260 D/bt_upio (  663): BT_WAKE is asserted already
+02-02 09:43:09.260 E/bt_upio (  663): upio_set : open(/proc/bluetooth/sleep/btwrite) for write failed: No such file or directory (2)
+02-02 09:43:09.260 D/bt-btif (  663): HC lib lpm deassertion return 0
+02-02 09:43:09.260 D/bt-btif (  663): HC lib lpm deassertion return 0
+02-02 09:43:09.350 E/GKI_LINUX(  663): ##### ERROR : release_wake_lock: release lock success ret=2#####
+02-02 09:43:09.410 D/dalvikvm(31393): GC_CONCURRENT freed 379K, 16% free 3453K/4096K, paused 12ms+11ms, total 168ms
+02-02 09:43:09.560 D/NameService(  889): mValidator run
+02-02 09:43:09.560 D/NameService(  889): have 0 name need to refresh
+02-02 09:43:09.570 D/NameService(  889): check after 240000
+02-02 09:43:09.750 V/BleRemoteControllerService(  663): requestScan,RC size:0,hasInit:true,isBinded:false,mIsPair:false,Connecting:false
+02-02 09:43:09.750 D/BluetoothAdapterService(1101120176)(  663): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d570
+02-02 09:43:09.760 D/BluetoothAdapterService(1101120176)(  663): Get Bonded Devices being called
+02-02 09:43:09.760 D/BluetoothAdapterProperties(  663): getBondedDevices: length=1
+02-02 09:43:09.760 D/BluetoothAdapterService(1101120176)(  663): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d570
+02-02 09:43:09.770 E/BleRemoteControllerService(  663): compare name failed!
+02-02 09:43:09.770 D/BluetoothAdapterService(1101120176)(  663): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d570
+02-02 09:43:09.770 D/BluetoothAdapterService(1101120176)(  663): Get Bonded Devices being called
+02-02 09:43:09.770 D/BluetoothAdapterProperties(  663): getBondedDevices: length=1
+02-02 09:43:09.770 D/BluetoothAdapterService(1101120176)(  663): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d570
+02-02 09:43:09.780 E/BleRemoteControllerService(  663): compare name failed!
+02-02 09:43:09.780 D/BluetoothAdapterService(1101120176)(  663): getState(): mAdapterProperties: com.android.bluetooth.btservice.AdapterProperties@41a1d570
+02-02 09:43:09.780 D/BluetoothAdapter(  663): startLeScan(): null
+02-02 09:43:09.780 D/BtGatt.GattService(  663): registerClient() - UUID=eae6abba-fb8a-4be2-811d-357f3710d018
+02-02 09:43:09.780 D/BtGatt.btif(  663): btif_gattc_register_app
+02-02 09:43:09.780 D/bt-btif (  663): btif_transfer_context event 1000, len 739
+02-02 09:43:09.780 D/bt-btif (  663): btif task fetched event a001
+02-02 09:43:09.780 D/bt-btif (  663): btif_context_switched
+02-02 09:43:09.780 D/BtGatt.btif(  663): btgattc_handle_event: Event 1000
+02-02 09:43:09.780 I/bt-btif (  663): BTA got event 0x1f16
+02-02 09:43:09.780 D/bt-btif (  663): bta_gattc_hdl_event: Event [BTA_GATTC_API_REG_EVT]
+02-02 09:43:09.780 D/bt-btif (  663): bta_gattc_register state 2
+02-02 09:43:09.780 I/bt-att  (  663): GATT_Register
+02-02 09:43:09.780 D/bt-att  (  663): UUID=[0xeae6abbafb8a4be2811d357f3710d018]
+02-02 09:43:09.780 I/bt-att  (  663): allocated gatt_if=6
+02-02 09:43:09.780 D/bt-btif (  663): btif_transfer_context event 0, len 676
+02-02 09:43:09.780 I/bt-btif (  663): BTA got event 0x1f15
+02-02 09:43:09.780 D/bt-btif (  663): bta_gattc_hdl_event: Event [BTA_GATTC_INT_START_IF_EVT]
+02-02 09:43:09.780 D/bt-btif (  663): GATT_StartIf gatt_if=6
+02-02 09:43:09.780 I/bt-att  (  663): GATT_StartIf gatt_if=6
+02-02 09:43:09.780 D/bt-btif (  663): gatt_find_the_connect
+02-02 09:43:09.780 D/bt-att  (  663): gatt_find_the_connected_bda start_idx=0
+02-02 09:43:09.780 D/BtGatt.btif(  663): btif_gattc_upstreams_evt: Event 0
+02-02 09:43:09.780 D/bt-att  (  663): HAL bt_gatt_callbacksed_bda found=0 found_idx=18
+02-02 09:43:09.780 I/bt-btif (  663): HAL bt_gatt_callbacks->client->register_client_cb
+02-02 09:43:09.780 D/BtGatt.GattService(  663): onClientRegistered() - UUID=eae6abba-fb8a-4be2-811d-357f3710d018, clientIf=6
+02-02 09:43:09.780 D/BluetoothAdapter(  663): onClientRegistered() - status=0 clientIf=6
+02-02 09:43:09.790 D/BtGatt.GattService(  663): startScan() - queue=0
+02-02 09:43:09.790 D/BtGatt.GattService(  663): startScan() - adding client=6
+02-02 09:43:09.790 D/BtGatt.btif(  663): btif_gattc_scan
+02-02 09:43:09.790 D/bt-btif (  663): btif_transfer_context event 1002, len 739
+02-02 09:43:09.790 D/bt-btif (  663): btif task fetched event a001
+02-02 09:43:09.790 D/bt-btif (  663): btif_context_switched
+02-02 09:43:09.790 D/BtGatt.btif(  663): btgattc_handle_event: Event 1002
+02-02 09:43:09.790 I/bt-btif (  663): BTA_DmBleObserve:start = 1 
+02-02 09:43:09.790 V/BleRemoteControllerService(  663): scanLeDevice spend:7
+02-02 09:43:09.790 I/bt-btif (  663): BTA got event 0x120
+02-02 09:43:09.790 I/bt-btif (  663): bta_dm_sm_execute event:0x20
+02-02 09:43:09.790 I/bt-btm  (  663): BTM_BleObserve 
+02-02 09:43:09.790 E/GKI_LINUX(  663): ##### ERROR : acquire_wake_lock: got lock success ret=2#####
+02-02 09:43:09.790 D/bt_upio (  663): BT_WAKE is asserted already
+02-02 09:43:09.790 E/bt_upio (  663): upio_set : open(/proc/bluetooth/sleep/btwrite) for write failed: No such file or directory (2)
+02-02 09:43:09.790 D/bt_upio (  663): BT_WAKE is asserted already
+02-02 09:43:09.790 E/bt_upio (  663): upio_set : open(/proc/bluetooth/sleep/btwrite) for write failed: No such file or directory (2)
+02-02 09:43:09.790 D/bt-btif (  663): HC lib lpm deassertion return 0
+02-02 09:43:09.790 D/bt-btif (  663): HC lib lpm deassertion return 0
+02-02 09:43:09.890 E/GKI_LINUX(  663): ##### ERROR : release_wake_lock: release lock success ret=2#####
+02-02 09:43:09.900 D/StatusBar.NetworkController(  635): onReceive WIFI state change.
+02-02 09:43:09.900 D/MiTVNetworkController(  939): action onReceive is : android.net.wifi.RSSI_CHANGED, mitv.network.ethernet.action.ETHERNET_STATE_CHANGED
+02-02 09:43:09.900 D/MiTVNetworkController(  939): updateWifiIcons mWifiConnected:true, mWifiLevel:3 mEthernetConnected false
+02-02 09:43:09.900 D/NetworkStateManager(  939): changeNetworkState, type:2, flag:0, level:3, lable:vodafoneE509
+02-02 09:43:09.900 D/NetworkStateView(  939): changeNetworkState type:2, flag:0, level:3, label:vodafoneE509, last_lable:null
+02-02 09:43:10.610 D/WifiMonitor(  547): Event [IFNAME=p2p-dev-wlan0 CTRL-EVENT-BSS-REMOVED 43 34:cd:be:1f:e5:10]
+02-02 09:43:10.790 D/bt_upio (  663): btwake deassertion
+02-02 09:43:10.980 D/dalvikvm(31393): GC_CONCURRENT freed 415K, 19% free 3430K/4200K, paused 10ms+20ms, total 129ms
+02-02 09:43:10.980 D/dalvikvm(31393): WAIT_FOR_CONCURRENT_GC blocked 122ms
+02-02 09:43:12.200 I/dnsmasq ( 3937): DHCPDISCOVER(p2p-wlan0-11) 42:b0:fa:63:4a:b0 
+02-02 09:43:12.200 I/dnsmasq ( 3937): DHCPOFFER(p2p-wlan0-11) 192.168.49.56 42:b0:fa:63:4a:b0 
+02-02 09:43:12.210 I/dnsmasq ( 3937): DHCPREQUEST(p2p-wlan0-11) 192.168.49.56 42:b0:fa:63:4a:b0 
+02-02 09:43:12.210 I/dnsmasq ( 3937): DHCPACK(p2p-wlan0-11) 192.168.49.56 42:b0:fa:63:4a:b0 android-1466a4983a9f4d41
+02-02 09:43:12.210 I/dnsmasq ( 3937): EXTRA : mac=42:b0:fa:63:4a:b0, ip=192.168.49.56
+02-02 09:43:12.210 D/WifiDisplayController(  547): WFD : File changed : path=dnsmasq.txt event=2
+02-02 09:43:12.210 D/WifiDisplayController(  547): Sending DNSMASQ_IP_ADDR_ACTION broadcast : mac=xx.xx.xx.xx.xx.xx ip=192.168.49.56 port=7236
+02-02 09:43:12.220 D/WifiDisplayController(  547): Received DNSMASQ_IP_ADDR_ACTION : mac=xx.xx.xx.xx.xx.xx ip=192.168.49.56 port=7236
+02-02 09:43:12.320 D/MiracastPlayerP2P(31393): Get a nearest IP from /proc/net/arp for 42:b0:fa:63:ca:b0
+02-02 09:43:12.320 D/MiracastPlayerP2P(31393): 192.168.49.56    0x1         0x2         42:b0:fa:63:4a:b0     *        p2p-wlan0-11
+02-02 09:43:12.330 D/MiracastPlayerP2P(31393): It looks a WFD source is connected
+02-02 09:43:12.340 D/MiracastPlayerP2P(31393): groupFormed: true isGroupOwner: true groupOwnerAddress: /192.168.49.1
+02-02 09:43:12.340 D/MiracastPlayerP2P(31393): Sink is the P2P GO with IP 192.168.49.1
+02-02 09:43:12.340 E/MiracastPlayerP2P(31393): Found  WFD source
+02-02 09:43:12.350 D/MiracastPlayerP2P(31393): Connected from 192.168.49.56:7236
+02-02 09:43:12.350 D/MiracastPlayerP2P(31393): Playing video...
+02-02 09:43:12.360 I/ActivityManager(  547): START u0 {cmp=com.playwfd.miracastplayer/.WfdPlayerActivity (has extras)} from pid 31393
+02-02 09:43:12.360 I/ActivityManager(  547): start package name is com.playwfd.miracastplayer, class name is com.playwfd.miracastplayer.WfdPlayerActivity, error code is 0
+02-02 09:43:12.390 D/MiracastPlayerP2P(31393): P2PActivity onPause
+02-02 09:43:12.400 D/DisplayMetrics(  547): densityDpi 320
+02-02 09:43:12.420 I/UsageStats(  547): Deleting usage file : usage-20151205
+02-02 09:43:12.520 I/MiracastPlayer(31393): PlayerActivity onCreate
+02-02 09:43:12.540 D/MiracastPlayer(31393): Source IP is 192.168.49.56:7236
+02-02 09:43:12.540 D/MiracastPlayer(31393): Use built-in wfd protocol to play
+02-02 09:43:12.540 I/MiracastPlayer(31393): PlayerActivity onResume
+02-02 09:43:12.570 D/MiracastPlayer(31393): Received WIFI_P2P_CONNECTION_CHANGED
+02-02 09:43:12.570 D/MiracastPlayer(31393): Received WIFI_P2P_CONNECTION_CHANGED_ACTION: networkInfo=NetworkInfo: type: WIFI_P2P[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+02-02 09:43:12.620 D/dalvikvm(31393): GC_CONCURRENT freed 395K, 18% free 3448K/4200K, paused 11ms+14ms, total 101ms
+02-02 09:43:12.630 D/MiracastPlayerUIBC(31393): onLayout: changed:true left:0 top:0 right:1920 bottom:1080
+02-02 09:43:12.630 I/VideoView(31393): Layout changed,left=0 top=0 right=1920 bottom=1080
+02-02 09:43:12.630 I/VideoView(31393): Layout changed,oldLeft=0 oldTop=0 oldRight=0 oldBottom=0
+02-02 09:43:12.670 I/MediaPlayer(31393): MediaPlayer enter
+02-02 09:43:12.670 D/AirtuneService(  841): Receive Broadcast action=com.android.music.musicservicecommand
+02-02 09:43:12.670 D/AirtuneService(  841): process com.android.music.musicservicecommand in thread 1
+02-02 09:43:12.670 D/AirtuneService(  841): process com.android.music.musicservicecommandcomplete in thread 1
+02-02 09:43:12.680 I/MediaPlayer(31393): setDataSource(Context context, Uri uri, Map<String, String> headers) enter wfd://192.168.49.56:7236
+02-02 09:43:12.680 D/MediaPlayer(31393): Couldn't open file on client side, trying server side
+02-02 09:43:12.680 I/MediaPlayer(31393): setDataSource(String path, Map<String, String> headers) enter wfd://192.168.49.56:7236
+02-02 09:43:12.680 V/MediaPlayerService(  172): Client(4702) constructor
+02-02 09:43:12.680 V/MediaPlayerService(  172): Create new client(4702) from pid 31393, uid 10044, 
+02-02 09:43:12.680 V/MediaPlayerService(  172): player type = 111
+02-02 09:43:12.680 V/MediaPlayerService(  172): createPlayer:968 
+02-02 09:43:12.680 V/MediaPlayerService(  172): Create AmSuperPlayer
+02-02 09:43:12.680 V/AmSuperPlayer(  172): AmSuperPlayer init now
+02-02 09:43:12.680 V/AudioSink(  172): AudioOutput(207)
+02-02 09:43:12.680 V/MediaPlayerService(  172):  setDataSource
+02-02 09:43:12.680 I/MediaPlayer(31393): setDisplay enter
+02-02 09:43:12.680 V/MediaPlayerService(  172): [4702] setVideoSurfaceTexture(0xb8008948)
+02-02 09:43:12.680 E/MediaPlayerService(  172): [4702] setVideoSurfaceTexture(0xb8008948), binder(0xb8010f28)
+02-02 09:43:12.680 I/MediaPlayer(31393): setScreenOnWhilePlaying(boolean screenOn) enter
+02-02 09:43:12.690 V/MediaPlayerService(  172): [4702] setVideoSurfaceTexture(0xb8019320)
+02-02 09:43:12.690 E/MediaPlayerService(  172): [4702] setVideoSurfaceTexture(0xb8019320), binder(0xb8010f28)
+02-02 09:43:12.690 V/MediaPlayerService(  172): [4702] setAudioStreamType(3)
+02-02 09:43:12.690 V/MediaPlayerService(  172): [4702] prepareAsync
+02-02 09:43:12.690 V/AmSuperPlayer(  172): createPlayer
+02-02 09:43:12.690 V/AmSuperPlayer(  172): Create Amlogic Player
+02-02 09:43:12.690 I/AmlogicPlayer(  172): media.amplayer.stopbuftime is not set used def=0.000000
+02-02 09:43:12.690 I/AmlogicPlayer(  172): media.amplayer.streamtimeadd is not set used def=0.000000
+02-02 09:43:12.690 I/AmlogicPlayer(  172): media.amplayer.droptinyseek.ms is not set used def=-1.000000
+02-02 09:43:12.690 I/AmlogicPlayer(  172): media.amplayer.delaybuffering.s is not set used def=0.000000
+02-02 09:43:12.690 I/AmlogicPlayer(  172): found 0 not exit player threads,try exit it now
+02-02 09:43:12.690 I/AmlogicPlayer(  172): media.amplayer.useandroidhttp is not setting,use default false
+02-02 09:43:12.690 I/AmlogicPlayer(  172): media.amplayer.widevineenable is disabled
+02-02 09:43:12.690 I/AmlogicPlayer(  172): media.amplayer.dsource4local is enabled
+02-02 09:43:12.690 E/wfd_client(  172): wfd_client create
+02-02 09:43:12.690 E/wfd_client(  172): wfd_client : start
+02-02 09:43:12.690 W/ALooperRoster(  172): ALooper::handler_id ALooperRoster::registerHandler 25
+02-02 09:43:12.690 E/wfd_client(  172): start sink
+02-02 09:43:12.720 I/HDCPModuleAmlogic(  172): HDCP2LIB build time: Aug 25 2015 11:57:15
+02-02 09:43:12.720 I/HDCPModuleAmlogic(  172): HDCPModule loaded (1454377392)
+02-02 09:43:12.720 I/HDCPLIB (  172): Using software AES
+02-02 09:43:12.750 E/HDCPLIB_RX(  172): rx_load_keys, err: -27
+02-02 09:43:12.750 E/HDCPLIB_RX(  172): rx_setup_private_data, err: -27
+02-02 09:43:12.750 E/HDCPLIB (  172): hdcp_init, err: -27
+02-02 09:43:12.750 E/HDCPModuleAmlogic(  172): module init failed (1454377392)
+02-02 09:43:12.750 I/HDCPModuleAmlogic(  172): HDCP2LIB unloaded (1454377392)
+02-02 09:43:12.750 E/HDCP    (  172): createHDCPModule failed.
+02-02 09:43:12.760 E/WifiDisplaySink(  172): Failed to set HDCP observer.
+02-02 09:43:12.760 E/WifiDisplaySink(  172): Unable to instantiate HDCP component. Not using HDCP after all.
+02-02 09:43:12.760 I/WifiDisplaySink(  172): post msg kWhatStart.
+02-02 09:43:12.760 E/wfd_client(  172): start looper
+02-02 09:43:12.760 E/wfd_client(  172): start looper finish
+02-02 09:43:12.760 E/wfd_client(  172): wfd_client : getStreamSource
+02-02 09:43:12.760 I/WifiDisplaySink(  172): Received msg kWhatStart.
+02-02 09:43:12.760 I/WifiDisplaySink(  172): Create RTSPClient.
+02-02 09:43:12.760 I/NetworkSession(  172): connecting to 192.168.49.56:7236
+02-02 09:43:12.780 D/PinyinIME(  784): onFinishInput.
+02-02 09:43:12.780 D/PinyinIME(  784): onStartInput  ccontentType: 0 Restarting:false
+02-02 09:43:12.790 D/MiracastPlayerUIBC(31393): onLayout: changed:false left:0 top:0 right:1920 bottom:1080
+02-02 09:43:12.790 I/VideoView(31393): Layout changed,left=0 top=0 right=1920 bottom=1080
+02-02 09:43:12.790 I/VideoView(31393): Layout changed,oldLeft=0 oldTop=0 oldRight=1920 oldBottom=1080
+02-02 09:43:12.790 I/VideoView(31393): .left=0.top=0.right=1920.bottom=1080.oldLeft=0.oldTop=0.oldRight=1920.oldBottom=1080.Rotation=0
+02-02 09:43:12.790 V/MediaPlayerService(  172): [4702] setParameter(2000)
+02-02 09:43:12.800 I/ActivityManager(  547): Displayed com.playwfd.miracastplayer/.WfdPlayerActivity: +399ms
+02-02 09:43:13.760 I/WifiDisplaySink(  172): Received msg kWhatRTSPNotify.
+02-02 09:43:13.760 I/WifiDisplaySink(  172): reason: kWhatConnected.
+02-02 09:43:13.760 I/WifiDisplaySink(  172): We're now connected.
+02-02 09:43:13.770 I/WifiDisplaySink(  172): Received msg kWhatRTSPNotify.
+02-02 09:43:13.770 I/WifiDisplaySink(  172): reason: kWhatData.
+02-02 09:43:13.770 I/WifiDisplaySink(  172): 
+02-02 09:43:13.770 I/WifiDisplaySink(  172): Received Request:
+02-02 09:43:13.770 I/WifiDisplaySink(  172): OPTIONS * RTSP/1.0
+02-02 09:43:13.770 I/WifiDisplaySink(  172): cseq: 1
+02-02 09:43:13.770 I/WifiDisplaySink(  172): date: Tue, 02 Feb 2016 01:43:12 +0000
+02-02 09:43:13.770 I/WifiDisplaySink(  172): require: org.wfa.wfd1.0
+02-02 09:43:13.770 I/WifiDisplaySink(  172): server: stagefright/1.2 (Linux;Android 5.1.1)
+02-02 09:43:13.770 I/WifiDisplaySink(  172): 
+02-02 09:43:13.770 I/WifiDisplaySink(  172): 
+02-02 09:43:13.770 I/WifiDisplaySink(  172): Send Response:
+02-02 09:43:13.770 I/WifiDisplaySink(  172): RTSP/1.0 200 OK
+02-02 09:43:13.770 I/WifiDisplaySink(  172): Date: Tue, 02 Feb 2016 01:43:13 +0000
+02-02 09:43:13.770 I/WifiDisplaySink(  172): User-Agent: stagefright/1.1 (Linux;Android 4.1)
+02-02 09:43:13.770 I/WifiDisplaySink(  172): CSeq: 1
+02-02 09:43:13.770 I/WifiDisplaySink(  172): Public: org.wfa.wfd1.0, GET_PARAMETER, SET_PARAMETER
+02-02 09:43:13.770 I/WifiDisplaySink(  172): 
+02-02 09:43:13.770 I/WifiDisplaySink(  172): 
+02-02 09:43:13.770 I/WifiDisplaySink(  172): Send Request:
+02-02 09:43:13.770 I/WifiDisplaySink(  172): OPTIONS * RTSP/1.0
+02-02 09:43:13.770 I/WifiDisplaySink(  172): Date: Tue, 02 Feb 2016 01:43:13 +0000
+02-02 09:43:13.770 I/WifiDisplaySink(  172): User-Agent: stagefright/1.1 (Linux;Android 4.1)
+02-02 09:43:13.770 I/WifiDisplaySink(  172): CSeq: 1
+02-02 09:43:13.770 I/WifiDisplaySink(  172): Require: org.wfa.wfd1.0
+02-02 09:43:13.770 I/WifiDisplaySink(  172): 
+02-02 09:43:13.780 I/WifiDisplaySink(  172): registerResponseHandler:id = 1, onReceiveM2Response
+02-02 09:43:13.790 I/WifiDisplaySink(  172): Received msg kWhatRTSPNotify.
+02-02 09:43:13.790 I/WifiDisplaySink(  172): reason: kWhatData.
+02-02 09:43:13.790 I/WifiDisplaySink(  172): 
+02-02 09:43:13.790 I/WifiDisplaySink(  172): Received Response:
+02-02 09:43:13.790 I/WifiDisplaySink(  172): RTSP/1.0 200 OK
+02-02 09:43:13.790 I/WifiDisplaySink(  172): cseq: 1
+02-02 09:43:13.790 I/WifiDisplaySink(  172): date: Tue, 02 Feb 2016 01:43:12 +0000
+02-02 09:43:13.790 I/WifiDisplaySink(  172): public: org.wfa.wfd1.0, SETUP, TEARDOWN, PLAY, PAUSE, GET_PARAMETER, SET_PARAMETER
+02-02 09:43:13.790 I/WifiDisplaySink(  172): server: stagefright/1.2 (Linux;Android 5.1.1)
+02-02 09:43:13.790 I/WifiDisplaySink(  172): 
+02-02 09:43:13.790 I/WifiDisplaySink(  172): onReceiveM2Response
+02-02 09:43:13.820 I/WifiDisplaySink(  172): Received msg kWhatRTSPNotify.
+02-02 09:43:13.820 I/WifiDisplaySink(  172): reason: kWhatData.
+02-02 09:43:13.820 I/WifiDisplaySink(  172): 
+02-02 09:43:13.820 I/WifiDisplaySink(  172): Received Request:
+02-02 09:43:13.820 I/WifiDisplaySink(  172): GET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+02-02 09:43:13.820 I/WifiDisplaySink(  172): content-length: 83
+02-02 09:43:13.820 I/WifiDisplaySink(  172): content-type: text/parameters
+02-02 09:43:13.820 I/WifiDisplaySink(  172): cseq: 2
+02-02 09:43:13.820 I/WifiDisplaySink(  172): date: Tue, 02 Feb 2016 01:43:12 +0000
+02-02 09:43:13.820 I/WifiDisplaySink(  172): server: stagefright/1.2 (Linux;Android 5.1.1)
+02-02 09:43:13.820 I/WifiDisplaySink(  172): 
+02-02 09:43:13.820 I/WifiDisplaySink(  172): wfd_content_protection
+02-02 09:43:13.820 I/WifiDisplaySink(  172): wfd_video_formats
+02-02 09:43:13.820 I/WifiDisplaySink(  172): wfd_audio_codecs
+02-02 09:43:13.820 I/WifiDisplaySink(  172): wfd_client_rtp_ports
+02-02 09:43:13.830 W/ALooperRoster(  172): ALooper::handler_id ALooperRoster::registerHandler 26
+02-02 09:43:13.830 I/WifiDisplaySink(  172): !!! FIXME: HARD CODE with video_formats, audio_codecs and client_rtp_ports
+02-02 09:43:13.840 I/WifiDisplaySink(  172): 
+02-02 09:43:13.840 I/WifiDisplaySink(  172): Send Response:
+02-02 09:43:13.840 I/WifiDisplaySink(  172): RTSP/1.0 200 OK
+02-02 09:43:13.840 I/WifiDisplaySink(  172): Date: Tue, 02 Feb 2016 01:43:13 +0000
+02-02 09:43:13.840 I/WifiDisplaySink(  172): User-Agent: stagefright/1.1 (Linux;Android 4.1)
+02-02 09:43:13.840 I/WifiDisplaySink(  172): CSeq: 2
+02-02 09:43:13.840 I/WifiDisplaySink(  172): Content-Type: text/parameters
+02-02 09:43:13.840 I/WifiDisplaySink(  172): Content-Length: 212
+02-02 09:43:13.840 I/WifiDisplaySink(  172): 
+02-02 09:43:13.840 I/WifiDisplaySink(  172): wfd_audio_codecs: LPCM 00000003 00
+02-02 09:43:13.840 I/WifiDisplaySink(  172): wfd_video_formats: 00 00 02 0F 00019CFF 05557FFF 00000FFF 00 0001 0000 11 none none
+02-02 09:43:13.840 I/WifiDisplaySink(  172): wfd_client_rtp_ports: RTP/AVP/UDP;unicast 15550 0 mode=play
+02-02 09:43:13.840 I/WifiDisplaySink(  172): wfd_content_protection: none
+02-02 09:43:13.850 I/WifiDisplaySink(  172): Received msg kWhatRTSPNotify.
+02-02 09:43:13.850 I/WifiDisplaySink(  172): reason: kWhatData.
+02-02 09:43:13.850 I/WifiDisplaySink(  172): 
+02-02 09:43:13.850 I/WifiDisplaySink(  172): Received Request:
+02-02 09:43:13.850 I/WifiDisplaySink(  172): SET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+02-02 09:43:13.850 I/WifiDisplaySink(  172): content-length: 249
+02-02 09:43:13.850 I/WifiDisplaySink(  172): content-type: text/parameters
+02-02 09:43:13.850 I/WifiDisplaySink(  172): cseq: 3
+02-02 09:43:13.850 I/WifiDisplaySink(  172): date: Tue, 02 Feb 2016 01:43:12 +0000
+02-02 09:43:13.850 I/WifiDisplaySink(  172): server: stagefright/1.2 (Linux;Android 5.1.1)
+02-02 09:43:13.850 I/WifiDisplaySink(  172): 
+02-02 09:43:13.850 I/WifiDisplaySink(  172): wfd_video_formats: 00 00 02 02 00000020 00000000 00000000 00 0000 0000 00 none none
+02-02 09:43:13.850 I/WifiDisplaySink(  172): wfd_audio_codecs: LPCM 00000002 00
+02-02 09:43:13.850 I/WifiDisplaySink(  172): wfd_presentation_URL: rtsp://192.168.49.56/wfd1.0/streamid=0 none
+02-02 09:43:13.850 I/WifiDisplaySink(  172): wfd_client_rtp_ports: RTP/AVP/UDP;unicast 15550 0 mode=play
+02-02 09:43:13.850 I/WifiDisplaySink(  172): 
+02-02 09:43:13.850 I/WifiDisplaySink(  172): Send Response:
+02-02 09:43:13.850 I/WifiDisplaySink(  172): RTSP/1.0 200 OK
+02-02 09:43:13.850 I/WifiDisplaySink(  172): Date: Tue, 02 Feb 2016 01:43:13 +0000
+02-02 09:43:13.850 I/WifiDisplaySink(  172): User-Agent: stagefright/1.1 (Linux;Android 4.1)
+02-02 09:43:13.850 I/WifiDisplaySink(  172): CSeq: 3
+02-02 09:43:13.850 I/WifiDisplaySink(  172): Content-Type: text/parameters
+02-02 09:43:13.850 I/WifiDisplaySink(  172): Content-Length: 0
+02-02 09:43:13.850 I/WifiDisplaySink(  172): 
+02-02 09:43:13.860 I/WifiDisplaySink(  172): Received msg kWhatRTSPNotify.
+02-02 09:43:13.860 I/WifiDisplaySink(  172): reason: kWhatData.
+02-02 09:43:13.860 I/WifiDisplaySink(  172): 
+02-02 09:43:13.860 I/WifiDisplaySink(  172): Received Request:
+02-02 09:43:13.860 I/WifiDisplaySink(  172): SET_PARAMETER rtsp://localhost/wfd1.0 RTSP/1.0
+02-02 09:43:13.860 I/WifiDisplaySink(  172): content-length: 27
+02-02 09:43:13.860 I/WifiDisplaySink(  172): content-type: text/parameters
+02-02 09:43:13.860 I/WifiDisplaySink(  172): cseq: 4
+02-02 09:43:13.860 I/WifiDisplaySink(  172): date: Tue, 02 Feb 2016 01:43:12 +0000
+02-02 09:43:13.860 I/WifiDisplaySink(  172): server: stagefright/1.2 (Linux;Android 5.1.1)
+02-02 09:43:13.860 I/WifiDisplaySink(  172): 
+02-02 09:43:13.860 I/WifiDisplaySink(  172): wfd_trigger_method: SETUP
+02-02 09:43:13.860 I/WifiDisplaySink(  172): 
+02-02 09:43:13.860 I/WifiDisplaySink(  172): Send Response:
+02-02 09:43:13.860 I/WifiDisplaySink(  172): RTSP/1.0 200 OK
+02-02 09:43:13.860 I/WifiDisplaySink(  172): Date: Tue, 02 Feb 2016 01:43:13 +0000
+02-02 09:43:13.860 I/WifiDisplaySink(  172): User-Agent: stagefright/1.1 (Linux;Android 4.1)
+02-02 09:43:13.860 I/WifiDisplaySink(  172): CSeq: 4
+02-02 09:43:13.860 I/WifiDisplaySink(  172): Content-Type: text/parameters
+02-02 09:43:13.860 I/WifiDisplaySink(  172): Content-Length: 0
+02-02 09:43:13.860 I/WifiDisplaySink(  172): 
+02-02 09:43:13.860 I/WifiDisplaySink(  172): 
+02-02 09:43:13.860 I/WifiDisplaySink(  172): Send Request:
+02-02 09:43:13.860 I/WifiDisplaySink(  172): SETUP rtsp://192.168.49.56/wfd1.0/streamid=0 RTSP/1.0
+02-02 09:43:13.860 I/WifiDisplaySink(  172): Date: Tue, 02 Feb 2016 01:43:13 +0000
+02-02 09:43:13.860 I/WifiDisplaySink(  172): User-Agent: stagefright/1.1 (Linux;Android 4.1)
+02-02 09:43:13.860 I/WifiDisplaySink(  172): CSeq: 2
+02-02 09:43:13.860 I/WifiDisplaySink(  172): Transport: RTP/AVP/UDP;unicast;client_port=15550-15551
+02-02 09:43:13.860 I/WifiDisplaySink(  172): 
+02-02 09:43:13.860 I/WifiDisplaySink(  172): registerResponseHandler:id = 2, onReceiveSetupResponse
+02-02 09:43:13.990 I/WifiDisplaySink(  172): Received msg kWhatRTSPNotify.
+02-02 09:43:13.990 I/WifiDisplaySink(  172): reason: kWhatData.
+02-02 09:43:13.990 I/WifiDisplaySink(  172): 
+02-02 09:43:13.990 I/WifiDisplaySink(  172): Received Response:
+02-02 09:43:13.990 I/WifiDisplaySink(  172): RTSP/1.0 200 OK
+02-02 09:43:13.990 I/WifiDisplaySink(  172): cseq: 2
+02-02 09:43:13.990 I/WifiDisplaySink(  172): date: Tue, 02 Feb 2016 01:43:12 +0000
+02-02 09:43:13.990 I/WifiDisplaySink(  172): server: stagefright/1.2 (Linux;Android 5.1.1)
+02-02 09:43:13.990 I/WifiDisplaySink(  172): session: 1804289383;timeout=30
+02-02 09:43:13.990 I/WifiDisplaySink(  172): transport: RTP/AVP/UDP;unicast;client_port=15550-15551;server_port=26466-26467
+02-02 09:43:13.990 I/WifiDisplaySink(  172): 
+02-02 09:43:13.990 I/WifiDisplaySink(  172): onReceiveSetupResponse
+02-02 09:43:13.990 I/WifiDisplaySink(  172): onReceiveSetupResponse: send PLAY Request
+02-02 09:43:13.990 I/WifiDisplaySink(  172): 
+02-02 09:43:13.990 I/WifiDisplaySink(  172): Send Request:
+02-02 09:43:13.990 I/WifiDisplaySink(  172): PLAY rtsp://192.168.49.56/wfd1.0/streamid=0 RTSP/1.0
+02-02 09:43:13.990 I/WifiDisplaySink(  172): Date: Tue, 02 Feb 2016 01:43:14 +0000
+02-02 09:43:13.990 I/WifiDisplaySink(  172): User-Agent: stagefright/1.1 (Linux;Android 4.1)
+02-02 09:43:13.990 I/WifiDisplaySink(  172): CSeq: 3
+02-02 09:43:13.990 I/WifiDisplaySink(  172): Session: 1804289383
+02-02 09:43:13.990 I/WifiDisplaySink(  172): 
+02-02 09:43:13.990 I/WifiDisplaySink(  172): registerResponseHandler:id = 3, onReceivePlayResponse
+02-02 09:43:14.020 I/WifiDisplaySink(  172): Received msg kWhatRTSPNotify.
+02-02 09:43:14.020 I/WifiDisplaySink(  172): reason: kWhatData.
+02-02 09:43:14.020 I/WifiDisplaySink(  172): 
+02-02 09:43:14.020 I/WifiDisplaySink(  172): Received Response:
+02-02 09:43:14.020 I/WifiDisplaySink(  172): RTSP/1.0 200 OK
+02-02 09:43:14.020 I/WifiDisplaySink(  172): cseq: 3
+02-02 09:43:14.020 I/WifiDisplaySink(  172): date: Tue, 02 Feb 2016 01:43:12 +0000
+02-02 09:43:14.020 I/WifiDisplaySink(  172): range: npt=now-
+02-02 09:43:14.020 I/WifiDisplaySink(  172): server: stagefright/1.2 (Linux;Android 5.1.1)
+02-02 09:43:14.020 I/WifiDisplaySink(  172): session: 1804289383;timeout=30
+02-02 09:43:14.020 I/WifiDisplaySink(  172): 
+02-02 09:43:14.020 I/WifiDisplaySink(  172): onReceivePlayResponse
+02-02 09:43:14.280 I/RTPSink (  172): kWhatRTPConnect: 192.168.49.56
+02-02 09:43:14.280 I/RTPSink (  172): kWhatRTPConnect: 26466
+02-02 09:43:14.280 I/RTPSink (  172):  lost seqNo: 1   current seqNo: 0
+02-02 09:43:14.290 E/TunnelRenderer(  172): Miracast debug info enable? d=0, mDebugEnable =0
+02-02 09:43:14.300 W/ALooperRoster(  172): ALooper::handler_id ALooperRoster::registerHandler 27
+02-02 09:43:14.460 E/wfd_client(  172): wfd_client : getStreamSource return
+02-02 09:43:14.460 E/wfd_client(  172): wfd_client : isHDCP
+02-02 09:43:14.460 I/AmlogicPlayer(  172): not use hdcp
+02-02 09:43:14.460 V/WFDSourceProtocol(  172): GetPathString =[WFDSource:WFDSourceProtocol=[b8027a88:47fd8577]]
+02-02 09:43:14.460 E/AmlogicPlayer(  172): mFdPath /proc/self/fd/-1 mFileName  
+02-02 09:43:14.460 I/AmlogicPlayer(  172): media.amplayer.disp_url is not setting,use default true
+02-02 09:43:14.460 I/AmlogicPlayer(  172): media.amplayer.lpbufferlevel is set to 0.200000
+02-02 09:43:14.460 I/AmlogicPlayer(  172): media.amplayer.buffertime is not set used def=5.000000
+02-02 09:43:14.460 I/AmlogicPlayer(  172): media.amplayer.delaybuffering is not set used def=0.000000
+02-02 09:43:14.460 I/AmlogicPlayer(  172): media.amplayer.noaudio is not setting,use default false
+02-02 09:43:14.460 I/AmlogicPlayer(  172): media.amplayer.novideo is not setting,use default false
+02-02 09:43:14.460 I/AmlogicPlayer(  172): media.amplayer.displast_frame is not setting,use default false
+02-02 09:43:14.460 I/AmlogicPlayer(  172): buffer level setting is:0.001000-0.200000-0.800000
+02-02 09:43:14.460 I/AmlogicPlayer(  172): media.amplayer.disp_url is not setting,use default true
+02-02 09:43:14.460 I/amplayer(  172): loglevel changed to 35
+02-02 09:43:14.470 I/amplayer(  172): LibPlayer version:Version:2.1.0.594ac7e0
+02-02 09:43:14.470 I/amplayer(  172): LibPlayer git version:594ac7e0830786cc1f3bb5eaec7647b24e58a744
+02-02 09:43:14.470 I/amplayer(  172): LibPlayer version serial:2010000594ac7e0
+02-02 09:43:14.470 I/amplayer(  172): LibPlayer Last Changed:Date:   Fri Aug 21 12:39:46 2015 +0800
+02-02 09:43:14.470 I/amplayer(  172): LibPlayer Last Build: Wed Nov 25 20:59:06 CST 2015
+02-02 09:43:14.470 I/amplayer(  172): LibPlayer Builer Name: jenkins
+02-02 09:43:14.470 I/amplayer(  172): [player_start:enter]p=0xb800c0f8 black=1
+02-02 09:43:14.480 I/amplayer(  172): ***player_para=0xb8060f20,start_param=0xb800c0f8
+02-02 09:43:14.480 I/amplayer(  172): [player_thread_create:59]creat thread success,tid=3087170432
+02-02 09:43:14.480 I/amplayer(  172): 
+02-02 09:43:14.480 I/amplayer(  172): pid[5]::enter into player_thread
+02-02 09:43:14.480 I/amplayer(  172):  media.debug.xldrm  
+02-02 09:43:14.480 I/amplayer(  172):  media.debug.xldrm  
+02-02 09:43:14.480 I/amplayer(  172): hassub 1
+02-02 09:43:14.480 I/amplayer(  172): [player_start:exit]pid = 5 
+02-02 09:43:14.480 E/AmlogicPlayer(  172):  buffing_min  1 buffing_middle 200 buffing_max 800 
+02-02 09:43:14.480 I/amplayer(  172): [player_update_vdec_profile]str=mpeg12:;
+02-02 09:43:14.480 I/amplayer(  172): mpeg4:;
+02-02 09:43:14.480 I/amplayer(  172): vc1:progressive, interlace, wmv3;
+02-02 09:43:14.480 I/amplayer(  172): h264:;
+02-02 09:43:14.480 I/amplayer(  172): h264_4k2k:;
+02-02 09:43:14.480 I/amplayer(  172): hevc:4k;
+02-02 09:43:14.480 I/amplayer(  172): mjpeg:;
+02-02 09:43:14.480 I/amplayer(  172): real:rmvb,;
+02-02 09:43:14.480 I/amplayer(  172): 
+02-02 09:43:14.480 I/amplayer(  172): [player_set_autobuffer_level:enter]pid=5 min=0.001 middle=0.200 max=0.800
+02-02 09:43:14.480 I/amplayer(  172): [parse_sysparam_str]j=0 vc1: start:17 end:50
+02-02 09:43:14.480 I/amplayer(  172): [vc1 profile] progress:1; interlace:1; wmv1:0; wmv2:0; wmv3:1
+02-02 09:43:14.480 I/amplayer(  172): [parse_sysparam_str]j=1 h264: start:51 end:57
+02-02 09:43:14.480 I/amplayer(  172): [player_send_message]cmd = SET_AUTOBUF_LEVEL:0.001:0.200:0.800
+02-02 09:43:14.480 I/amplayer(  172): h264 decoder exist.
+02-02 09:43:14.480 I/amplayer(  172): [parse_sysparam_str]j=2 real: start:87 end:98
+02-02 09:43:14.480 I/amplayer(  172): [player_set_autobuffer_level:exit]pid=5 min=0.001 middle=0.200 max=0.800
+02-02 09:43:14.480 I/amplayer(  172): [parse_sysparam_str]j=3 mpeg12: start:0 end:8
+02-02 09:43:14.480 I/amplayer(  172): [player_send_message]cmd = UNKNOW_SETMODE_COMMAND
+02-02 09:43:14.480 I/amplayer(  172): [parse_sysparam_str]j=4 mpeg4: start:9 end:16
+02-02 09:43:14.480 I/amplayer(  172): [parse_sysparam_str]j=5 mjpeg: start:79 end:86
+02-02 09:43:14.480 I/amplayer(  172): [parse_sysparam_str]j=6 h264_4k2k: start:58 end:69
+02-02 09:43:14.480 I/amplayer(  172): [h264_4k2k profile] decoder exist.
+02-02 09:43:14.480 I/amplayer(  172): [parse_sysparam_str]j=8 hevc: start:70 end:78
+02-02 09:43:14.480 I/amplayer(  172): hevc decoder exist.
+02-02 09:43:14.480 I/amplayer(  172): pid[5]::Init State: mute_on=0 black=1 t_pos:0s read_max_cnt=0
+02-02 09:43:14.480 E/Parcel  (  172): Reading a NULL string not supported here.
+02-02 09:43:14.480 I/amplayer(  172): **[update_state]pid:5 status=BEGIN_INIT(last:UNKNOW_STATE) err=0x0 curtime=0 (ms:0) fulltime=0 lsttime=0
+02-02 09:43:14.480 I/amplayer(  172): **[update_state]abuflevel=0.00000000 vbublevel=0.00000000 abufrp=0 vbufrp=0 read_end=0
+02-02 09:43:14.480 V/AmlogicPlayerStreamSource(  172): confidence=0.00
+02-02 09:43:14.480 V/AmlogicPlayerExtractorDemux(  172): gettype=0 mimeType.string=
+02-02 09:43:14.480 I/WFDSourceProtocol(  172): WFDSourceProtocol::open =[WFDSource:WFDSourceProtocol=[b8027a88:47fd8577]]
+02-02 09:43:14.480 I/amffmpeg(  172): getloopbuf size=0
+02-02 09:43:14.480 I/amffmpeg(  172): ffio_fdopen (h->is_slowmedia=1,flags=40000001
+02-02 09:43:14.480 I/amffmpeg(  172): auto_switch_protol_t:list::
+02-02 09:43:14.480 E/SystemWriteService(  547): File not found: /sys/class/amstream/karaok
+02-02 09:43:14.490 I/amffmpeg(  172): auto_switch_protol_t:nsc::
+02-02 09:43:14.490 I/amffmpeg(  172): is_ncs_file=0
+02-02 09:43:14.490 I/amffmpeg(  172): auto_switch_protol_t:mmsh::
+02-02 09:43:14.490 I/amffmpeg(  172): is_mmsh_file=0
+02-02 09:43:14.490 I/WFDSourceProtocol(  172): WFDSource Source_seek=0,whence=65536
+02-02 09:43:14.490 I/WFDSourceProtocol(  172): WFDSource Source_seek=-1,whence=2
+02-02 09:43:14.490 I/amffmpeg(  172): WFDSource:WFDSourceProtocol=[b8027a88:47fd8577]:size=-1
+02-02 09:43:14.490 I/amffmpeg(  172): [av_probe_input_buffer]read 2048 bytes for probe format
+02-02 09:43:14.490 I/amffmpeg(  172): ---------------------mp2_read_probe
+02-02 09:43:14.490 I/amffmpeg(  172): ---------------------mp3_read_probe
+02-02 09:43:14.490 V/AmlogicPlayerStreamSource(  172): confidence=0.00
+02-02 09:43:14.490 V/AmlogicPlayerExtractorDemux(  172): gettype=0 mimeType.string=
+02-02 09:43:14.490 I/amffmpeg(  172): Format mpegts probed with size=2048 and score=100
+02-02 09:43:14.490 I/amffmpeg(  172): livingstream ts->pownon_recalcpts[0]
+02-02 09:43:14.500 I/amffmpeg(  172): [mpegts @ 0xb808e050] stream=0 stream_type=1b pid=1011 prog_reg_desc=
+02-02 09:43:14.520 I/amffmpeg(  172): [mpegts @ 0xb808e050] stream=1 stream_type=83 pid=1100 prog_reg_desc=
+02-02 09:43:14.520 I/amffmpeg(  172): stream 1 request probe -1
+02-02 09:43:14.520 I/amplayer(  172): wfd dones't set LESS_BUFF_DATA
+02-02 09:43:14.520 I/amplayer(  172): [video_type_convert]video codec_id=0x1c format=2
+02-02 09:43:14.520 I/AmlogicPlayer(  172): media.amplayer.hdmicloseauthen is not setting,use default false
+02-02 09:43:14.520 V/AmSuperPlayer(  172): cookie=0xb800e348,msg=11000,ext1=0,ext2=0
+02-02 09:43:14.520 V/AmSuperPlayer(  172): SuperGetPlayerType:type=mpegts,videos=1,audios=1
+02-02 09:43:14.520 I/AmSuperPlayer(  172): media.amplayer.enable is enabled
+02-02 09:43:14.520 I/AmSuperPlayer(  172): sys.cts.running is disabled
+02-02 09:43:14.520 I/AmSuperPlayer(  172): media.miplayer.enable is disabled
+02-02 09:43:14.520 V/AmSuperPlayer(  172): GET New type =110
+02-02 09:43:14.520 V/AmSuperPlayer(  172): Start new player now=110
+02-02 09:43:14.530 I/amplayer(  172): [peek_message_locked:164]num=2 in_idx=2 out_idx=0 cmd=0
+02-02 09:43:14.530 I/amplayer(  172): pid[5]::parse ok , prepare parameters
+02-02 09:43:14.530 I/amffmpeg(  172): [av_find_stream_info]iformat->name[mpegts]fast_switch=2 streamtype=-1
+02-02 09:43:14.530 I/amffmpeg(  172): [av_find_stream_info:3369]fast_switch=2, seekkeyframe=1,
+02-02 09:43:14.540 I/amffmpeg(  172): [pcm_wifi-display @ 0xb806d200] audio_emphasis=0, bps=16, pcm_samplerate=48000, pcm_channels=2, frame_size=1920
+02-02 09:43:14.540 I/amffmpeg(  172): [h264 @ 0xb8058a20] get size from SPS width=1280 height =720
+02-02 09:43:14.540 I/amffmpeg(  172): [mpegts @ 0xb808e050] All info found at pos=28388
+02-02 09:43:14.540 I/amffmpeg(  172): [av_find_stream_info:3604] st 0, para: 1, codec_info_nb_frames: 1,
+02-02 09:43:14.540 I/amffmpeg(  172): [av_find_stream_info:3604] st 1, para: 1, codec_info_nb_frames: 7,
+02-02 09:43:14.540 I/WFDSourceProtocol(  172): WFDSource Source_seek=0,whence=65536
+02-02 09:43:14.540 I/WFDSourceProtocol(  172): WFDSource Source_seek=-1,whence=2
+02-02 09:43:14.540 I/amffmpeg(  172): [av_estimate_timings:3010]file_size=0 valid_offset=7fffffffffffffff
+02-02 09:43:14.540 I/amffmpeg(  172): [mpegts @ 0xb808e050] Estimating duration from bitrate, this may be inaccurate
+02-02 09:43:14.540 I/amffmpeg(  172): [mpegts @ 0xb808e050] FindStream info end at pos=28388
+02-02 09:43:14.540 I/amffmpeg(  172): [av_find_stream_info]return
+02-02 09:43:14.540 I/amffmpeg(  172): Input #0, mpegts, from 'WFDSource:WFDSourceProtocol=[b8027a88:47fd8577]':
+02-02 09:43:14.540 I/amffmpeg(  172):   Duration: 
+02-02 09:43:14.540 I/amffmpeg(  172): N/A
+02-02 09:43:14.540 I/amffmpeg(  172): , start: 
+02-02 09:43:14.540 I/amffmpeg(  172): 148.582633
+02-02 09:43:14.540 I/amffmpeg(  172): , bitrate: 
+02-02 09:43:14.540 I/amffmpeg(  172): N/A
+02-02 09:43:14.540 I/amffmpeg(  172): 
+02-02 09:43:14.540 I/amffmpeg(  172):   Program 1 
+02-02 09:43:14.540 I/amffmpeg(  172):     Stream #0.0
+02-02 09:43:14.540 I/amffmpeg(  172): [0x1011]
+02-02 09:43:14.540 I/amffmpeg(  172): : Video: h264 (Constrained Baseline), 1280x720
+02-02 09:43:14.540 I/amffmpeg(  172): , 90k tbr
+02-02 09:43:14.540 I/amffmpeg(  172): , 90k tbn
+02-02 09:43:14.540 I/amffmpeg(  172): , 180k tbc
+02-02 09:43:14.540 I/amffmpeg(  172): 
+02-02 09:43:14.540 I/amffmpeg(  172):     Stream #0.1
+02-02 09:43:14.540 I/amffmpeg(  172): [0x1100]
+02-02 09:43:14.540 I/amffmpeg(  172): : Audio: pcm_wifi-display, 48000 Hz, 2 channels, s16, 1536 kb/s
+02-02 09:43:14.540 I/amffmpeg(  172): 
+02-02 09:43:14.540 I/amplayer(  172): [set_file_type]file_type=2 stream_type=1
+02-02 09:43:14.540 I/amplayer(  172): [player_dec_init:1549]fsize=0 full_time=-2077252342 bitrate=0
+02-02 09:43:14.540 I/amplayer(  172): [PlayerGetAFilterFormat:253]filter_afmt=0
+02-02 09:43:14.540 I/amplayer(  172): [audio_type_convert]audio codec_id=0x1001b format=22
+02-02 09:43:14.540 I/amplayer(  172): Video index 0 and Audio index 1 sub index -1 to be played (index -1 means no stream)
+02-02 09:43:14.540 I/amplayer(  172): [get_av_codec_type:166]vidx=0 aidx=1 sidx=-1
+02-02 09:43:14.540 I/amplayer(  172): [video_type_convert]video codec_id=0x1c format=2
+02-02 09:43:14.540 I/amplayer(  172): [video_codec_type_convert]id=(0x1c) 
+02-02 09:43:14.540 I/amplayer(  172): [video_codec_type_convert]VIDEO_DEC_FORMAT_H264(0x1c)
+02-02 09:43:14.540 I/amplayer(  172): [get_av_codec_type:264]vpid=0x1011,time_base=1/180000,r_frame_rate=2/180000 ratio=0/1 video_pts=1.000
+02-02 09:43:14.540 I/amplayer(  172): [get_av_codec_type:273]video_codec_rate=0,video_rate=1
+02-02 09:43:14.540 I/amplayer(  172): [audio_type_convert]audio codec_id=0x1001b format=22
+02-02 09:43:14.540 I/amplayer(  172): [get_av_codec_type:321]afmt=22 apid=4352 asr=48000 ach=2 aidx=1
+02-02 09:43:14.540 I/amplayer(  172): [get_stream_info:759]data start offset 0
+02-02 09:43:14.540 I/amplayer(  172): [set_decode_para:843]has_video=1 vformat=2 has_audio=1 aformat=22
+02-02 09:43:14.540 I/amplayer(  172): [PlayerGetVFilterFormat:132]filter_vfmt=0
+02-02 09:43:14.540 I/amplayer(  172): [PlayerGetAFilterFormat:253]filter_afmt=0
+02-02 09:43:14.550 I/amplayer(  172): [check_ctx_bitrate:1330]bit_rate=1536000 ic->bit_rate=0
+02-02 09:43:14.550 I/amplayer(  172): [check_ctx_bitrate:1340]bit_rate=1536000 ic->bit_rate=1536000
+02-02 09:43:14.550 I/amplayer(  172): [player_dec_init:1619]bit_rate=1536000 file_size=0 file_type=2 stream_type=1 full_time=-1
+02-02 09:43:14.550 I/amplayer(  172): ====bitrate=1536000 max_raw_size=32768
+02-02 09:43:14.550 I/amplayer(  172): set stream info,current audio id:1
+02-02 09:43:14.550 I/amplayer(  172): [audio_type_convert]audio codec_id=0x1001b format=22
+02-02 09:43:14.550 I/amplayer(  172): **[update_state]pid:5 status=INIT_OK(last:BEGIN_INIT) err=0x0 curtime=0 (ms:0) fulltime=-1 lsttime=0
+02-02 09:43:14.550 I/amplayer(  172): **[update_state]abuflevel=0.00000000 vbublevel=0.00000000 abufrp=0 vbufrp=0 read_end=0
+02-02 09:43:14.550 I/amplayer(  172): [player_get_media_info]video_num=1 vidx=0
+02-02 09:43:14.550 I/AmlogicPlayer(  172): player current video info:w:1280,h:720
+02-02 09:43:14.550 I/AmlogicPlayer(  172): player current video info:codec:H264
+02-02 09:43:14.550 V/AmSuperPlayer(  172): cookie=0xb800e348,msg=5,ext1=500,ext2=2d0
+02-02 09:43:14.550 V/MediaPlayerService(  172): [4702] notify (0xb8006760, 5, 1280, 720)
+02-02 09:43:14.550 E/SystemWriteService(  547): IO Exception when write: /sys/class/vdec/poweron_clock_level
+02-02 09:43:14.550 E/SystemWriteService(  547): java.io.FileNotFoundException: /sys/class/vdec/poweron_clock_level: open failed: EACCES (Permission denied)
+02-02 09:43:14.550 E/SystemWriteService(  547): 	at libcore.io.IoBridge.open(IoBridge.java:409)
+02-02 09:43:14.550 E/SystemWriteService(  547): 	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+02-02 09:43:14.550 E/SystemWriteService(  547): 	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+02-02 09:43:14.550 E/SystemWriteService(  547): 	at java.io.FileWriter.<init>(FileWriter.java:80)
+02-02 09:43:14.550 E/SystemWriteService(  547): 	at com.android.server.SystemWriteService.writeSysfs(SystemWriteService.java:138)
+02-02 09:43:14.550 E/SystemWriteService(  547): 	at android.app.ISystemWriteService$Stub.onTransact(ISystemWriteService.java:134)
+02-02 09:43:14.550 E/SystemWriteService(  547): 	at android.os.Binder.execTransact(Binder.java:404)
+02-02 09:43:14.550 E/SystemWriteService(  547): 	at dalvik.system.NativeStart.run(Native Method)
+02-02 09:43:14.550 E/SystemWriteService(  547): Caused by: libcore.io.ErrnoException: open failed: EACCES (Permission denied)
+02-02 09:43:14.550 E/SystemWriteService(  547): 	at libcore.io.Posix.open(Native Method)
+02-02 09:43:14.550 E/SystemWriteService(  547): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+02-02 09:43:14.550 E/SystemWriteService(  547): 	at libcore.io.IoBridge.open(IoBridge.java:393)
+02-02 09:43:14.550 E/SystemWriteService(  547): 	... 7 more
+02-02 09:43:14.560 V/AmSuperPlayer(  172): cookie=0xb800e348,msg=1,ext1=0,ext2=0
+02-02 09:43:14.560 V/MediaPlayerService(  172): [4702] notify (0xb8006760, 1, 0, 0)
+02-02 09:43:14.560 V/AmSuperPlayer(  172): cookie=0xb800e348,msg=3,ext1=0,ext2=0
+02-02 09:43:14.560 V/MediaPlayerService(  172): [4702] notify (0xb8006760, 3, 0, 0)
+02-02 09:43:14.560 I/amplayer(  172): [get_message:147]num=1 in_idx=2 out_idx=1 cmd=0
+02-02 09:43:14.560 I/amplayer(  172): pid[5]::[check_flag:831]ctrl=0 mode=10000 info=0 param=981668463
+02-02 09:43:14.600 D/MiracastPlayerUIBC(31393): onLayout: changed:false left:0 top:0 right:1920 bottom:1080
+02-02 09:43:14.600 I/VideoView(31393): Layout changed,left=0 top=0 right=1920 bottom=1080
+02-02 09:43:14.600 I/VideoView(31393): Layout changed,oldLeft=0 oldTop=0 oldRight=1920 oldBottom=1080
+02-02 09:43:14.600 I/VideoView(31393): .left=0.top=0.right=1920.bottom=1080.oldLeft=0.oldTop=0.oldRight=1920.oldBottom=1080.Rotation=0
+02-02 09:43:14.600 V/MediaPlayerService(  172): [4702] setParameter(2000)
+02-02 09:43:14.600 I/AmlogicPlayer(  172): setParameter 2000
+02-02 09:43:14.600 I/AmlogicPlayer(  172): setParameter 2000=[.left=0.top=0.right=1920.bottom=1080.oldLeft=0.oldTop=0.oldRight=1920.oldBottom=1080.Rotation=0]
+02-02 09:43:14.600 I/AmlogicPlayer(  172): setParameter info to newrect=[0,0,1920,1080]
+02-02 09:43:14.600 I/AmlogicPlayer(  172): setParameter info oldrect=[0,0,1920,0]
+02-02 09:43:14.600 I/AmSuperPlayer(  172): media.amplayer.startmode is enabled
+02-02 09:43:14.600 E/AmlogicPlayer(  172): track_count:2 
+02-02 09:43:14.600 D/MediaPlayer(31393): getMetadata
+02-02 09:43:14.600 I/amplayer(  172): [player_get_media_info]video_num=1 vidx=0
+02-02 09:43:14.600 I/AmlogicPlayer(  172): player current video info:w:1280,h:720
+02-02 09:43:14.600 I/AmlogicPlayer(  172): player current video info:codec:H264
+02-02 09:43:14.600 I/MiracastPlayer(31393): onPrepared
+02-02 09:43:14.600 I/MediaPlayer(31393): start() enter
+02-02 09:43:14.600 V/MediaPlayerService(  172): [4702] setLooping(0)
+02-02 09:43:14.600 V/MediaPlayerService(  172): [4702] setVolume(1.000000, 1.000000)
+02-02 09:43:14.600 V/MediaPlayerService(  172): Set amlogic player Volume(1.000000, 1.000000)
+02-02 09:43:14.600 I/AmSuperPlayer(  172): media.amplayer.startmode is enabled
+02-02 09:43:14.600 I/amplayer(  172): [audio_set_lrvolume:enter]pid=5
+02-02 09:43:14.610 I/amplayer(  172): codec is not ready!
+02-02 09:43:14.610 V/MediaPlayerService(  172): Set android track Volume(1.000000, 1.000000)
+02-02 09:43:14.610 V/AudioSink(  172): setVolume(1.000000, 1.000000)
+02-02 09:43:14.610 V/MediaPlayerService(  172): [4702] setAuxEffectSendLevel(0.000000)
+02-02 09:43:14.610 V/AudioSink(  172): setAuxEffectSendLevel(0.000000)
+02-02 09:43:14.610 I/MediaPlayerService(  172): [4702] start
+02-02 09:43:14.610 I/AmlogicPlayer(  172): GetCallingAPKName /proc/31393/comm,name=[.miracastplayer]
+02-02 09:43:14.610 I/AmlogicPlayer(  172): GetCallingAPKName calling apk name...[.miracastplayer]
+02-02 09:43:14.610 I/AmlogicPlayer(  172): media.amplayer.displast_frame is not setting,use default false
+02-02 09:43:14.620 I/AmlogicPlayer(  172): media.amplayer.v4osd.all is not setting,use default false
+02-02 09:43:14.620 I/AmlogicPlayer(  172): calling name=[.miracastplayer]
+02-02 09:43:14.620 I/AmlogicPlayer(  172): AmlogicPlayerRender,needosdvideo=0,isHTTPSource=0
+02-02 09:43:14.620 I/AmlogicPlayerRender(  172): AmlogicPlayerRender
+02-02 09:43:14.620 I/AmlogicPlayerRender(  172): AmlogicPlayerRender::onFirstRef
+02-02 09:43:14.620 I/AmlogicPlayerRender(  172): onFirstRef___________amstream_vbuf_______OK
+02-02 09:43:14.630 V/AmSuperPlayer(  172): cookie=0xb800e348,msg=5,ext1=500,ext2=2d0
+02-02 09:43:14.630 V/MediaPlayerService(  172): [4702] notify (0xb8006760, 5, 1280, 720)
+02-02 09:43:14.630 V/AmSuperPlayer(  172): cookie=0xb800e348,msg=c8,ext1=3,ext2=0
+02-02 09:43:14.630 V/MediaPlayerService(  172): [4702] notify (0xb8006760, 200, 3, 0)
+02-02 09:43:14.630 E/AmlogicPlayer(  172):  exitAllRunningPlayerThreads enter 
+02-02 09:43:14.630 E/AmlogicPlayer(  172): found 1 not exit player threads,try exit it now
+02-02 09:43:14.630 I/amplayer(  172): [player_start_play:enter]pid=5
+02-02 09:43:14.630 I/amplayer(  172): [player_start_play:exit]pid = 5
+02-02 09:43:14.630 I/amplayer(  172): [get_message:147]num=1 in_idx=3 out_idx=2 cmd=0
+02-02 09:43:14.630 I/amplayer(  172): pid[5]::[check_flag:831]ctrl=0 mode=20000 info=0 param=60
+02-02 09:43:14.630 I/amplayer(  172): set freerun_mode 0x3c
+02-02 09:43:14.630 W/MediaPlayer(31393): info/warning (3, 0)
+02-02 09:43:14.650 D/PowerManagerService(  547): checkScreenSaverTimeoutLocked come 720000 reason=KEEP_SCREEN_ON wakelock true
+02-02 09:43:14.660 D/MiracastPlayerUIBC(31393): onLayout: changed:false left:0 top:0 right:1920 bottom:1080
+02-02 09:43:14.660 I/VideoView(31393): Layout changed,left=0 top=0 right=1920 bottom=1080
+02-02 09:43:14.660 I/VideoView(31393): Layout changed,oldLeft=0 oldTop=0 oldRight=1920 oldBottom=1080
+02-02 09:43:14.660 I/VideoView(31393): .left=0.top=0.right=1920.bottom=1080.oldLeft=0.oldTop=0.oldRight=1920.oldBottom=1080.Rotation=0
+02-02 09:43:14.660 V/MediaPlayerService(  172): [4702] setParameter(2000)
+02-02 09:43:14.660 I/AmlogicPlayer(  172): setParameter 2000
+02-02 09:43:14.660 I/AmlogicPlayer(  172): setParameter 2000=[.left=0.top=0.right=1920.bottom=1080.oldLeft=0.oldTop=0.oldRight=1920.oldBottom=1080.Rotation=0]
+02-02 09:43:14.660 I/AmlogicPlayer(  172): setParameter info to newrect=[0,0,1920,1080]
+02-02 09:43:14.660 I/AmlogicPlayer(  172): setParameter info oldrect=[0,0,1920,0]
+02-02 09:43:14.730 I/amplayer(  172): [get_message:147]num=0 in_idx=3 out_idx=3 cmd=10
+02-02 09:43:14.730 I/amplayer(  172): pid[5]::[check_flag:831]ctrl=10 mode=0 info=0 param=0
+02-02 09:43:14.730 I/amplayer(  172): pid[5]::start offset prepare
+02-02 09:43:14.730 I/amplayer(  172): pid[5]::decoder prepare
+02-02 09:43:14.740 I/amplayer(  172): [stream_ts_init:28]codec->noblock=0
+02-02 09:43:14.740 I/amplayer(  172): [stream_ts_init:40]Slow media detected for ts
+02-02 09:43:14.740 I/amplayer(  172): [stream_ts_init:95]audio bitrate=1 sample_rate=48000 channels=2 codec_id=1001b block_align=0,extra size
+02-02 09:43:14.740 I/amcodec (  172): set_audio_info
+02-02 09:43:14.740 I/hdmiswitch(  373):  recv n=144
+02-02 09:43:14.760 I/AmlogicPlayer(  172): media.amplayer.osd2xenable is not setting,use default false
+02-02 09:43:14.780 I/amadec  (  172): audiodec_init!
+02-02 09:43:14.780 I/amadec  (  172): media.amplayer.audiocodec = ape,flac,dts,ac3,eac3,wma,wmapro,mp3,aac,vorbis,raac,cook,amr,pcm,adpcm,aac_latm,rm,alac, t->type = pcm
+02-02 09:43:14.800 I/amadec  (  172): set_multichs_prop: aud_cap support channel number: 2 ch
+02-02 09:43:14.800 I/amadec  (  172): wfd use arm decoder 
+02-02 09:43:14.800 I/amadec  (  172): using wfd audio decoder 
+02-02 09:43:14.800 I/amadec  (  172): Create adec main thread success! tid = -1207747664
+02-02 09:43:14.800 I/amadec  (  172): adec_wfddec_loop in 
+02-02 09:43:14.800 I/amadec  (  172): wfd audec->format  22,audec->codec_id 1001b
+02-02 09:43:14.800 E/SystemWriteService(  547): File not found: /sys/class/stb/source
+02-02 09:43:14.810 I/amplayer(  172): [player_decoder_init] set buf_limited_time_ms to 0
+02-02 09:43:14.810 I/LPCMDEC (  172): 
+02-02 09:43:14.810 I/LPCMDEC (  172): 
+02-02 09:43:14.810 I/LPCMDEC (  172): [audio_dec_init]WFD LPCMDEC BuildDate--Nov 25 2015  BuildTime--21:17:30
+02-02 09:43:14.810 I/LPCMDEC (  172): add=c1105600, size=00001000, offset=00000600
+02-02 09:43:14.810 I/LPCMDEC (  172): memmap = b3aa6000 , pagesize = 1000
+02-02 09:43:14.810 I/LPCMDEC (  172): LPCM--- audio_dec_init done 
+02-02 09:43:14.810 I/amadec  (  172): wfd audio_codec_init ok 
+02-02 09:43:14.810 E/SystemWriteService(  547): File not found: /sys/class/stb/demux1_source
+02-02 09:43:14.820 I/amadec  (  172): audio_wfd_decode_loop start!
+02-02 09:43:14.820 I/amadec  (  172): [start_wfd_decode_thread]Create WFD audio decode thread success! tid = -1207789104
+02-02 09:43:14.820 I/amadec  (  172): [start_wfd_decode_thread]Create WFD output thread success! tid = -1207726352
+02-02 09:43:14.820 I/amplayer(  172): **[update_state]pid:5 status=START_PLAY(last:INIT_OK) err=0x0 curtime=0 (ms:0) fulltime=-1 lsttime=0
+02-02 09:43:14.820 I/amadec  (  172): wait first pts checkin complete !
+02-02 09:43:14.820 I/amplayer(  172): **[update_state]abuflevel=0.00000000 vbublevel=0.00000000 abufrp=c840000 vbufrp=aa00000 read_end=0
+02-02 09:43:14.820 I/amplayer(  172): [audio_set_lrvolume:enter]pid=5
+02-02 09:43:14.820 I/amplayer(  172): codec is not ready!
+02-02 09:43:14.820 I/amadec  (  172): audio_wfd_decode_loop start!
+02-02 09:43:14.820 I/amplayer(  172): player mate init ok mate=b8026070(40)
+02-02 09:43:14.820 I/amplayer(  172): pid[5]::playback loop... pb=b8027e10
+02-02 09:43:14.820 I/amplayer(  172): [update_playing_info:1688]audio_ready=1
+02-02 09:43:14.820 I/amplayer(  172): **[update_state]pid:5 status=PLAYING(last:START_PLAY) err=0x0 curtime=0 (ms:0) fulltime=-1 lsttime=0
+02-02 09:43:14.820 I/amplayer(  172): **[update_state]abuflevel=0.00000000 vbublevel=0.00000000 abufrp=c840000 vbufrp=aa00000 read_end=0
+02-02 09:43:14.820 V/AmSuperPlayer(  172): cookie=0xb800e348,msg=c8,ext1=2329,ext2=0
+02-02 09:43:14.820 V/MediaPlayerService(  172): [4702] notify (0xb8006760, 200, 9001, 0)
+02-02 09:43:14.820 W/MediaPlayer(31393): info/warning (9001, 0)
+02-02 09:43:14.820 E/SystemWriteService(  547): IO Exception when write: /sys/class/tsync/vpause_flag
+02-02 09:43:14.820 E/SystemWriteService(  547): java.io.FileNotFoundException: /sys/class/tsync/vpause_flag: open failed: EACCES (Permission denied)
+02-02 09:43:14.820 E/SystemWriteService(  547): 	at libcore.io.IoBridge.open(IoBridge.java:409)
+02-02 09:43:14.820 E/SystemWriteService(  547): 	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+02-02 09:43:14.820 E/SystemWriteService(  547): 	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+02-02 09:43:14.820 E/SystemWriteService(  547): 	at java.io.FileWriter.<init>(FileWriter.java:80)
+02-02 09:43:14.820 E/SystemWriteService(  547): 	at com.android.server.SystemWriteService.writeSysfs(SystemWriteService.java:138)
+02-02 09:43:14.820 E/SystemWriteService(  547): 	at android.app.ISystemWriteService$Stub.onTransact(ISystemWriteService.java:134)
+02-02 09:43:14.820 E/SystemWriteService(  547): 	at android.os.Binder.execTransact(Binder.java:404)
+02-02 09:43:14.820 E/SystemWriteService(  547): 	at dalvik.system.NativeStart.run(Native Method)
+02-02 09:43:14.820 E/SystemWriteService(  547): Caused by: libcore.io.ErrnoException: open failed: EACCES (Permission denied)
+02-02 09:43:14.820 E/SystemWriteService(  547): 	at libcore.io.Posix.open(Native Method)
+02-02 09:43:14.820 E/SystemWriteService(  547): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+02-02 09:43:14.820 E/SystemWriteService(  547): 	at libcore.io.IoBridge.open(IoBridge.java:393)
+02-02 09:43:14.820 E/SystemWriteService(  547): 	... 7 more
+02-02 09:43:14.830 I/amplayer(  172): [handle_current_time:553]scr=0xcc173b pts=0xcc0c15 diff=0xb26 
+02-02 09:43:14.840 I/wfd-output(  172): SPDIF PCM dit-hifi-2 :  : playback 1 : capture 1
+02-02 09:43:14.840 I/wfd-output(  172):   
+02-02 09:43:14.840 I/wfd-output(  172): 2: SPDIF PCM dit-hifi-2 :  : playback 1 : capture 1
+02-02 09:43:14.840 I/wfd-output(  172):   
+02-02 09:43:14.840 I/wfd-output(  172): open output device card 0, device 2 
+02-02 09:43:14.850 I/wfd-output(  172): pcm_output_init done  wfd : 0xb8028670,
+02-02 09:43:14.890 I/AmlogicPlayer(  172): media.amplayer.osd2xenable is not setting,use default false
+02-02 09:43:14.910 E/SurfaceFlinger(  169): Layer SurfaceView update 1
+02-02 09:43:14.920 I/amadec  (  172): adec_pts_start
+02-02 09:43:14.920 I/amadec  (  172): use 2/3 default av sync threshold!
+02-02 09:43:14.920 I/amadec  (  172): unable to open file /sys/class/tsync/firstapts,err: No such file or directory
+02-02 09:43:14.920 I/amadec  (  172): ## [adec_pts_start::133] unable to get first_apts! 
+02-02 09:43:15.010 I/AmlogicPlayer(  172): media.amplayer.osd2xenable is not setting,use default false
+02-02 09:43:15.020 E/SurfaceFlinger(  169): Layer SurfaceView update 1
+02-02 09:43:15.170 D/dalvikvm(  547): GC_FOR_ALLOC freed 982K, 18% free 10911K/13204K, paused 135ms, total 135ms
+02-02 09:43:15.490 I/amplayer(  172): **[update_state]pid:5 status=PLAYING(last:PLAYING) err=0x0 curtime=1 (ms:1106) fulltime=-1 lsttime=0
+02-02 09:43:15.490 I/amplayer(  172): **[update_state]abuflevel=0.00425212 vbublevel=0.00003708 abufrp=c87eb80 vbufrp=aa19500 read_end=0
